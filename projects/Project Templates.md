@@ -10,8 +10,8 @@ You can customise the reference by using any text and the fields below.
 | Field        | Description |
 | ------------ | ----------- |
 | {{ number }} | The next available project number |
-| {{ code }}   | The new project's associated department `code` field |
-| {{ name }}   | The projects name |, this 
+| {{ code }}   | The new project's department `code` field |
+| {{ name }}   | The new project's name |
 
 For example, assuming you have a department with the code `SUPPORT` a reference mask of...
 
