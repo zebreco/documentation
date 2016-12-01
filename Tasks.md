@@ -5,4 +5,4 @@ Tasks provide a simple, actionable, way of creating a reminder of something you 
 
 ## Creating a Task
 
-![Image Sidebar](/images/tasks/task-sidebar.png)
+![Task Sidebar](/images/tasks/task-sidebar.png "Task Sidebar")
