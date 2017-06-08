@@ -4,4 +4,6 @@ RUN pip install mkdocs mkdocs-material pygments pymdown-extensions
 
 COPY . /var/www/
 
-RUN mkdocs build
+RUN mv mkdocs.conf /etc/supervisor/conf.d/ && mkdocs build
+
+CMD ["/var/www/run.sh"]

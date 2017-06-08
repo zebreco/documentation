@@ -1,5 +1,7 @@
 #!/bin/bash -e
 
+sed -i 's/root \/var\/www/root \/var\/www\/site/g' /etc/nginx/conf.d/default.conf
+
 if [[ $APPLICATION_ENV = "dev" ]]
 then
     sed 's/autostart=true/autostart=false/g' /etc/supervisor/conf.d/supervisord.conf
