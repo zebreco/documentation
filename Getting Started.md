@@ -13,14 +13,15 @@ You can also sign in using a ***Google*** or ***Slack*** account.
 
 Forgot your password? Click on the "Retrieve password" link and you will be sent an email with instructions on how to retrieve your pasword.
 
-![GettingStarted01](/images/gettingstarted/gettingstarted01.png)
+![GettingStarted01](/images/gettingstarted/gettingstarted01.png "Zebreco Login Page")
 
+&nbsp;
 
 ## My Profile
 
 Once you are logged in locate your profile page through the settings menu (top right of page) and select **My Profile**.
 
-![GettingStarted02](/images/gettingstarted/gettingstarted02.png)
+![GettingStarted02](/images/gettingstarted/gettingstarted02.png "My Profile Menu")
 
 Here you can fill out your personal/company information which will be linked to your account.
 
@@ -35,6 +36,7 @@ Here you can fill out your personal/company information which will be linked to 
 
 From here you can also **Disable Notifications** as well as set your **Signature Text** and/or **Image**. Here you can also setup a **PassThrough Target**.
 
+&nbsp;
 
 ## Basic Workflow
 
@@ -53,6 +55,7 @@ Every organisation is unique and will use the support solutions in different man
 
 This is of course just am example of an issue tracked workflow. It is possible to customise your workflow with varying ticket sources/routing, priority visibility, task creation and label customisation.
 
+&nbsp;
 
 
 -------------------------------------------

@@ -2,7 +2,7 @@
 
 Here you can fill out your personal/company information which will be linked to your account.
 
-![myprofile01](/images/profile/myprofile01.png)
+![myprofile01](/images/profile/myprofile01.png "My Profile Page")
 
 * Name
 * Email
@@ -19,7 +19,9 @@ From here you can also **Disable Notifications** as well as set your **Signature
 
 You can change your password from here. Simply click on **Change Password**
 
-![myprofile02](/images/profile/myprofile02.png)
+![myprofile02](/images/profile/myprofile02.png "Change Password Button")
+
+&nbsp;
 
 -------------------------------------------
 Back to [Settings Menu](?file=Settings.md)  

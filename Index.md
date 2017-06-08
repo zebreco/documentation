@@ -21,7 +21,6 @@
 1. [Tasks](?file=Tasks.md)  
 1. [Contacts](?file=Contacts.md)  
 1. [Projects](?file=Projects.md)  
- 1.1. [Project Templates](?file=projects/Project Templates.md)
 1. [Sales](?file=Sales.md)  
 1. [Time](?file=Time.md)  
 1. [Calendar](?file=Calendar.md)  
