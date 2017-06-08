@@ -1,15 +1,16 @@
 #!/bin/bash
 echo "=> Pushing to built branch"
 
-git fetch --unshallow origin
+#git fetch --unshallow origin
 
-CI_BUILD_MESSAGE=$(git log -1 --pretty=%B)
-CONTAINER_ID=$(docker create zebreco/documentation:latest)
+CONTAINER_ID=$(docker create $IMAGE_NAME)
 
+git config user.name "Docker Cloud"
+git config user.email "test@example.com"
 git checkout built
 
 docker cp $CONTAINER_ID:/var/www/site/. .
 
 git add .
-git commit -m "[built] $CI_BUILD_MESSAGE"
+git commit -m "[built] $COMMIT_MSG ($SOURCE_COMMIT)"
 git push origin built
