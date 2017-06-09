@@ -1,12 +1,10 @@
 #!/bin/bash
 echo "=> Pushing to built branch"
 
-#git fetch --unshallow origin
-
 CONTAINER_ID=$(docker create $IMAGE_NAME)
 
-git config user.name "Docker Cloud"
-git config user.email "test@example.com"
+git config user.name "Zebreco"
+git config user.email "support@zebreco.com"
 git checkout built
 
 docker cp $CONTAINER_ID:/var/www/site/. .
