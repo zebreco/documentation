@@ -4,6 +4,9 @@ The ticket system is a fully featured ticket desk which enables handling of all 
 
 Using the navigation bar takes you to the tickets dashboard which by default is set to display your current list of tickets with no filter applied.
 
+!!! tip
+    When searching, press `shift + enter` to search through ALL tickets (bypassing any active filters).
+
 ![tickets01](/images/tickets/tickets01.png "Tickets View")
 
 The basic workflow is as follows:

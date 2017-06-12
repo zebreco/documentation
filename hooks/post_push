@@ -1,0 +1,14 @@
+#!/bin/bash
+echo "=> Pushing to built branch"
+
+CONTAINER_ID=$(docker create $IMAGE_NAME)
+
+git config user.name "Zebreco"
+git config user.email "support@zebreco.com"
+git checkout built
+
+docker cp $CONTAINER_ID:/var/www/site/. .
+
+git add .
+git commit -m "[built] $COMMIT_MSG ($SOURCE_COMMIT)"
+git push origin built

@@ -1,0 +1,8 @@
+site_name: 'Zebreco'
+
+theme: 'material'
+
+markdown_extensions:
+  - admonition
+  - codehilite(guess_lang=false)
+  - toc(permalink=true)
