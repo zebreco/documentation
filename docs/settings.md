@@ -8,7 +8,7 @@ Selecting any of the options from the drop-down menu will take you to the respec
 
 There a number of sub headings within settings all of which are covered in the documentation and are as follows:
 
-* [My Profile](?file=settings/My%20Profile.md)
+* [My Profile](settings/my%20profile.md)
 * [Account](?file=settings/Account%20Settings.md)
 * [Users & Departments](?file=settings/Users%20Departments.md)
 * [Tickets](?file=settings/Ticket%20Settings.md)

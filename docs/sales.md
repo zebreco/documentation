@@ -49,6 +49,24 @@ To create a new quote click on 'New Quote'.
 
 ![sales07](/images/sales/sales07.png "New Quote Button")
 
+This takes you to the create new quote page where you can fill in all the necessary information. If an option has a dropdown you will find data from other sources on the site. For example, you can see here we have linked the quote to a project, a contact and a lead.
+
+![sales08](/images/sales/sales08.png "New Quote Page")
+
+### Adding Quote Items
+
+When creating a new quote you can add specified items to the quote with seperate pricing, quantities as well as VAT and subtotals.
+
+This might be used for feature requests, content, labour, etc. Simply write a short description and change the price and/or quantity.
+
+To add an item to the list simply click on **Add Item**.
+
+![sales09](/images/sales/sales09.png "Add Item Button")
+
+When you have completed the quote, click **Save**.
+
+![sales10](/images/sales/sales10.png "Save Button")
+
 
 
 -------------------------------------------

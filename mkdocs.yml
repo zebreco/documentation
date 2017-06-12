@@ -1,8 +1,32 @@
 site_name: 'Zebreco'
 
+site_favicon: 'images/favicon.ico'
+
 theme: 'material'
 
 markdown_extensions:
   - admonition
   - codehilite(guess_lang=false)
   - toc(permalink=true)
+  
+extra:
+    palette:
+        primary: 'Red'
+        accent: 'Blue'
+
+    logo: 'images/zebreco_logo.png'
+    
+    social:
+        - type: 'github'
+          link: 'https://github.com/outeredge'
+        - type: 'twitter'
+          link: 'https://twitter.com/outeredge'
+    
+   
+repo_url: https://github.com/zebreco/documentation
+repo_name: 'GitHub'
+
+pages:
+    - Settings: 
+        - 'My Profile': 'settings/my profile.md'
+    

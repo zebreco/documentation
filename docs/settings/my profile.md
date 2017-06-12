@@ -20,9 +20,3 @@ From here you can also **Disable Notifications** as well as set your **Signature
 You can change your password from here. Simply click on **Change Password**
 
 ![myprofile02](/images/profile/myprofile02.png "Change Password Button")
-
-&nbsp;
-
--------------------------------------------
-Back to [Settings Menu](?file=Settings.md)  
-Back to [Documentation Menu](?file=Index.md)

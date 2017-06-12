@@ -2,7 +2,6 @@
 
 ![Zebreco Logo](/images/zebreco_logo.png "Zebreco Logo")
 
-## Index
 1. [Getting Started](?file=Getting%20Started.md)
 1. [Dashboard](?file=Dashboard.md)
 1. [Settings](?file=Settings.md)
