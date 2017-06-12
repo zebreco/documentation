@@ -35,7 +35,15 @@ This will take you to the **New Lead** page where you can enter all the details 
 * **Labels** - Any number of customised labels can be applied to the lead.
 * **Lead Source** - This is the source of the lead (can be customised in settings).
 
+## Quotes
 
+Quotes are used to record any quotes made to customers during the sales process.
+
+### New Quotes
+
+To create a new quote click on 'New Quote'.
+
+![sales07](/images/sales/sales07.png "New Quote Button")
 
 -------------------------------------------
 Back to [Documentation Menu](?file=Index.md)
