@@ -1,5 +1,7 @@
 # Sales
 
+## Sales Overview
+
 Sales deals with everything financial regarding clients, pootential leads and documents such as quotes and invoices. 
 
 The sales dashboard shows a summary of revenue and pipeline (potential income).
@@ -13,6 +15,8 @@ You will also notice the **Conversion Rate** section. This shows a percentage ba
 ## Leads
 
 Leads are potential customers. 
+
+### New Leads
 
 To create a new lead click on **New Lead**.
 
@@ -44,6 +48,8 @@ Quotes are used to record any quotes made to customers during the sales process.
 To create a new quote click on 'New Quote'.
 
 ![sales07](/images/sales/sales07.png "New Quote Button")
+
+
 
 -------------------------------------------
 Back to [Documentation Menu](?file=Index.md)
