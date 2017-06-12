@@ -172,7 +172,7 @@
         }, 
         {
             "location": "/Sales/", 
-            "text": "Sales\n\n\nSales deals with everything financial regarding clients, pootential leads and documents such as quotes and invoices. \n\n\nThe sales dashboard shows a summary of revenue and pipeline (potential income).\n\n\n\n\nYou will also notice the \nConversion Rate\n section. This shows a percentage based on converted leads (ie, leads which have become projects) for the last month, last 3 months and the last 12 months.\n\n\n\n\nLeads\n\n\nLeads are potential customers. \n\n\nTo create a new lead click on \nNew Lead\n.\n\n\n\n\nNote: if you are already on the leads sub page the button looks slightly different.\n\n\n\n\nThis will take you to the \nNew Lead\n page where you can enter all the details relating to the lead.\n\n\n\n\n\n\nName\n - Name of the lead.\n\n\nContact\n - Contact for the lead.\n\n\nAssignee\n - User assigned to the lead.\n\n\nDescription\n - Short description of the lead.\n\n\nReference\n - Automatically generated lead iteration (can be overwritten).\n\n\nDepartment\n - Department the lead belongs to.\n\n\nLabels\n - Any number of customised labels can be applied to the lead.\n\n\nLead Source\n - This is the source of the lead (can be customised in settings).\n\n\n\n\n\n\nBack to \nDocumentation Menu", 
+            "text": "Sales\n\n\nSales deals with everything financial regarding clients, pootential leads and documents such as quotes and invoices. \n\n\nThe sales dashboard shows a summary of revenue and pipeline (potential income).\n\n\n\n\nYou will also notice the \nConversion Rate\n section. This shows a percentage based on converted leads (ie, leads which have become projects) for the last month, last 3 months and the last 12 months.\n\n\n\n\nLeads\n\n\nLeads are potential customers. \n\n\nTo create a new lead click on \nNew Lead\n.\n\n\n\n\nNote: if you are already on the leads sub page the button looks slightly different.\n\n\n\n\nThis will take you to the \nNew Lead\n page where you can enter all the details relating to the lead.\n\n\n\n\n\n\nName\n - Name of the lead.\n\n\nContact\n - Contact for the lead.\n\n\nAssignee\n - User assigned to the lead.\n\n\nDescription\n - Short description of the lead.\n\n\nReference\n - Automatically generated lead iteration (can be overwritten).\n\n\nDepartment\n - Department the lead belongs to.\n\n\nLabels\n - Any number of customised labels can be applied to the lead.\n\n\nLead Source\n - This is the source of the lead (can be customised in settings).\n\n\n\n\nQuotes\n\n\nQuotes are used to record any quotes made to customers during the sales process.\n\n\nNew Quotes\n\n\nTo create a new quote click on 'New Quote'.\n\n\n\n\n\n\nBack to \nDocumentation Menu", 
             "title": "Sales"
         }, 
         {
@@ -182,8 +182,18 @@
         }, 
         {
             "location": "/Sales/#leads", 
-            "text": "Leads are potential customers.   To create a new lead click on  New Lead .   Note: if you are already on the leads sub page the button looks slightly different.   This will take you to the  New Lead  page where you can enter all the details relating to the lead.    Name  - Name of the lead.  Contact  - Contact for the lead.  Assignee  - User assigned to the lead.  Description  - Short description of the lead.  Reference  - Automatically generated lead iteration (can be overwritten).  Department  - Department the lead belongs to.  Labels  - Any number of customised labels can be applied to the lead.  Lead Source  - This is the source of the lead (can be customised in settings).    Back to  Documentation Menu", 
+            "text": "Leads are potential customers.   To create a new lead click on  New Lead .   Note: if you are already on the leads sub page the button looks slightly different.   This will take you to the  New Lead  page where you can enter all the details relating to the lead.    Name  - Name of the lead.  Contact  - Contact for the lead.  Assignee  - User assigned to the lead.  Description  - Short description of the lead.  Reference  - Automatically generated lead iteration (can be overwritten).  Department  - Department the lead belongs to.  Labels  - Any number of customised labels can be applied to the lead.  Lead Source  - This is the source of the lead (can be customised in settings).", 
             "title": "Leads"
+        }, 
+        {
+            "location": "/Sales/#quotes", 
+            "text": "Quotes are used to record any quotes made to customers during the sales process.", 
+            "title": "Quotes"
+        }, 
+        {
+            "location": "/Sales/#new-quotes", 
+            "text": "To create a new quote click on 'New Quote'.    Back to  Documentation Menu", 
+            "title": "New Quotes"
         }, 
         {
             "location": "/Settings/", 
