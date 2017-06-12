@@ -3,7 +3,7 @@
 
     
     <url>
-     <loc>/Calendar/</loc>
+     <loc>/</loc>
      <lastmod>2017-06-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -11,7 +11,7 @@
 
     
     <url>
-     <loc>/Contacts/</loc>
+     <loc>/calendar/</loc>
      <lastmod>2017-06-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -19,7 +19,7 @@
 
     
     <url>
-     <loc>/Dashboard/</loc>
+     <loc>/contacts/</loc>
      <lastmod>2017-06-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -27,7 +27,7 @@
 
     
     <url>
-     <loc>/Getting Started/</loc>
+     <loc>/dashboard/</loc>
      <lastmod>2017-06-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -35,7 +35,7 @@
 
     
     <url>
-     <loc>/Index/</loc>
+     <loc>/getting started/</loc>
      <lastmod>2017-06-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -43,7 +43,7 @@
 
     
     <url>
-     <loc>/Labels/</loc>
+     <loc>/labels/</loc>
      <lastmod>2017-06-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -51,7 +51,7 @@
 
     
     <url>
-     <loc>/Projects/</loc>
+     <loc>/projects/</loc>
      <lastmod>2017-06-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -59,7 +59,7 @@
 
     
     <url>
-     <loc>/Reports/</loc>
+     <loc>/reports/</loc>
      <lastmod>2017-06-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -67,7 +67,7 @@
 
     
     <url>
-     <loc>/Roles/</loc>
+     <loc>/roles/</loc>
      <lastmod>2017-06-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -75,7 +75,7 @@
 
     
     <url>
-     <loc>/Sales/</loc>
+     <loc>/sales/</loc>
      <lastmod>2017-06-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -83,7 +83,7 @@
 
     
     <url>
-     <loc>/Settings/</loc>
+     <loc>/settings/</loc>
      <lastmod>2017-06-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -91,7 +91,7 @@
 
     
     <url>
-     <loc>/Tasks/</loc>
+     <loc>/tasks/</loc>
      <lastmod>2017-06-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -99,7 +99,7 @@
 
     
     <url>
-     <loc>/Tickets/</loc>
+     <loc>/tickets/</loc>
      <lastmod>2017-06-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -107,7 +107,7 @@
 
     
     <url>
-     <loc>/Time/</loc>
+     <loc>/time/</loc>
      <lastmod>2017-06-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -116,61 +116,61 @@
     
         
     <url>
-     <loc>/settings/Account Settings/</loc>
+     <loc>/settings/account settings/</loc>
      <lastmod>2017-06-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>/settings/Document Settings/</loc>
+     <loc>/settings/document settings/</loc>
      <lastmod>2017-06-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>/settings/Lead Settings/</loc>
+     <loc>/settings/lead settings/</loc>
      <lastmod>2017-06-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>/settings/My Profile/</loc>
+     <loc>/settings/my profile/</loc>
      <lastmod>2017-06-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>/settings/Project Settings/</loc>
+     <loc>/settings/project settings/</loc>
      <lastmod>2017-06-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>/settings/Sales Settings/</loc>
+     <loc>/settings/sales settings/</loc>
      <lastmod>2017-06-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>/settings/Task Settings/</loc>
+     <loc>/settings/task settings/</loc>
      <lastmod>2017-06-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>/settings/Ticket Settings/</loc>
+     <loc>/settings/ticket settings/</loc>
      <lastmod>2017-06-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>/settings/Time Settings/</loc>
+     <loc>/settings/time settings/</loc>
      <lastmod>2017-06-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>/settings/Users Departments/</loc>
+     <loc>/settings/users departments/</loc>
      <lastmod>2017-06-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
