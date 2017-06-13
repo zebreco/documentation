@@ -2,6 +2,8 @@ site_name: 'Zebreco'
 
 site_favicon: 'images/favicon.ico'
 
+copyright: 'Copyright &copy; 2017 Zebreco'
+
 theme: 'material'
 
 markdown_extensions:
