@@ -18,9 +18,9 @@ extra:
     
     social:
         - type: 'github'
-          link: 'https://github.com/outeredge'
+          link: 'https://github.com/zebreco'
         - type: 'twitter'
-          link: 'https://twitter.com/outeredge'
+          link: 'https://twitter.com/zebreco'
     
    
 repo_url: https://github.com/zebreco/documentation
