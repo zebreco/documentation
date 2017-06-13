@@ -15,6 +15,3 @@ Clicking on the **Home** icon in the top left of the page will take you to your 
 **The calendar display** on the dashboard will show any upcoming events in your linked calendar. You can also create a new Event here. Just click **New Event**.
 
 &nbsp;
-
--------------------------------------------
-Back to [Documentation Menu](?file=Index.md)

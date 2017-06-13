@@ -8,18 +8,15 @@ Selecting any of the options from the drop-down menu will take you to the respec
 
 There a number of sub headings within settings all of which are covered in the documentation and are as follows:
 
-* [My Profile](settings/my%20profile.md)
-* [Account](?file=settings/Account%20Settings.md)
-* [Users & Departments](?file=settings/Users%20Departments.md)
-* [Tickets](?file=settings/Ticket%20Settings.md)
-* [Tasks](?file=settings/Task%20Settings.md)
-* [Projects](?file=settings/Project%20Settings.md)
-* [Leads](?file=settings/Lead%20Settings.md)
-* [Sales](?file=settings/Sales%20Settings.md)
-* [Documents](?file=settings/Document%20Settings.md)
-* [Time](?file=settings/Time%20Settings.md)
+* [My Profile](settings/my-profile.md)
+* [Account](settings/account-settings.md)
+* [Users & Departments](settings/users-departments.md)
+* [Tickets](settings/ticket-settings.md)
+* [Tasks](settings/task-settings.md)
+* [Projects](settings/project-settings.md)
+* [Leads](settings/lead-settings.md)
+* [Sales](settings/sales-settings.md)
+* [Documents](settings/document-settings.md)
+* [Time](settings/time-settings.md)
 
 &nbsp;
-
--------------------------------------------
-Back to [Documentation Menu](?file=Index.md)

@@ -27,6 +27,27 @@ repo_url: https://github.com/zebreco/documentation
 repo_name: 'GitHub'
 
 pages:
-    - Settings: 
-        - 'My Profile': 'settings/my profile.md'
-    
+    - Home: 'index.md'
+    - Getting Started: 'getting-started.md'
+    - Dashboard: 'dashboard.md'
+    - Settings:
+        - 'Settings Overview': 'settings.md'
+        - 'My Profile': 'settings/my-profile.md'
+        - 'Account Settings': 'settings/account-settings.md'
+        - 'User & Department Settings': 'settings/users-departments.md'
+        - 'Ticket Settings': 'settings/ticket-settings.md'
+        - 'Task Settings': 'settings/task-settings.md'
+        - 'Project Settings': 'settings/project-settings.md'
+        - 'Lead Settings': 'settings/lead-settings.md'
+        - 'Sales Settings': 'settings/sales-settings.md'
+        - 'Document Settings': 'settings/document-settings.md'
+        - 'Time Settings': 'settings/time-settings.md'
+    - Tickets: 'tickets.md'
+    - Tasks: 'tasks.md'
+    - Contacts: 'contacts.md'
+    - Projects: 'projects.md'
+    - Sales: 'sales.md'
+    - Time: 'time.md'
+    - Calendar: 'calendar.md'
+    - Reports: 'reports.md'
+    - Labels: 'labels.md'
