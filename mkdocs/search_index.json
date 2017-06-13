@@ -1,14 +1,544 @@
 {
     "docs": [
         {
-            "location": "/settings/my profile/", 
+            "location": "/", 
+            "text": "Zebreco Documentation\n\n\n\n\nWelcome to the Zebreco documentation.\n\n\nHere you will find all relevant information regarding features of Zebreco and how to use them.\n\n\nHow to use the documentation\n\n\nThere are two ways to find what you're looking for. Using the navigation menu down the left hand side or by using the search feature.\n\n\nSimply click on a menu item to see the content or any sub pages contained within. To search enter your search terms into the search field and browse the results.", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/#zebreco-documentation", 
+            "text": "Welcome to the Zebreco documentation.  Here you will find all relevant information regarding features of Zebreco and how to use them.", 
+            "title": "Zebreco Documentation"
+        }, 
+        {
+            "location": "/#how-to-use-the-documentation", 
+            "text": "There are two ways to find what you're looking for. Using the navigation menu down the left hand side or by using the search feature.  Simply click on a menu item to see the content or any sub pages contained within. To search enter your search terms into the search field and browse the results.", 
+            "title": "How to use the documentation"
+        }, 
+        {
+            "location": "/getting-started/", 
+            "text": "Getting Started\n\n\nLog In\n\n\nLogin to Zebreco using either the global login page or with your organisations issued URL.  \n\n\nFor example\n https://example.zebreco.com\n\n\n\n\nEnter your \nemail address\n.\n\n\nEnter your \npassword\n.\n\n\n\n\nYou can also sign in using a \nGoogle\n or \nSlack\n account.\n\n\nForgot your password? Click on the \"Retrieve password\" link and you will be sent an email with instructions on how to retrieve your pasword.\n\n\n\n\n\n\nMy Profile\n\n\nOnce you are logged in locate your profile page through the settings menu (top right of page) and select \nMy Profile\n.\n\n\n\n\nHere you can fill out your personal/company information which will be linked to your account.\n\n\n\n\nName\n\n\nEmail\n\n\nAddress\n\n\nLabels\n\n\nTelephone Numbers\n\n\nType (person or company)\n\n\nJob Title\n\n\nWebsite\n\n\n\n\nFrom here you can also \nDisable Notifications\n as well as set your \nSignature Text\n and/or \nImage\n. Here you can also setup a \nPassThrough Target\n.\n\n\n\n\nBasic Workflow\n\n\nEvery organisation is unique and will use the support solutions in different manners. Out of the box ticket management allows a simple issue tracking workflow but you can easily customise to your requirements. Here is a rundown of a standard workflow for a bug fix request.\n\n\n\n\nJohn from Company ABC sends an email to support@yourdomain.com.\n\n\nProvided email forwarding is setup correctly a new ticket will be produced and given a ticket #.\n\n\nSupport staff will assign the ticket to the correct handler who will then assess any tasks or replies required.\n\n\nIf tasks are produced they will be assigned to the correct developer who will proceed to complete the task.\n\n\nThe developer has a question for John, so they send a reply on the ticket which generates an email and sends to John. This leaves the ticket 'open' and will receive the status 'Awaiting Reply'. If the handler is the only staff to have contact with John the developer may set their note to be private and it will display only internally.\n\n\nUpon receipt of a reply from John the handler/developer will be notified and they will amend/update the associated tasks.\n\n\nThe developer will finalise fixes for the associated bug.\n\n\nThe handler can then add \nTime\n (ensuring the ticket is associated with a project) and confirm any changes with John.\n\n\nAny commits can then be deployed.\n\n\nThe ticket can then be changed to \nClosed\n status.\n\n\n\n\nThis is of course just am example of an issue tracked workflow. It is possible to customise your workflow with varying ticket sources/routing, priority visibility, task creation and label customisation.", 
+            "title": "Getting Started"
+        }, 
+        {
+            "location": "/getting-started/#getting-started", 
+            "text": "", 
+            "title": "Getting Started"
+        }, 
+        {
+            "location": "/getting-started/#log-in", 
+            "text": "Login to Zebreco using either the global login page or with your organisations issued URL.    For example  https://example.zebreco.com   Enter your  email address .  Enter your  password .   You can also sign in using a  Google  or  Slack  account.  Forgot your password? Click on the \"Retrieve password\" link and you will be sent an email with instructions on how to retrieve your pasword.", 
+            "title": "Log In"
+        }, 
+        {
+            "location": "/getting-started/#my-profile", 
+            "text": "Once you are logged in locate your profile page through the settings menu (top right of page) and select  My Profile .   Here you can fill out your personal/company information which will be linked to your account.   Name  Email  Address  Labels  Telephone Numbers  Type (person or company)  Job Title  Website   From here you can also  Disable Notifications  as well as set your  Signature Text  and/or  Image . Here you can also setup a  PassThrough Target .", 
+            "title": "My Profile"
+        }, 
+        {
+            "location": "/getting-started/#basic-workflow", 
+            "text": "Every organisation is unique and will use the support solutions in different manners. Out of the box ticket management allows a simple issue tracking workflow but you can easily customise to your requirements. Here is a rundown of a standard workflow for a bug fix request.   John from Company ABC sends an email to support@yourdomain.com.  Provided email forwarding is setup correctly a new ticket will be produced and given a ticket #.  Support staff will assign the ticket to the correct handler who will then assess any tasks or replies required.  If tasks are produced they will be assigned to the correct developer who will proceed to complete the task.  The developer has a question for John, so they send a reply on the ticket which generates an email and sends to John. This leaves the ticket 'open' and will receive the status 'Awaiting Reply'. If the handler is the only staff to have contact with John the developer may set their note to be private and it will display only internally.  Upon receipt of a reply from John the handler/developer will be notified and they will amend/update the associated tasks.  The developer will finalise fixes for the associated bug.  The handler can then add  Time  (ensuring the ticket is associated with a project) and confirm any changes with John.  Any commits can then be deployed.  The ticket can then be changed to  Closed  status.   This is of course just am example of an issue tracked workflow. It is possible to customise your workflow with varying ticket sources/routing, priority visibility, task creation and label customisation.", 
+            "title": "Basic Workflow"
+        }, 
+        {
+            "location": "/dashboard/", 
+            "text": "Dashboard\n\n\nDashboard Screen\n\n\nClicking on the \nHome\n icon in the top left of the page will take you to your \nDashboard\n. The contents of the dashboard include:\n\n\n\n\nTicket Overview (top)\n\n\nActivity Feed (left)\n\n\nCalendar Event Display (right)\n\n\n\n\n\n\nActivity\n can be filtered into \nTickets, Tasks, Contacts, Projects, Files, Leads, Invoices and Quotes.\n You can also search through activity using the search bar.\n\n\nThe calendar display\n on the dashboard will show any upcoming events in your linked calendar. You can also create a new Event here. Just click \nNew Event\n.", 
+            "title": "Dashboard"
+        }, 
+        {
+            "location": "/dashboard/#dashboard", 
+            "text": "", 
+            "title": "Dashboard"
+        }, 
+        {
+            "location": "/dashboard/#dashboard-screen", 
+            "text": "Clicking on the  Home  icon in the top left of the page will take you to your  Dashboard . The contents of the dashboard include:   Ticket Overview (top)  Activity Feed (left)  Calendar Event Display (right)    Activity  can be filtered into  Tickets, Tasks, Contacts, Projects, Files, Leads, Invoices and Quotes.  You can also search through activity using the search bar.  The calendar display  on the dashboard will show any upcoming events in your linked calendar. You can also create a new Event here. Just click  New Event .", 
+            "title": "Dashboard Screen"
+        }, 
+        {
+            "location": "/settings/", 
+            "text": "Settings\n\n\nThe settings menu is accesible from the dashboard by hovering over the account avatar in the top right of the page.\n\n\n\n\nSelecting any of the options from the drop-down menu will take you to the respective page and display the settings toolbar on the left panel.\n\n\nThere a number of sub headings within settings all of which are covered in the documentation and are as follows:\n\n\n\n\nMy Profile\n\n\nAccount\n\n\nUsers \n Departments\n\n\nTickets\n\n\nTasks\n\n\nProjects\n\n\nLeads\n\n\nSales\n\n\nDocuments\n\n\nTime", 
+            "title": "Settings Overview"
+        }, 
+        {
+            "location": "/settings/#settings", 
+            "text": "The settings menu is accesible from the dashboard by hovering over the account avatar in the top right of the page.   Selecting any of the options from the drop-down menu will take you to the respective page and display the settings toolbar on the left panel.  There a number of sub headings within settings all of which are covered in the documentation and are as follows:   My Profile  Account  Users   Departments  Tickets  Tasks  Projects  Leads  Sales  Documents  Time", 
+            "title": "Settings"
+        }, 
+        {
+            "location": "/settings/my-profile/", 
             "text": "My Profile\n\n\nHere you can fill out your personal/company information which will be linked to your account.\n\n\n\n\n\n\nName\n\n\nEmail\n\n\nAddress\n\n\nLabels\n\n\nTelephone Numbers\n\n\nType (person or company)\n\n\nJob Title\n\n\nWebsite\n\n\n\n\nFrom here you can also \nDisable Notifications\n as well as set your \nSignature Text\n and/or \nImage\n. Here you can also setup a \nPassThrough Target\n.\n\n\nLabels\n can applied to your profile as long as the label is setup as a 'contact' type. This can be useful within an organisation to determine between such roles as developer, engineer, support staff, etc.\n\n\nYou can change your password from here. Simply click on \nChange Password", 
             "title": "My Profile"
         }, 
         {
-            "location": "/settings/my profile/#my-profile", 
+            "location": "/settings/my-profile/#my-profile", 
             "text": "Here you can fill out your personal/company information which will be linked to your account.    Name  Email  Address  Labels  Telephone Numbers  Type (person or company)  Job Title  Website   From here you can also  Disable Notifications  as well as set your  Signature Text  and/or  Image . Here you can also setup a  PassThrough Target .  Labels  can applied to your profile as long as the label is setup as a 'contact' type. This can be useful within an organisation to determine between such roles as developer, engineer, support staff, etc.  You can change your password from here. Simply click on  Change Password", 
             "title": "My Profile"
+        }, 
+        {
+            "location": "/settings/account-settings/", 
+            "text": "Account Settings\n\n\nWe get to the settings panel through the quick link icon with your avatar located in the top-right of the page. Clicking on this will bring up the settings panel along the left side of the page.\n\n\n\n\n\n\n## My Profile\n\n\nHere you can fill out your personal/company information which will be linked to your account.\n\n\n\n\nName\n\n\nEmail\n\n\nAddress\n\n\nLabels\n\n\nTelephone Numbers\n\n\nType (person or company)\n\n\nJob Title\n\n\nWebsite\n\n\n\n\n\n\nFrom here you can also \nDisable Notifications\n as well as set your \nSignature Text\n and/or \nImage\n. Here you can also setup a \nPassThrough Target\n.\n\n\n\n\nAccount\n\n\nHere you can change the URL associated with your login, as well as upload your chosen avatar. New packages can be added to your account here.\n\n\n\n\n\n\nSubscription\n\n\nThis is where you can edit your payment information and change your payment plan as well as view invoices.\n\n\n\n\nExport\n\n\nOn this page you can export a wide range of data from accross your database and in a number of formats. This may be used with external applications with some tweaking.\n\n\nSimply select \nType\n and \nFormat\n and hit \nGenerate\n\n\n\n\n\n\nLabels\n\n\nOn this page you can create and edit labels. Labels can be used in various ways to increase communication regarding individual tickets. \n\n\n\n\nCustom Fields\n\n\nCustom fields are used to add detail to contacts. By adding fields here they are made accesible when creating or viewing contacts.\n\n\nTo create a new custom field click on \nNew Custom Field\n.\n\n\n\n\n\n\nIntegrations\n\n\nFrom this page you can choose from a range of external applications for interaction within Zebreco. Simply click on \nIntegrate\n next to your chosen app.\n\n\n\n\n\n\n\n\nBack to \nSettings Menu\n\nBack to \nDocumentation Menu", 
+            "title": "Account Settings"
+        }, 
+        {
+            "location": "/settings/account-settings/#account-settings", 
+            "text": "We get to the settings panel through the quick link icon with your avatar located in the top-right of the page. Clicking on this will bring up the settings panel along the left side of the page.    ## My Profile  Here you can fill out your personal/company information which will be linked to your account.   Name  Email  Address  Labels  Telephone Numbers  Type (person or company)  Job Title  Website    From here you can also  Disable Notifications  as well as set your  Signature Text  and/or  Image . Here you can also setup a  PassThrough Target .", 
+            "title": "Account Settings"
+        }, 
+        {
+            "location": "/settings/account-settings/#account", 
+            "text": "Here you can change the URL associated with your login, as well as upload your chosen avatar. New packages can be added to your account here.", 
+            "title": "Account"
+        }, 
+        {
+            "location": "/settings/account-settings/#subscription", 
+            "text": "This is where you can edit your payment information and change your payment plan as well as view invoices.", 
+            "title": "Subscription"
+        }, 
+        {
+            "location": "/settings/account-settings/#export", 
+            "text": "On this page you can export a wide range of data from accross your database and in a number of formats. This may be used with external applications with some tweaking.  Simply select  Type  and  Format  and hit  Generate", 
+            "title": "Export"
+        }, 
+        {
+            "location": "/settings/account-settings/#labels", 
+            "text": "On this page you can create and edit labels. Labels can be used in various ways to increase communication regarding individual tickets.", 
+            "title": "Labels"
+        }, 
+        {
+            "location": "/settings/account-settings/#custom-fields", 
+            "text": "Custom fields are used to add detail to contacts. By adding fields here they are made accesible when creating or viewing contacts.  To create a new custom field click on  New Custom Field .", 
+            "title": "Custom Fields"
+        }, 
+        {
+            "location": "/settings/account-settings/#integrations", 
+            "text": "From this page you can choose from a range of external applications for interaction within Zebreco. Simply click on  Integrate  next to your chosen app.     Back to  Settings Menu \nBack to  Documentation Menu", 
+            "title": "Integrations"
+        }, 
+        {
+            "location": "/settings/users-departments/", 
+            "text": "Users \n Departments Settings\n\n\nUsers\n\n\nThis section is used for managing users within your organisation. Depending on access rights of your role you can create, edit and delete user access.\n\n\n\n\n\n\nInvite Users\n\n\nTo invite a new user click on \nInvite User\n\n\n\n\n\n\nDocument Generation\n\n\nIf you have documents setup you can generate these associated with the selected user. For example you could generate a blank letter with headers etc for each user within your organisation. This can be done with the \nDocuments\n button.\n\n\n\n\n\n\nUser View\n\n\nIf you drill into an individual user you will be taken to the in-depth user summary. This screen shows various information regarding the users interaction with Zebreco such as Ticket statuses and recent activity feed. Note: user permissions etc are set in the 'roles' tab (see below).\n\n\n\n\nYou can add activity such as notes and call logs here by clicking on \nAdd Activity\n.\n\n\n\n\n\n\nDepartments\n\n\nOn this screen you can add, edit or delete departments from your organisation. These may include such traditional departmnts such as \nAccounts\n and \nMarketing\n or may even be used for workflow. It is fully customisable and can be used however is most suited to your organisation.\n\n\nBy drilling into a department you can edit all defaults associated with each department such as email, address, etc.\n\n\n\n\nRoles\n\n\nRoles can be created and assigned to individual users. This is where you can create any number of roles you wish. To create a role click on \nNew Contact Role\n.\n\n\n\n\nOnce created, a role can be viewed where defaults and permissions can be set.\n\n\n\n\nUsing the check boxes you can turn certain permissions on and off. When you have made your edits click on \nSave\n.\n\n\nFor more detailed information on these permissions \ngo here\n.\n\n\n\n\n\n\nBack to \nSettings Menu\n\nBack to \nDocumentation Menu", 
+            "title": "User & Department Settings"
+        }, 
+        {
+            "location": "/settings/users-departments/#users-departments-settings", 
+            "text": "", 
+            "title": "Users &amp; Departments Settings"
+        }, 
+        {
+            "location": "/settings/users-departments/#users", 
+            "text": "This section is used for managing users within your organisation. Depending on access rights of your role you can create, edit and delete user access.", 
+            "title": "Users"
+        }, 
+        {
+            "location": "/settings/users-departments/#invite-users", 
+            "text": "To invite a new user click on  Invite User", 
+            "title": "Invite Users"
+        }, 
+        {
+            "location": "/settings/users-departments/#document-generation", 
+            "text": "If you have documents setup you can generate these associated with the selected user. For example you could generate a blank letter with headers etc for each user within your organisation. This can be done with the  Documents  button.", 
+            "title": "Document Generation"
+        }, 
+        {
+            "location": "/settings/users-departments/#user-view", 
+            "text": "If you drill into an individual user you will be taken to the in-depth user summary. This screen shows various information regarding the users interaction with Zebreco such as Ticket statuses and recent activity feed. Note: user permissions etc are set in the 'roles' tab (see below).   You can add activity such as notes and call logs here by clicking on  Add Activity .", 
+            "title": "User View"
+        }, 
+        {
+            "location": "/settings/users-departments/#departments", 
+            "text": "On this screen you can add, edit or delete departments from your organisation. These may include such traditional departmnts such as  Accounts  and  Marketing  or may even be used for workflow. It is fully customisable and can be used however is most suited to your organisation.  By drilling into a department you can edit all defaults associated with each department such as email, address, etc.", 
+            "title": "Departments"
+        }, 
+        {
+            "location": "/settings/users-departments/#roles", 
+            "text": "Roles can be created and assigned to individual users. This is where you can create any number of roles you wish. To create a role click on  New Contact Role .   Once created, a role can be viewed where defaults and permissions can be set.   Using the check boxes you can turn certain permissions on and off. When you have made your edits click on  Save .  For more detailed information on these permissions  go here .    Back to  Settings Menu \nBack to  Documentation Menu", 
+            "title": "Roles"
+        }, 
+        {
+            "location": "/settings/ticket-settings/", 
+            "text": "Ticket Settings\n\n\nMail Templates\n\n\nUsing custom default mail templates you can overwrite the systems built in auto mail. These are event based mail responses which get sent after certain actions are completed such as ticket creation or assignment.\n\n\n\n\nTo create a new overwrite click on \nCreate\n.\n\n\n\n\nPredefined Replies\n\n\nPredefined replies can be setup for quick access to commonly used email responses. Similar to mail templates but they are user actioned rather than event based.\n\n\nTo create a new predefined reply click on \nNew Predefined Reply\n.\n\n\n\n\n\n\nSpam Control\n\n\nThis is where you can view the list of mail senders on your 'marked as spam' list. This list is automatically updated when a ticket is marked as spam, or alternatively, individual addresses may be added on this page. \n\n\nTo add an address to the spam list click on \nAdd Banned Email\n.\n\n\n\n\n\n\n\n\nBack to \nSettings Menu\n\nBack to \nDocumentation Menu", 
+            "title": "Ticket Settings"
+        }, 
+        {
+            "location": "/settings/ticket-settings/#ticket-settings", 
+            "text": "", 
+            "title": "Ticket Settings"
+        }, 
+        {
+            "location": "/settings/ticket-settings/#mail-templates", 
+            "text": "Using custom default mail templates you can overwrite the systems built in auto mail. These are event based mail responses which get sent after certain actions are completed such as ticket creation or assignment.   To create a new overwrite click on  Create .", 
+            "title": "Mail Templates"
+        }, 
+        {
+            "location": "/settings/ticket-settings/#predefined-replies", 
+            "text": "Predefined replies can be setup for quick access to commonly used email responses. Similar to mail templates but they are user actioned rather than event based.  To create a new predefined reply click on  New Predefined Reply .", 
+            "title": "Predefined Replies"
+        }, 
+        {
+            "location": "/settings/ticket-settings/#spam-control", 
+            "text": "This is where you can view the list of mail senders on your 'marked as spam' list. This list is automatically updated when a ticket is marked as spam, or alternatively, individual addresses may be added on this page.   To add an address to the spam list click on  Add Banned Email .     Back to  Settings Menu \nBack to  Documentation Menu", 
+            "title": "Spam Control"
+        }, 
+        {
+            "location": "/settings/task-settings/", 
+            "text": "Task Settings\n\n\nTracks\n\n\nTracks are used to create fully customisable task pathways. These are useful if tasks are repeated accross projects. In the example below there are a number of tracks created including \nDesign\n and \nBuild\n. Each track contains a numnber of standardised tasks which will applied to the chosen project should each track be associated with it.\n\n\n\n\nTo create a new track click on \nNew Track\n.\n\n\n\n\nAbove is the task track for our example \nBuild\n. It has been setup with all common tasks often acted upon during the build of a web project. By applying this task track to a project, all tasks within will be assigned to the project. From here you can add a \nNew Track Task\n or delete current ones.\n\n\nFor more information on using tasks \ngo here\n.\n\n\n\n\n\n\nBack to \nSettings Menu\n\nBack to \nDocumentation Menu", 
+            "title": "Task Settings"
+        }, 
+        {
+            "location": "/settings/task-settings/#task-settings", 
+            "text": "", 
+            "title": "Task Settings"
+        }, 
+        {
+            "location": "/settings/task-settings/#tracks", 
+            "text": "Tracks are used to create fully customisable task pathways. These are useful if tasks are repeated accross projects. In the example below there are a number of tracks created including  Design  and  Build . Each track contains a numnber of standardised tasks which will applied to the chosen project should each track be associated with it.   To create a new track click on  New Track .   Above is the task track for our example  Build . It has been setup with all common tasks often acted upon during the build of a web project. By applying this task track to a project, all tasks within will be assigned to the project. From here you can add a  New Track Task  or delete current ones.  For more information on using tasks  go here .    Back to  Settings Menu \nBack to  Documentation Menu", 
+            "title": "Tracks"
+        }, 
+        {
+            "location": "/settings/project-settings/", 
+            "text": "Project Settings\n\n\nProject Templates\n\n\nHere you can setup templates for projects. Included when you first log in is a default template which contains the most basic fields for a template.\n\n\n\n\nTo create a new template click on \nNew Template\n. To delete select a template with the corresponding check box and click on \nDelete\n.\n\n\n\n\nReference Mask\n\n\nThe reference mask field allows you to specify how projects using the template should have their references generated. By default this will be an incrementing number, global to your account. \n\n\nYou can customise the reference by using any text and the fields below.\n\n\n\n\n\n\n\n\nField\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\n{{ number }}\n\n\nThe next available project number\n\n\n\n\n\n\n{{ code }}\n\n\nThe new project's department \ncode\n field\n\n\n\n\n\n\n{{ name }}\n\n\nThe new project's name\n\n\n\n\n\n\n\n\nFor example, assuming you have a department with the code \nSUPPORT\n a reference mask of...\n\n\nZE-{{ code }}-{{ number }}\n\n\nWould become...\n\n\nZE-SUPPORT-1000\n \n\n\n\n\nStatuses\n\n\nProjects have default statuses which indicate completion status and are automatically assigned during operation. The default statuses which associate with projects are \nComplete\n, \nIn Progress\n and \nOn Hold\n. \n\n\n\n\nTo create a new status click on \nNew Status\n.\n\n\n\n\nRoles\n\n\nProject roles differ from user roles in that they are used to give access to team members within your organisation whereas user roles are used to define management of projects.\n\n\nFor more detailed information on projects \ngo here.\n\n\n\n\n\n\nBack to \nSettings Menu\n\nBack to \nDocumentation Menu", 
+            "title": "Project Settings"
+        }, 
+        {
+            "location": "/settings/project-settings/#project-settings", 
+            "text": "", 
+            "title": "Project Settings"
+        }, 
+        {
+            "location": "/settings/project-settings/#project-templates", 
+            "text": "Here you can setup templates for projects. Included when you first log in is a default template which contains the most basic fields for a template.   To create a new template click on  New Template . To delete select a template with the corresponding check box and click on  Delete .", 
+            "title": "Project Templates"
+        }, 
+        {
+            "location": "/settings/project-settings/#reference-mask", 
+            "text": "The reference mask field allows you to specify how projects using the template should have their references generated. By default this will be an incrementing number, global to your account.   You can customise the reference by using any text and the fields below.     Field  Description      {{ number }}  The next available project number    {{ code }}  The new project's department  code  field    {{ name }}  The new project's name     For example, assuming you have a department with the code  SUPPORT  a reference mask of...  ZE-{{ code }}-{{ number }}  Would become...  ZE-SUPPORT-1000", 
+            "title": "Reference Mask"
+        }, 
+        {
+            "location": "/settings/project-settings/#statuses", 
+            "text": "Projects have default statuses which indicate completion status and are automatically assigned during operation. The default statuses which associate with projects are  Complete ,  In Progress  and  On Hold .    To create a new status click on  New Status .", 
+            "title": "Statuses"
+        }, 
+        {
+            "location": "/settings/project-settings/#roles", 
+            "text": "Project roles differ from user roles in that they are used to give access to team members within your organisation whereas user roles are used to define management of projects.  For more detailed information on projects  go here.    Back to  Settings Menu \nBack to  Documentation Menu", 
+            "title": "Roles"
+        }, 
+        {
+            "location": "/settings/lead-settings/", 
+            "text": "Lead Settings\n\n\nReference Mask\n\n\nWhen using the lead system there is a field for adding a reference to each lead item. Here we can use the \nReference Mask\n to create automated inputs using pre-generated titles or by taking reference from other input fields in the sales data.\n\n\nYou can customise the reference by using any text and the fields below.\n\n\n\n\n\n\n\n\nField\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\n{{ number }}\n\n\nThe next available lead number\n\n\n\n\n\n\n{{ code }}\n\n\nThe new lead's department \ncode\n field\n\n\n\n\n\n\n{{ name }}\n\n\nThe new lead's name\n\n\n\n\n\n\n\n\nFor example, assuming you have a department with the code \nSUPPORT\n a reference mask of...\n\n\nZE-{{ code }}-{{ number }}\n\n\nWould become...\n\n\nZE-SUPPORT-1000\n \n\n\n\n\nUsing Twig\n\n\nThis reference system also allows you to use the full functionality of the \nTwig\n template. For more information on using twig see their \ndocumentation\n.\n\n\n\n\n\n\nBack to \nSettings Menu\n\nBack to \nDocumentation Menu", 
+            "title": "Lead Settings"
+        }, 
+        {
+            "location": "/settings/lead-settings/#lead-settings", 
+            "text": "", 
+            "title": "Lead Settings"
+        }, 
+        {
+            "location": "/settings/lead-settings/#reference-mask", 
+            "text": "When using the lead system there is a field for adding a reference to each lead item. Here we can use the  Reference Mask  to create automated inputs using pre-generated titles or by taking reference from other input fields in the sales data.  You can customise the reference by using any text and the fields below.     Field  Description      {{ number }}  The next available lead number    {{ code }}  The new lead's department  code  field    {{ name }}  The new lead's name     For example, assuming you have a department with the code  SUPPORT  a reference mask of...  ZE-{{ code }}-{{ number }}  Would become...  ZE-SUPPORT-1000", 
+            "title": "Reference Mask"
+        }, 
+        {
+            "location": "/settings/lead-settings/#using-twig", 
+            "text": "This reference system also allows you to use the full functionality of the  Twig  template. For more information on using twig see their  documentation .    Back to  Settings Menu \nBack to  Documentation Menu", 
+            "title": "Using Twig"
+        }, 
+        {
+            "location": "/settings/sales-settings/", 
+            "text": "Sales Settings\n\n\nQuotes\n\n\nThis is where you can set the default values for correspondance related to sales quotes. \n\n\n\n\nDefault Quote Document\n sets the default document which is generated when a new sales quote is generated.  \n\n\nDefault Email Template\n sets the default email template used when a new sales quote is generated.  \n\n\nNext Quote Number\n changes the number of current sales quote which is automatically incremented everytime a quote is generated.  \n\n\nDays until new quotes are invalid (default)\n sets the default number of days a quote will become invalid after.\n\n\n\n\nInvoices\n\n\nThis is where you can set the default values for correspondance related to invoices.\n\n\n\n\nDefault Email Template\n sets the default email template which is used when a new invoice is generated.  \n\n\nNext Invoice Number\n changes the number of the current invoice which is automatically incremented everytime an invoice is generated.  \n\n\nDays until an invoice is due (default)\n sets the default number of days an invoice will be due after.\n\n\nInvoice Payment Advice\n sets the default content of invoices.\n\n\n\n\nFor more information regarding generated documents [go here.]((?file=settings/Document%20Settings.md)\n\n\n\n\n\n\nBack to \nSettings Menu\n\nBack to \nDocumentation Menu", 
+            "title": "Sales Settings"
+        }, 
+        {
+            "location": "/settings/sales-settings/#sales-settings", 
+            "text": "", 
+            "title": "Sales Settings"
+        }, 
+        {
+            "location": "/settings/sales-settings/#quotes", 
+            "text": "This is where you can set the default values for correspondance related to sales quotes.    Default Quote Document  sets the default document which is generated when a new sales quote is generated.    Default Email Template  sets the default email template used when a new sales quote is generated.    Next Quote Number  changes the number of current sales quote which is automatically incremented everytime a quote is generated.    Days until new quotes are invalid (default)  sets the default number of days a quote will become invalid after.", 
+            "title": "Quotes"
+        }, 
+        {
+            "location": "/settings/sales-settings/#invoices", 
+            "text": "This is where you can set the default values for correspondance related to invoices.   Default Email Template  sets the default email template which is used when a new invoice is generated.    Next Invoice Number  changes the number of the current invoice which is automatically incremented everytime an invoice is generated.    Days until an invoice is due (default)  sets the default number of days an invoice will be due after.  Invoice Payment Advice  sets the default content of invoices.   For more information regarding generated documents [go here.]((?file=settings/Document%20Settings.md)    Back to  Settings Menu \nBack to  Documentation Menu", 
+            "title": "Invoices"
+        }, 
+        {
+            "location": "/settings/document-settings/", 
+            "text": "Documents\n\n\nSettings\n\n\nThis page allows you to modify the content used when generating new documents. There are two sections: \nHeader\n and \nFooter\n.\n\n\n\n\n\n\n\n\nAs in the above example, you can use variables to define the content.\n\n\n\n\n\n\nIf changes have been made, make sure to click \nSave\n to apply your changes.\n\n\n\n\n\n\n\n\nFor more information on using these variable references \ngo here.\n\n\n\n\nTemplates\n\n\nThis page lists all available templates which are generated all through Zebreco. \n\n\n\n\nTo make a new template click on \nNew Document Template\n\n\n\n\n\n\n\n\n\n\nTo \ndelete\n, simply select one of the templates using the check box and hit delete.\n\n\n\n\n\n\nTo \nedit\n an existing template simply click on the desired template and you will be taken to the editing page for that template. \n\n\n\n\n\n\nEach template has a \nName\n, \nType\n and \nContent\n.\n\n\nYou can also specify whether a template is \nManagement use only\n. If toggled on, this setting will make the template accesible only to management (set within role settings).\n\n\n\n\n\n\nBack to \nSettings Menu\n\nBack to \nDocumentation Menu", 
+            "title": "Document Settings"
+        }, 
+        {
+            "location": "/settings/document-settings/#documents", 
+            "text": "", 
+            "title": "Documents"
+        }, 
+        {
+            "location": "/settings/document-settings/#settings", 
+            "text": "This page allows you to modify the content used when generating new documents. There are two sections:  Header  and  Footer .     As in the above example, you can use variables to define the content.    If changes have been made, make sure to click  Save  to apply your changes.     For more information on using these variable references  go here.", 
+            "title": "Settings"
+        }, 
+        {
+            "location": "/settings/document-settings/#templates", 
+            "text": "This page lists all available templates which are generated all through Zebreco.    To make a new template click on  New Document Template      To  delete , simply select one of the templates using the check box and hit delete.    To  edit  an existing template simply click on the desired template and you will be taken to the editing page for that template.     Each template has a  Name ,  Type  and  Content .  You can also specify whether a template is  Management use only . If toggled on, this setting will make the template accesible only to management (set within role settings).    Back to  Settings Menu \nBack to  Documentation Menu", 
+            "title": "Templates"
+        }, 
+        {
+            "location": "/settings/time-settings/", 
+            "text": "Time Settings\n\n\nHere we can create, delete and edit existing time statuses. These are the different states which can be assigned to tickets/tasks and tell the system how to handle chargeable time. \n\n\nThere are three default statuses built into the system:\n\n\n\n\nChargeable\n - the time applied will be chargeable.\n\n\nNot Chargeable\n - the time applied will not be chargeable.\n\n\nInvoiced\n - the time applied has been invoiced.\n\n\n\n\n\n\nTo create a new time status click on \nNew Time Status\n\n\n\n\nTo delete an existing time status click on \nDelete\n.\n\n\n\n\nTo \nedit\n an existing time status (non-system) simply click on it. You can edit the \nName\n, \nState\n and set whether it is the \nDefault\n status.\n\n\n\n\n\n\nBack to \nSettings Menu\n\nBack to \nDocumentation Menu", 
+            "title": "Time Settings"
+        }, 
+        {
+            "location": "/settings/time-settings/#time-settings", 
+            "text": "Here we can create, delete and edit existing time statuses. These are the different states which can be assigned to tickets/tasks and tell the system how to handle chargeable time.   There are three default statuses built into the system:   Chargeable  - the time applied will be chargeable.  Not Chargeable  - the time applied will not be chargeable.  Invoiced  - the time applied has been invoiced.    To create a new time status click on  New Time Status   To delete an existing time status click on  Delete .   To  edit  an existing time status (non-system) simply click on it. You can edit the  Name ,  State  and set whether it is the  Default  status.    Back to  Settings Menu \nBack to  Documentation Menu", 
+            "title": "Time Settings"
+        }, 
+        {
+            "location": "/tickets/", 
+            "text": "Tickets\n\n\nThe ticket system is a fully featured ticket desk which enables handling of all communication with your clients and internal operations. Featuring assignment, labelling, external integrations, tasks and much more.\n\n\nUsing the navigation bar takes you to the tickets dashboard which by default is set to display your current list of tickets with no filter applied.\n\n\n\n\nTip\n\n\nWhen searching, press \nShift + Enter\n to search through ALL tickets (bypassing any active filters).\n\n\n\n\n\n\nThe basic workflow is as follows:\n\n\n\n\nCreation\n\n\nAssignment\n\n\nLabelling\n\n\nTask Creation\n\n\nTime Allocation\n\n\nViewing Tickets\n\n\nReplying to Tickets\n\n\nReplying with a Private Note\n\n\nCompleting a Task in Ticket view\n\n\nClosing a Ticket\n\n\n\n\n\n\nCreate a new Ticket\n\n\nFrom the ticket dashboard, click on \nNew Ticket\n\n\n\n\nYou will be taken to the new ticket page. Enter relevant details \nTitle\n, \nDescription\n, \nType\n and toggle whether it is a \nPrivate Note\n.\n\n\n\n\nAt this stage you can also use the left hand options bar to change the ticket \nstatus\n (open by default), ticket \nassignee\n, \ndepartment\n and \nproject\n. You can also set the default \ntime status\n and give the ticket a \nfollow-up-date\n if required. You can also apply custom \nlabels\n. For more detailed information on each of these settings search for their respective sections in this documentation.\n\n\n\n\nOnce created your ticket should look like the above example (note by default the ticket status is set to open)\n\n\n\n\nTicket Assignment\n\n\nOnce your ticket exists you can make various assignments in order to categorise it within your system. Please note this system is highly configurable and may be different for your organisation but the principle and process of assignment remains the same.\n\n\nOn the left hand option bar, we will assign the ticket to ourselves (in this case the user is called 'Zebreco Support'). Confirmation of the change will be displayed by a small green tick next to the title.\n\n\n\n\nWe can continue to make assignments of department, project and lead (if applicable).\n\n\n\n\nTicket Labelling\n\n\nTickets can have any number of custom labels applied to them. The nature and use of these labels will be defined by your organisation but the principle is universal. Labels are used to categorise tickets and give specific information such as priority or status.\n\n\n\n\nIn this example we apply a label 'support-required' to the new ticket.\n\n\n\n\nTask Creation\n\n\nOn the right hand navigation bar you will find a section named 'Tasks'. This is where you can add new tasks or task tracks to your ticket. We will not be going into detail about task creation here. For more information on tasks \nGo Here\n. \n\n\nFor this example we will create a simple example task requiring support to reply to the ticket.\n\n\n\n\n\n\nTime Allocation\n\n\nOn the right hand navigation bar you will find a section named 'Time'. This is where you can set the tickets time status (whether work on the ticket is chargeable or under a payment plan for example) and allocate time spent working on it. For this example we will add a simple 10 minutes of work and make it chargeable.\n\n\n\n\n\n\nViewing Tickets\n\n\nClicking back on the 'Tickets' tab will take us to the Tickets overview. You will now see our newly created ticket. (If you cannot see the ticket ensure the filter is set to 'No Filter').\n\n\n\n\nIf you click on the ticket you will see the complete ticket view with all the assignments we have made above.\n\n\n\n\nIf you have lots of tickets you can filter them by a number of categories you may have applied such as whether the ticket is open or closed, tickets assigned to you or unassigned tickets. Simply select the required filter from the drop down menu or use the quick filter from the navigation bar.\n\n\n\n\n\n\nReplying to Tickets\n\n\nWhen you are ready to reply to a ticket, simply click on \nReply\n \n\n\n\n\nThis brings up the reply dialog where you can input your communication and choose the required reply type.\n\n\n\n\nThere are three options for replying, they act slightly differently and are as follows:\n\n\n\n\nReply \n Keep Open\n - This will reply to the ticket and keep the ticket status on 'open', this may be useful if follow up tasks/communication will be carried out.\n\n\nReply \n Close\n - This will close the ticket after replying. This is useful when a problem has been solved or answered inthe reply and will require no further input.\n\n\nReply\n - This will also keep the ticket status open but apply an 'Awaiting Reply' status which helps to further categorise the ticket as an ongoing issue. This is the default reply status and is most widely used during ticket progression.\n\n\n\n\nNote: at this stage you will be asked to log any time for the ticket that is relevant (for example if the ticket is set to chargeable under time status). This is done via the standard \nedit\n box which should pop-up.\n\n\n\n\nTo complete the reply, click on the \nSave\n icon.\n\n\n\n\nReplying With a Private Note\n\n\nTo make the reply private (only viewable from within your organisation) simply check the box \n'Private Note'\n. This will change the options to:\n\n\n\n\nAdd Note \n Close\n - Add the private note and set the ticket status to 'closed'.\n\n\nAdd Note\n - Add the private note and leave the ticket status unchanged.\n\n\n\n\n\n\nThe private note will display with a yellow background to signify its privacy. This note will only be viewable to those members within your organisation.\n\n\n\n\nCompleting a Task in Ticket View\n\n\nFrom the ticket view you can view all associated tasks on the right hand tab. Here you can see the task we created earlier 'Reply to ticket'. Completing a task is as simple as checking the tick box next to the relevant task, This will mark the adjacent task as complete. \n\n\n\n\n\n\nClosing a Ticket\n\n\nTo close a ticket, either use the drop down menu on the left under \nStatus\n or click on \nClose\n from within the ticket view.\n\n\n\n\n\n\n\n\nBack to \nTop\n\nBack to \nDocumentation Menu", 
+            "title": "Tickets"
+        }, 
+        {
+            "location": "/tickets/#tickets", 
+            "text": "The ticket system is a fully featured ticket desk which enables handling of all communication with your clients and internal operations. Featuring assignment, labelling, external integrations, tasks and much more.  Using the navigation bar takes you to the tickets dashboard which by default is set to display your current list of tickets with no filter applied.   Tip  When searching, press  Shift + Enter  to search through ALL tickets (bypassing any active filters).    The basic workflow is as follows:   Creation  Assignment  Labelling  Task Creation  Time Allocation  Viewing Tickets  Replying to Tickets  Replying with a Private Note  Completing a Task in Ticket view  Closing a Ticket", 
+            "title": "Tickets"
+        }, 
+        {
+            "location": "/tickets/#create-a-new-ticket", 
+            "text": "From the ticket dashboard, click on  New Ticket   You will be taken to the new ticket page. Enter relevant details  Title ,  Description ,  Type  and toggle whether it is a  Private Note .   At this stage you can also use the left hand options bar to change the ticket  status  (open by default), ticket  assignee ,  department  and  project . You can also set the default  time status  and give the ticket a  follow-up-date  if required. You can also apply custom  labels . For more detailed information on each of these settings search for their respective sections in this documentation.   Once created your ticket should look like the above example (note by default the ticket status is set to open)", 
+            "title": "Create a new Ticket"
+        }, 
+        {
+            "location": "/tickets/#ticket-assignment", 
+            "text": "Once your ticket exists you can make various assignments in order to categorise it within your system. Please note this system is highly configurable and may be different for your organisation but the principle and process of assignment remains the same.  On the left hand option bar, we will assign the ticket to ourselves (in this case the user is called 'Zebreco Support'). Confirmation of the change will be displayed by a small green tick next to the title.   We can continue to make assignments of department, project and lead (if applicable).", 
+            "title": "Ticket Assignment"
+        }, 
+        {
+            "location": "/tickets/#ticket-labelling", 
+            "text": "Tickets can have any number of custom labels applied to them. The nature and use of these labels will be defined by your organisation but the principle is universal. Labels are used to categorise tickets and give specific information such as priority or status.   In this example we apply a label 'support-required' to the new ticket.", 
+            "title": "Ticket Labelling"
+        }, 
+        {
+            "location": "/tickets/#task-creation", 
+            "text": "On the right hand navigation bar you will find a section named 'Tasks'. This is where you can add new tasks or task tracks to your ticket. We will not be going into detail about task creation here. For more information on tasks  Go Here .   For this example we will create a simple example task requiring support to reply to the ticket.", 
+            "title": "Task Creation"
+        }, 
+        {
+            "location": "/tickets/#time-allocation", 
+            "text": "On the right hand navigation bar you will find a section named 'Time'. This is where you can set the tickets time status (whether work on the ticket is chargeable or under a payment plan for example) and allocate time spent working on it. For this example we will add a simple 10 minutes of work and make it chargeable.", 
+            "title": "Time Allocation"
+        }, 
+        {
+            "location": "/tickets/#viewing-tickets", 
+            "text": "Clicking back on the 'Tickets' tab will take us to the Tickets overview. You will now see our newly created ticket. (If you cannot see the ticket ensure the filter is set to 'No Filter').   If you click on the ticket you will see the complete ticket view with all the assignments we have made above.   If you have lots of tickets you can filter them by a number of categories you may have applied such as whether the ticket is open or closed, tickets assigned to you or unassigned tickets. Simply select the required filter from the drop down menu or use the quick filter from the navigation bar.", 
+            "title": "Viewing Tickets"
+        }, 
+        {
+            "location": "/tickets/#replying-to-tickets", 
+            "text": "When you are ready to reply to a ticket, simply click on  Reply     This brings up the reply dialog where you can input your communication and choose the required reply type.   There are three options for replying, they act slightly differently and are as follows:   Reply   Keep Open  - This will reply to the ticket and keep the ticket status on 'open', this may be useful if follow up tasks/communication will be carried out.  Reply   Close  - This will close the ticket after replying. This is useful when a problem has been solved or answered inthe reply and will require no further input.  Reply  - This will also keep the ticket status open but apply an 'Awaiting Reply' status which helps to further categorise the ticket as an ongoing issue. This is the default reply status and is most widely used during ticket progression.   Note: at this stage you will be asked to log any time for the ticket that is relevant (for example if the ticket is set to chargeable under time status). This is done via the standard  edit  box which should pop-up.   To complete the reply, click on the  Save  icon.", 
+            "title": "Replying to Tickets"
+        }, 
+        {
+            "location": "/tickets/#replying-with-a-private-note", 
+            "text": "To make the reply private (only viewable from within your organisation) simply check the box  'Private Note' . This will change the options to:   Add Note   Close  - Add the private note and set the ticket status to 'closed'.  Add Note  - Add the private note and leave the ticket status unchanged.    The private note will display with a yellow background to signify its privacy. This note will only be viewable to those members within your organisation.", 
+            "title": "Replying With a Private Note"
+        }, 
+        {
+            "location": "/tickets/#completing-a-task-in-ticket-view", 
+            "text": "From the ticket view you can view all associated tasks on the right hand tab. Here you can see the task we created earlier 'Reply to ticket'. Completing a task is as simple as checking the tick box next to the relevant task, This will mark the adjacent task as complete.", 
+            "title": "Completing a Task in Ticket View"
+        }, 
+        {
+            "location": "/tickets/#closing-a-ticket", 
+            "text": "To close a ticket, either use the drop down menu on the left under  Status  or click on  Close  from within the ticket view.     Back to  Top \nBack to  Documentation Menu", 
+            "title": "Closing a Ticket"
+        }, 
+        {
+            "location": "/tasks/", 
+            "text": "Tasks\n\n\nTasks provide a simple, actionable, way of creating a reminder of something you need to do. \n\n\nCreating a Task\n\n\nTo create a new task using the main navigation menu, select \nTasks \n New Task\n\n\n\n\nThis will display the \nCreate Task\n wizard where you can enter the task details.\n\n\n\n\n\n\nName\n - Enter the task name.\n\n\nDescription\n - Enter a description for the task.\n\n\nType\n - Set whether the task is a standard task type or if it is an email/call type. If a task is created as an email or call type they will be displayed alongside a relevant icon. These can make for handy reminders.\n\n\nGroup\n - Enter an existing or name for a new task group this task will belong to.\n\n\nStart Date\n - Enter a start date for the task. This can be handy for future dating tasks.\n\n\nDue Date\n - Enter a due date for the task. Reminders will be set based on this date.\n\n\nAssignee\n - Who this task will be assigned to.\n\n\n\n\n\n\nCreating Tasks via Tickets\n\n\nWhen viewing a ticket, you can add a task directly to the ticket. On the right hand side you will find the Tasks menu.\n\n\n\n\nClick on \nAdd a task\n. The process remains the same as creating from the task menu (as above).\n\n\nViewing Tasks\n\n\nTo view existing tasks using the main navigation menu, select \nTasks\n. The navigation menu has quick links to various filters. These are \nMy Tasks\n (Tasks assigned to your user), \nOpen\n and \nCompleted\n.\n\n\nFiltering tasks can also be done from the drop down menu found within Tasks. Simply select the filter you would like and the list will be displayed. For this example we have selected 'My Tasks'.\n\n\n\n\nThe tasks page lists all tasks under your current filter. You will also notice the green notification number on the navigation menu letting you know how many open tasks are assigned to you from anywhere on the site.\n\n\n\n\n\n\nEditing Tasks\n\n\nTo edit an existing task, simply select the task to bring up the \nEdit Task\n pop-up.\n\n\n\n\nFrom here you can modify all the task data.\n\n\n\n\nCompleting a Task\n\n\nTo complete a task bring up the edit window and check the box \ncompleted\n.\n\n\n\n\nAlternatively, via ticket view, you can select the check box on the Task menu on the right hand side.\n\n\n\n\nNote: If you complete a task without adding time on a ticket which is set to be chargeable you will see a warning at this point.\n\n\n\n\n\n\nBack to \nTop\n\nBack to \nDocumentation Menu", 
+            "title": "Tasks"
+        }, 
+        {
+            "location": "/tasks/#tasks", 
+            "text": "Tasks provide a simple, actionable, way of creating a reminder of something you need to do.", 
+            "title": "Tasks"
+        }, 
+        {
+            "location": "/tasks/#creating-a-task", 
+            "text": "To create a new task using the main navigation menu, select  Tasks   New Task   This will display the  Create Task  wizard where you can enter the task details.    Name  - Enter the task name.  Description  - Enter a description for the task.  Type  - Set whether the task is a standard task type or if it is an email/call type. If a task is created as an email or call type they will be displayed alongside a relevant icon. These can make for handy reminders.  Group  - Enter an existing or name for a new task group this task will belong to.  Start Date  - Enter a start date for the task. This can be handy for future dating tasks.  Due Date  - Enter a due date for the task. Reminders will be set based on this date.  Assignee  - Who this task will be assigned to.", 
+            "title": "Creating a Task"
+        }, 
+        {
+            "location": "/tasks/#creating-tasks-via-tickets", 
+            "text": "When viewing a ticket, you can add a task directly to the ticket. On the right hand side you will find the Tasks menu.   Click on  Add a task . The process remains the same as creating from the task menu (as above).", 
+            "title": "Creating Tasks via Tickets"
+        }, 
+        {
+            "location": "/tasks/#viewing-tasks", 
+            "text": "To view existing tasks using the main navigation menu, select  Tasks . The navigation menu has quick links to various filters. These are  My Tasks  (Tasks assigned to your user),  Open  and  Completed .  Filtering tasks can also be done from the drop down menu found within Tasks. Simply select the filter you would like and the list will be displayed. For this example we have selected 'My Tasks'.   The tasks page lists all tasks under your current filter. You will also notice the green notification number on the navigation menu letting you know how many open tasks are assigned to you from anywhere on the site.", 
+            "title": "Viewing Tasks"
+        }, 
+        {
+            "location": "/tasks/#editing-tasks", 
+            "text": "To edit an existing task, simply select the task to bring up the  Edit Task  pop-up.   From here you can modify all the task data.", 
+            "title": "Editing Tasks"
+        }, 
+        {
+            "location": "/tasks/#completing-a-task", 
+            "text": "To complete a task bring up the edit window and check the box  completed .   Alternatively, via ticket view, you can select the check box on the Task menu on the right hand side.   Note: If you complete a task without adding time on a ticket which is set to be chargeable you will see a warning at this point.    Back to  Top \nBack to  Documentation Menu", 
+            "title": "Completing a Task"
+        }, 
+        {
+            "location": "/contacts/", 
+            "text": "Contacts\n\n\nThe conta\\cts section keeps track of people you have communication with in Zebreco. You can keep track of all activity and view a number of details.\n\n\nCreating a Contact\n\n\nTo create a new contact click on \nNew Contact\n.\n\n\n\n\nThis takes you to the New Contact page where you can input all required details.\n\n\n\n\nMost of the inputs are self explanatory. There a few unique options you can set.\n\n\n\n\nType\n - This can be set to \nPerson\n or \nCompany\n which will change how the contact is displayed. If you select Person you will have the option to enter their associated \nCompany\n, \nJob Title\n and \nWebsite\n. If the contact is set to a company you will only see the \nWebsite\n field.\n\n\nLabels\n - These can be applied based on existing contact type labels created in the \nlabels\n section.\n\n\n\n\nViewing a Contact\n\n\nTo view a contact once created, select it. This will take you to the comtact summary page.\n\n\nSummary\n\n\n\n\nThe summary page shows a number of statistics relating to the contact.\n\n\n\n\nRevenue\n - incoming funds generated from this contact.\n\n\nOverdue\n - incoming funds overdue from this contact.\n\n\nPipeline Value\n - incoming funds formed from quotes related to this contact.\n\n\nOpen\n - number of current open tickets relating to this contact.\n\n\nAwaiting Reply\n - number of tickets set to awaiting reply related to this contact.\n\n\nClosed\n - number of closed tickets relating to this contact.\n\n\n\n\n\n\nContact Navigation\n\n\nAlong the top of the contact page is a quick navigation which will take you to customised pages which show the respective content related to the contact. These are as follows:\n\n\n\n\nProfile\n\n\nTickets\n\n\nProjects\n\n\nLeads\n\n\nInvoices\n\n\nQuotes\n\n\nFiles\n\n\nTime\n\n\n\n\nAll usual functions relating to these sections can be carried out but will belinked to this contact. For example, if you createa project from this page it will be automatically linked with the contact.\n\n\n\n\nArchiving Contacts\n\n\nTo archive a contact navigate to the contact page and on the left underneath the contact information you will find a link to \nArchive\n the chosen contact.\n\n\n\n\nThis will take the contact out of the current active list. They will no longer be related to any projects or tickets and will not be able to access their details from the database.\n\n\n\n\n\n\nBack to \nTop\n\nBack to \nDocumentation Menu", 
+            "title": "Contacts"
+        }, 
+        {
+            "location": "/contacts/#contacts", 
+            "text": "The conta\\cts section keeps track of people you have communication with in Zebreco. You can keep track of all activity and view a number of details.", 
+            "title": "Contacts"
+        }, 
+        {
+            "location": "/contacts/#creating-a-contact", 
+            "text": "To create a new contact click on  New Contact .   This takes you to the New Contact page where you can input all required details.   Most of the inputs are self explanatory. There a few unique options you can set.   Type  - This can be set to  Person  or  Company  which will change how the contact is displayed. If you select Person you will have the option to enter their associated  Company ,  Job Title  and  Website . If the contact is set to a company you will only see the  Website  field.  Labels  - These can be applied based on existing contact type labels created in the  labels  section.", 
+            "title": "Creating a Contact"
+        }, 
+        {
+            "location": "/contacts/#viewing-a-contact", 
+            "text": "To view a contact once created, select it. This will take you to the comtact summary page.", 
+            "title": "Viewing a Contact"
+        }, 
+        {
+            "location": "/contacts/#summary", 
+            "text": "The summary page shows a number of statistics relating to the contact.   Revenue  - incoming funds generated from this contact.  Overdue  - incoming funds overdue from this contact.  Pipeline Value  - incoming funds formed from quotes related to this contact.  Open  - number of current open tickets relating to this contact.  Awaiting Reply  - number of tickets set to awaiting reply related to this contact.  Closed  - number of closed tickets relating to this contact.", 
+            "title": "Summary"
+        }, 
+        {
+            "location": "/contacts/#contact-navigation", 
+            "text": "Along the top of the contact page is a quick navigation which will take you to customised pages which show the respective content related to the contact. These are as follows:   Profile  Tickets  Projects  Leads  Invoices  Quotes  Files  Time   All usual functions relating to these sections can be carried out but will belinked to this contact. For example, if you createa project from this page it will be automatically linked with the contact.", 
+            "title": "Contact Navigation"
+        }, 
+        {
+            "location": "/contacts/#archiving-contacts", 
+            "text": "To archive a contact navigate to the contact page and on the left underneath the contact information you will find a link to  Archive  the chosen contact.   This will take the contact out of the current active list. They will no longer be related to any projects or tickets and will not be able to access their details from the database.    Back to  Top \nBack to  Documentation Menu", 
+            "title": "Archiving Contacts"
+        }, 
+        {
+            "location": "/projects/", 
+            "text": "Projects\n\n\nProjects are a collection of tickets, tasks, etc all relating to one project. By organising all tickets and any documents related into  one project it makes things a whole lot easier when you are dealing with multiple projects.\n\n\n\n\nCreating a New Project\n\n\nTo create a new project navigate to the project view page and click on 'New Project'.\n\n\n\n\nThis will take you to the project creation screen where you can enter all the required details.\n\n\n\n\n\n\nName\n - The project name.\n\n\nDescription\n - A short description of the project.\n\n\nContact\n - The main contact relating to the project.\n\n\nAssignee\n - The user who is assigned to this project.\n\n\nLabels\n - Here you can apply any number of customised labels.\n\n\nTemplate\n - If you have project templates setup you can apply them here.\n\n\nReference\n - Here you can specify the project reference. By default this will increment from the previous.\n\n\nDepartment\n - Assign the project to a specific department.\n\n\nStatus\n - Can be set to \nComplete\n, \nIn-Progress\n or \non Hold\n (as well as custom statuses). Set to 'In-Progress' by default.\n\n\nStart Date\n - You can give the project a start date.\n\n\nTracks\n - This is where you can apply a task track to the project.\n\n\n\n\nWhen you have setup the project to your liking, click \nSave\n.\n\n\n\n\nProject Overview\n\n\nTo view the project first go to Projects, then click on your chosen project. This will take you to the project overview.\n\n\n\n\nThe default tab is 'Summary' where you can see a number of statistics for the project. The main content shows any activity with time stamps which can be viewed with a number of filters.\n\n\n\n\nLogging Activity\n\n\nFrom the summary page you can add activity in the form of \nnotes\n, \ncalls\n and \nemails\n. To log activity simply click on \nAdd Activity\n.\n\n\n\n\nThis brings up a popup where you can select an activity type and any description required.\n\n\n\n\nWhen you are done click the \nsave\n icon. The activity will show on the log below.\n\n\n\n\n\n\nProject Status Bar\n\n\nAlso on the project summary screen is the status bar. This holds lots of useful statistics regarding the selected project.\n\n\n\n\n\n\nRevenue\n - Revenue generated by this project.\n\n\nTime\n - Time spent on this project (sum of tickets).\n\n\nTickets\n - Amount of tickets related to this project and the percentage of overall completion.\n\n\nOpen\n - Number of open tickets related to this project.\n\n\nAwaiting Reply\n - Number of tickets awaiting reply related to this project.\n\n\nClosed\n - Number of tickets related to this project which have been closed.\n\n\n\n\nNote: clicking on these statuses will take you to the corresponding tab in the project.\n\n\n\n\nProject Settings\n\n\nFor information on project setting \nGo Here\n\n\n\n\n\n\nBack to \nTop\n\nBack to \nDocumentation Menu", 
+            "title": "Projects"
+        }, 
+        {
+            "location": "/projects/#projects", 
+            "text": "Projects are a collection of tickets, tasks, etc all relating to one project. By organising all tickets and any documents related into  one project it makes things a whole lot easier when you are dealing with multiple projects.", 
+            "title": "Projects"
+        }, 
+        {
+            "location": "/projects/#creating-a-new-project", 
+            "text": "To create a new project navigate to the project view page and click on 'New Project'.   This will take you to the project creation screen where you can enter all the required details.    Name  - The project name.  Description  - A short description of the project.  Contact  - The main contact relating to the project.  Assignee  - The user who is assigned to this project.  Labels  - Here you can apply any number of customised labels.  Template  - If you have project templates setup you can apply them here.  Reference  - Here you can specify the project reference. By default this will increment from the previous.  Department  - Assign the project to a specific department.  Status  - Can be set to  Complete ,  In-Progress  or  on Hold  (as well as custom statuses). Set to 'In-Progress' by default.  Start Date  - You can give the project a start date.  Tracks  - This is where you can apply a task track to the project.   When you have setup the project to your liking, click  Save .", 
+            "title": "Creating a New Project"
+        }, 
+        {
+            "location": "/projects/#project-overview", 
+            "text": "To view the project first go to Projects, then click on your chosen project. This will take you to the project overview.   The default tab is 'Summary' where you can see a number of statistics for the project. The main content shows any activity with time stamps which can be viewed with a number of filters.", 
+            "title": "Project Overview"
+        }, 
+        {
+            "location": "/projects/#logging-activity", 
+            "text": "From the summary page you can add activity in the form of  notes ,  calls  and  emails . To log activity simply click on  Add Activity .   This brings up a popup where you can select an activity type and any description required.   When you are done click the  save  icon. The activity will show on the log below.", 
+            "title": "Logging Activity"
+        }, 
+        {
+            "location": "/projects/#project-status-bar", 
+            "text": "Also on the project summary screen is the status bar. This holds lots of useful statistics regarding the selected project.    Revenue  - Revenue generated by this project.  Time  - Time spent on this project (sum of tickets).  Tickets  - Amount of tickets related to this project and the percentage of overall completion.  Open  - Number of open tickets related to this project.  Awaiting Reply  - Number of tickets awaiting reply related to this project.  Closed  - Number of tickets related to this project which have been closed.   Note: clicking on these statuses will take you to the corresponding tab in the project.", 
+            "title": "Project Status Bar"
+        }, 
+        {
+            "location": "/projects/#project-settings", 
+            "text": "For information on project setting  Go Here    Back to  Top \nBack to  Documentation Menu", 
+            "title": "Project Settings"
+        }, 
+        {
+            "location": "/sales/", 
+            "text": "Sales\n\n\nSales Overview\n\n\nSales deals with everything financial regarding clients, pootential leads and documents such as quotes and invoices. \n\n\nThe sales dashboard shows a summary of revenue and pipeline (potential income).\n\n\n\n\nYou will also notice the \nConversion Rate\n section. This shows a percentage based on converted leads (ie, leads which have become projects) for the last month, last 3 months and the last 12 months.\n\n\n\n\nLeads\n\n\nLeads are potential customers. \n\n\nNew Leads\n\n\nTo create a new lead click on \nNew Lead\n.\n\n\n\n\nNote: if you are already on the leads sub page the button looks slightly different.\n\n\n\n\nThis will take you to the \nNew Lead\n page where you can enter all the details relating to the lead.\n\n\n\n\n\n\nName\n - Name of the lead.\n\n\nContact\n - Contact for the lead.\n\n\nAssignee\n - User assigned to the lead.\n\n\nDescription\n - Short description of the lead.\n\n\nReference\n - Automatically generated lead iteration (can be overwritten).\n\n\nDepartment\n - Department the lead belongs to.\n\n\nLabels\n - Any number of customised labels can be applied to the lead.\n\n\nLead Source\n - This is the source of the lead (can be customised in settings).\n\n\n\n\nQuotes\n\n\nQuotes are used to record any quotes made to customers during the sales process.\n\n\nNew Quotes\n\n\nTo create a new quote click on 'New Quote'.\n\n\n\n\nThis takes you to the create new quote page where you can fill in all the necessary information. If an option has a dropdown you will find data from other sources on the site. For example, you can see here we have linked the quote to a project, a contact and a lead.\n\n\n\n\nAdding Quote Items\n\n\nWhen creating a new quote you can add specified items to the quote with seperate pricing, quantities as well as VAT and subtotals.\n\n\nThis might be used for feature requests, content, labour, etc. Simply write a short description and change the price and/or quantity.\n\n\nTo add an item to the list simply click on \nAdd Item\n.\n\n\n\n\nWhen you have completed the quote, click \nSave\n.\n\n\n\n\n\n\nBack to \nDocumentation Menu", 
+            "title": "Sales"
+        }, 
+        {
+            "location": "/sales/#sales", 
+            "text": "", 
+            "title": "Sales"
+        }, 
+        {
+            "location": "/sales/#sales-overview", 
+            "text": "Sales deals with everything financial regarding clients, pootential leads and documents such as quotes and invoices.   The sales dashboard shows a summary of revenue and pipeline (potential income).   You will also notice the  Conversion Rate  section. This shows a percentage based on converted leads (ie, leads which have become projects) for the last month, last 3 months and the last 12 months.", 
+            "title": "Sales Overview"
+        }, 
+        {
+            "location": "/sales/#leads", 
+            "text": "Leads are potential customers.", 
+            "title": "Leads"
+        }, 
+        {
+            "location": "/sales/#new-leads", 
+            "text": "To create a new lead click on  New Lead .   Note: if you are already on the leads sub page the button looks slightly different.   This will take you to the  New Lead  page where you can enter all the details relating to the lead.    Name  - Name of the lead.  Contact  - Contact for the lead.  Assignee  - User assigned to the lead.  Description  - Short description of the lead.  Reference  - Automatically generated lead iteration (can be overwritten).  Department  - Department the lead belongs to.  Labels  - Any number of customised labels can be applied to the lead.  Lead Source  - This is the source of the lead (can be customised in settings).", 
+            "title": "New Leads"
+        }, 
+        {
+            "location": "/sales/#quotes", 
+            "text": "Quotes are used to record any quotes made to customers during the sales process.", 
+            "title": "Quotes"
+        }, 
+        {
+            "location": "/sales/#new-quotes", 
+            "text": "To create a new quote click on 'New Quote'.   This takes you to the create new quote page where you can fill in all the necessary information. If an option has a dropdown you will find data from other sources on the site. For example, you can see here we have linked the quote to a project, a contact and a lead.", 
+            "title": "New Quotes"
+        }, 
+        {
+            "location": "/sales/#adding-quote-items", 
+            "text": "When creating a new quote you can add specified items to the quote with seperate pricing, quantities as well as VAT and subtotals.  This might be used for feature requests, content, labour, etc. Simply write a short description and change the price and/or quantity.  To add an item to the list simply click on  Add Item .   When you have completed the quote, click  Save .    Back to  Documentation Menu", 
+            "title": "Adding Quote Items"
+        }, 
+        {
+            "location": "/time/", 
+            "text": "", 
+            "title": "Time"
+        }, 
+        {
+            "location": "/calendar/", 
+            "text": "", 
+            "title": "Calendar"
+        }, 
+        {
+            "location": "/reports/", 
+            "text": "", 
+            "title": "Reports"
+        }, 
+        {
+            "location": "/labels/", 
+            "text": "LABELS\n\n\nLabels are a fully customisable system for tracking in-house ticket management. Labels can be set up to categorise issues with descriptive titles such as \nbug\n or \nenquiry\n. They can have unique colours and category. Labels can then be applied to tickets.\n\n\nHere is an example of a ticket title with two labels attached to it:\n\n\n  \n\n\nYou can see it has been labelled as being a kind \nquestion\n and has a priority of \nlow\n.\n\n\nLabels persist across the platform and they can be used to view your lists with filtered information, only showing items with the associated labels. First we will need to create a new label.\n\n\nCreating a New Label\n\n\nTo create a new label first go to \nAccount\n \n \nLabels\n\n\n\n\nOn this screen you will see there are no labels created yet. Click on \nNew Label\n.\n\n\n\n\nIn the pop-up proceed to enter the required details for the label:\n\n\n\n\nName\n     - \ndescriptive name for the label.\n\n\nColour\n   - \ndesired overlay colour for the label.\n\n\nCategory\n - \nwhich category the label falls under.\n\n\n\n\nWhen you are ready click the green \nsave icon\n in the top right.\n\n\n\n\nHere we have created a ticket with the \nname\n \nsupport-required\n, the \ncolour\n \nblue\n and the \ntype\n is set to \nticket\n.  \n\n\n\n\nEditing Labels\n\n\nTo edit a created label simply click on the label you wish to edit. From the pop-up you can edit the name and colour of the label but not the category.\n\n\nDeleting Labels\n\n\nTo delete a created label first select the label you wish to delete with the check box and then \ndelete\n.\n\n\n\n\n\n\nBack to \nDocumentation Menu", 
+            "title": "Labels"
+        }, 
+        {
+            "location": "/labels/#labels", 
+            "text": "Labels are a fully customisable system for tracking in-house ticket management. Labels can be set up to categorise issues with descriptive titles such as  bug  or  enquiry . They can have unique colours and category. Labels can then be applied to tickets.  Here is an example of a ticket title with two labels attached to it:      You can see it has been labelled as being a kind  question  and has a priority of  low .  Labels persist across the platform and they can be used to view your lists with filtered information, only showing items with the associated labels. First we will need to create a new label.", 
+            "title": "LABELS"
+        }, 
+        {
+            "location": "/labels/#creating-a-new-label", 
+            "text": "To create a new label first go to  Account     Labels   On this screen you will see there are no labels created yet. Click on  New Label .   In the pop-up proceed to enter the required details for the label:   Name      -  descriptive name for the label.  Colour    -  desired overlay colour for the label.  Category  -  which category the label falls under.   When you are ready click the green  save icon  in the top right.   Here we have created a ticket with the  name   support-required , the  colour   blue  and the  type  is set to  ticket .", 
+            "title": "Creating a New Label"
+        }, 
+        {
+            "location": "/labels/#editing-labels", 
+            "text": "To edit a created label simply click on the label you wish to edit. From the pop-up you can edit the name and colour of the label but not the category.", 
+            "title": "Editing Labels"
+        }, 
+        {
+            "location": "/labels/#deleting-labels", 
+            "text": "To delete a created label first select the label you wish to delete with the check box and then  delete .    Back to  Documentation Menu", 
+            "title": "Deleting Labels"
         }
     ]
 }
