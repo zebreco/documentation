@@ -35,7 +35,3 @@ This is where you can set the default values for correspondance related to invoi
 For more information regarding generated documents [go here.]((?file=settings/Document%20Settings.md)
 
 &nbsp;
-
--------------------------------------------
-Back to [Settings Menu](?file=Settings.md)  
-Back to [Documentation Menu](?file=Index.md)

@@ -29,7 +29,3 @@ To add an address to the spam list click on **Add Banned Email**.
 ![mailtemplates03](/images/settings/mailtemplates03.png "Add Banned Email Button")
 
 &nbsp;
-
--------------------------------------------
-Back to [Settings Menu](?file=Settings.md)  
-Back to [Documentation Menu](?file=Index.md)

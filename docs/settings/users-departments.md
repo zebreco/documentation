@@ -59,7 +59,3 @@ Using the check boxes you can turn certain permissions on and off. When you have
 For more detailed information on these permissions [go here](?file=Roles.md).
 
 &nbsp;
-
--------------------------------------------
-Back to [Settings Menu](?file=Settings.md)  
-Back to [Documentation Menu](?file=Index.md)

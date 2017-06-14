@@ -78,7 +78,3 @@ Note: clicking on these statuses will take you to the corresponding tab in the p
 For information on project setting [Go Here](?file=settings/Project%20Settings.md)
 
 &nbsp;
-
--------------------------------------------
-Back to [Top](?file=Tickets.md)  
-Back to [Documentation Menu](?file=Index.md)

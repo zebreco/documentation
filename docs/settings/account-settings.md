@@ -72,7 +72,3 @@ From this page you can choose from a range of external applications for interact
 ![settings06](/images/settings/settings06.png "Integrations Page")
 
 &nbsp;
-
--------------------------------------------
-Back to [Settings Menu](?file=Settings.md)  
-Back to [Documentation Menu](?file=Index.md)

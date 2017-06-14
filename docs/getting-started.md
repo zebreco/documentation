@@ -56,4 +56,3 @@ Every organisation is unique and will use the support solutions in different man
 This is of course just am example of an issue tracked workflow. It is possible to customise your workflow with varying ticket sources/routing, priority visibility, task creation and label customisation.
 
 &nbsp;
-

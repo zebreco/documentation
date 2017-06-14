@@ -21,7 +21,3 @@ To delete an existing time status click on **Delete**.
 To **edit** an existing time status (non-system) simply click on it. You can edit the **Name**, **State** and set whether it is the **Default** status.
 
 &nbsp;
-
--------------------------------------------
-Back to [Settings Menu](?file=Settings.md)  
-Back to [Documentation Menu](?file=Index.md)

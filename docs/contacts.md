@@ -62,7 +62,3 @@ To archive a contact navigate to the contact page and on the left underneath the
 This will take the contact out of the current active list. They will no longer be related to any projects or tickets and will not be able to access their details from the database.
 
 &nbsp;
-
--------------------------------------------
-Back to [Top](?file=Contacts.md)  
-Back to [Documentation Menu](?file=Index.md)

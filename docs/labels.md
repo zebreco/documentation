@@ -47,6 +47,4 @@ To delete a created label first select the label you wish to delete with the che
 
 ![Labels06](/images/labels/labels06.png)
 
-
--------------------------------------------
-Back to [Documentation Menu](?file=Index.md)
+&nbsp;

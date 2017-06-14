@@ -33,8 +33,3 @@ Each template has a **Name**, **Type** and **Content**.
 You can also specify whether a template is **Management use only**. If toggled on, this setting will make the template accesible only to management (set within role settings).
 
 &nbsp;
-
-
--------------------------------------------
-Back to [Settings Menu](?file=Settings.md)  
-Back to [Documentation Menu](?file=Index.md)

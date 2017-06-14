@@ -15,7 +15,3 @@ Above is the task track for our example *Build*. It has been setup with all comm
 For more information on using tasks [go here](?file=Tasks.md).
 
 &nbsp;
-
--------------------------------------------
-Back to [Settings Menu](?file=Settings.md)  
-Back to [Documentation Menu](?file=Index.md)

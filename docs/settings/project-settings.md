@@ -51,7 +51,3 @@ Project roles differ from user roles in that they are used to give access to tea
 For more detailed information on projects [go here.](?file=Projects.md)
 
 &nbsp;
-
--------------------------------------------
-Back to [Settings Menu](?file=Settings.md)  
-Back to [Documentation Menu](?file=Index.md)

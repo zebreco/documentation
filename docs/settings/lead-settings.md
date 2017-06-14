@@ -27,7 +27,3 @@ Would become...
 This reference system also allows you to use the full functionality of the **Twig** template. For more information on using twig see their [documentation](https://twig.sensiolabs.org/doc/2.x/).
 
 &nbsp;
-
--------------------------------------------
-Back to [Settings Menu](?file=Settings.md)  
-Back to [Documentation Menu](?file=Index.md)
