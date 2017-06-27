@@ -67,7 +67,31 @@ When you have completed the quote, click **Save**.
 
 ![sales10](/images/sales/sales10.png "Save Button")
 
+&nbsp;
+
+### Viewing Quotes
+
+Quotes can be viewed and filtered. You can choose a filter by going to **Sales** > **Quotes** > **choose a filter**.
+
+![sales11](/images/sales/sales11.png "Sales Menu Options")
+
+This filter can also be applied directly in the quotes view. From the quotes page select a filter using the dropdown box.
+
+![sales12](/images/sales/sales12.png "Quotes Filter")
+
+&nbsp;
+
+## Invoices
+
+The invoices secton of sales keeps track of all documents related to invoicing. These can be all invoices, paid or unpaid.
+
+### New Invoice
+
+To create a new invoice click on **New Invoice**.
+
+![sales13](/images/sales/sales13.png "New Invoice Button")
+
+This will take you to the invoice creation page. 
 
 
--------------------------------------------
-Back to [Documentation Menu](?file=Index.md)
+

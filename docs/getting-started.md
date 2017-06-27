@@ -11,7 +11,8 @@ Login to Zebreco using either the global login page or with your organisations i
 
 You can also sign in using a ***Google*** or ***Slack*** account.
 
-Forgot your password? Click on the "Retrieve password" link and you will be sent an email with instructions on how to retrieve your pasword.
+!!! tip ""
+    Forgot your password? Click on the "Retrieve password" link and you will be sent an email with instructions on how to retrieve your pasword.
 
 ![GettingStarted01](/images/gettingstarted/gettingstarted01.png "Zebreco Login Page")
 
@@ -53,6 +54,7 @@ Every organisation is unique and will use the support solutions in different man
 9. Any commits can then be deployed.
 10. The ticket can then be changed to **Closed** status.
 
-This is of course just am example of an issue tracked workflow. It is possible to customise your workflow with varying ticket sources/routing, priority visibility, task creation and label customisation.
+!!! summary ""
+    This is just an example of an issue tracked workflow. It is possible to customise your workflow with varying ticket sources/routing, priority visibility, task creation and label customisation.
 
 &nbsp;

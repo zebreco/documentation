@@ -1,6 +1,6 @@
 # Contacts
 
-The conta\cts section keeps track of people you have communication with in Zebreco. You can keep track of all activity and view a number of details.
+The contacts section keeps track of people you have communication with in Zebreco. You can keep track of all activity and view a number of details.
 
 ## Creating a Contact
 

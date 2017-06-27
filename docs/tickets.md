@@ -66,7 +66,7 @@ In this example we apply a label 'support-required' to the new ticket.
 
 ## Task Creation
 
-On the right hand navigation bar you will find a section named 'Tasks'. This is where you can add new tasks or task tracks to your ticket. We will not be going into detail about task creation here. For more information on tasks [Go Here](?file=Tasks.md). 
+On the right hand navigation bar you will find a section named 'Tasks'. This is where you can add new tasks or task tracks to your ticket. We will not be going into detail about task creation here. For more information on tasks [Go Here](tasks.md). 
 
 For this example we will create a simple example task requiring support to reply to the ticket.
 
@@ -84,7 +84,10 @@ On the right hand navigation bar you will find a section named 'Time'. This is w
 
 ## Viewing Tickets
 
-Clicking back on the 'Tickets' tab will take us to the Tickets overview. You will now see our newly created ticket. (If you cannot see the ticket ensure the filter is set to 'No Filter').
+Clicking back on the 'Tickets' tab will take us to the Tickets overview. You will now see our newly created ticket. 
+
+!!! tip ""
+    If you cannot see the ticket ensure the filter is set to **'No Filter'**.
 
 ![tickets10](/images/tickets/tickets10.png "Ticket Viewing")
 
@@ -114,7 +117,8 @@ There are three options for replying, they act slightly differently and are as f
 * **Reply & Close** - This will close the ticket after replying. This is useful when a problem has been solved or answered inthe reply and will require no further input.
 * **Reply** - This will also keep the ticket status open but apply an 'Awaiting Reply' status which helps to further categorise the ticket as an ongoing issue. This is the default reply status and is most widely used during ticket progression.
 
-Note: at this stage you will be asked to log any time for the ticket that is relevant (for example if the ticket is set to chargeable under time status). This is done via the standard **edit** box which should pop-up.
+!!! note
+    At this stage you will be asked to log any time for the ticket that is relevant (for example if the ticket is set to chargeable under time status). This is done via the standard **edit** box which should pop-up.
 
 ![tickets14](/images/tickets/tickets14.png "Ticket Edit")
 
@@ -131,7 +135,8 @@ To make the reply private (only viewable from within your organisation) simply c
 
 ![tickets15](/images/tickets/tickets15.png "Private Note")
 
-The private note will display with a yellow background to signify its privacy. This note will only be viewable to those members within your organisation.
+!!! summary
+    The private note will display with a yellow background to signify its privacy. This note will only be viewable to those members within your organisation.
 
 &nbsp;
 
@@ -151,9 +156,6 @@ To close a ticket, either use the drop down menu on the left under **Status** or
 
 &nbsp;
 
--------------------------------------------
-Back to [Top](?file=Tickets.md)  
-Back to [Documentation Menu](?file=Index.md)
 
 
 

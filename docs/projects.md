@@ -36,7 +36,8 @@ To view the project first go to Projects, then click on your chosen project. Thi
 
 ![projects05](/images/projects/projects05.png "Project Overview")
 
-The default tab is 'Summary' where you can see a number of statistics for the project. The main content shows any activity with time stamps which can be viewed with a number of filters.
+!!! note ""
+    The default tab is 'Summary' where you can see a number of statistics for the project. The main content shows any activity with time stamps which can be viewed with a number of filters.
 
 &nbsp;
 
@@ -69,7 +70,8 @@ Also on the project summary screen is the status bar. This holds lots of useful 
 * **Awaiting Reply** - Number of tickets awaiting reply related to this project.
 * **Closed** - Number of tickets related to this project which have been closed.
 
-Note: clicking on these statuses will take you to the corresponding tab in the project.
+!!! note
+    Clicking on these statuses will take you to the corresponding tab in the project.
 
 &nbsp;
 
