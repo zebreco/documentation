@@ -6,18 +6,24 @@ Time is where you can log time spent working on projects/tickets. Time will alwa
 
 Time can be applied from around the site some of these methods will be listed below.
 
+&nbsp;
+
 ## Viewing Time
 
 The time dashboard shows a list of all recorded time. Each item shows who logged the time, the length of time and the date it was logged. It will also list the contact and project related to the log.
 
 !!! note 
     The Description field shows the ticket number where the time was logged.
-    
+
+&nbsp;
+
 ## Time Filters
 
 On the time dashboard you can filter which time items you view by a number of statuses. To do so bring down the filter menu from above the list and choose a filter.
 
 ![time02](/images/time/time02.png "Time Filters")
+
+&nbsp;
 
 ## Logging Time
 
@@ -42,6 +48,8 @@ Once you have filled in the relevant information click on the save icon in the t
 !!! note
     Using this direct logging method will result in the time being independant of any ticket number.
 
+&nbsp;
+
 ## Logging time on a ticket
 
 To log time on a ticket will automatically assign the time to the ticket being worked on. On the ticket page navigate to the time section on the right hand side of the page.
@@ -52,6 +60,13 @@ Click on the small clock icon in the top right and you will be presented with th
 
 &nbsp;
 
+## Logging time on a project
+
+To log time from the project page simply locate the **Time** tab along the top navigation of the project. The rest of the process is exactly the same as above.
+
+![time06](/images/time/time06.png "Time Log on Project")
+
+&nbsp;
 
 
 
