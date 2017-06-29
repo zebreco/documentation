@@ -5,9 +5,11 @@ CONTAINER_ID=$(docker create $IMAGE_NAME)
 
 git config user.name "Zebreco"
 git config user.email "support@zebreco.com"
-git checkout built
+git checkout built  && git reset --hard origin/built
+git rm -rf . --quiet
 
 docker cp $CONTAINER_ID:/var/www/site/. .
+docker rm -v $CONTAINER_ID
 
 git add .
 git commit -m "[built] $COMMIT_MSG ($SOURCE_COMMIT)"
