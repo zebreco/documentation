@@ -2,7 +2,7 @@
 
 ## Log In
 
-Login to Zebreco using either the global login page or with your organisations issued URL.  
+Login to Zebreco using your organisations personalised URL.  
 
 ***For example*** https://example.zebreco.com
 
