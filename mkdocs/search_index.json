@@ -3,7 +3,7 @@
         {
             "location": "/", 
             "text": "Zebreco Documentation\n\n\n\n\nWelcome to the Zebreco documentation.\n\n\nHere you will find all relevant information regarding features of Zebreco and how to use them.\n\n\nHow to use the documentation\n\n\nThere are two ways to find what you're looking for. Using the navigation menu down the left hand side or by using the search feature.\n\n\n\n\nSimply click on a menu item to see the content or any sub pages contained within. To search, enter your search terms into the search field and browse the results.", 
-            "title": "Home"
+            "title": "Welcome"
         }, 
         {
             "location": "/#zebreco-documentation", 
@@ -619,6 +619,161 @@
             "location": "/labels/#deleting-labels", 
             "text": "To delete a created label first select the label you wish to delete with the check box and then  delete .", 
             "title": "Deleting Labels"
+        }, 
+        {
+            "location": "/api/api-gettingstarted/", 
+            "text": "Getting Started", 
+            "title": "Getting Started"
+        }, 
+        {
+            "location": "/api/api-gettingstarted/#getting-started", 
+            "text": "", 
+            "title": "Getting Started"
+        }, 
+        {
+            "location": "/api/api-authentication/", 
+            "text": "", 
+            "title": "Authentication"
+        }, 
+        {
+            "location": "/api/api-reading/", 
+            "text": "Reading from the API\n\n\nUse the \nGET\n HTTP method to retrieve details from your zebreco account. For example, the API method for retrieving all tickets on your Zebreco account:\n\n\n\n\n\n\n\n\nGET\n\n\nhttps://mycompany.zebreco.com/api/v1/ticket\n\n\n\n\n\n\n\n\n\n\nThis will GET the endpoint for tickets. All endpoints will return JSON.\n\n\nResponse\n\n\nIn the documentation responses from the API are being displayed aesthetically to make them easier to read. Actual responses (Raw) will not include unnecessary new lines and white space. \n\n\nHTTP/1.1 200\n\n\n{\n\n  \npages\n:\n \n1\n,\n\n  \ncurrent\n:\n \n1\n,\n\n  \ncount\n:\n \n1\n,\n\n  \ntickets\n:\n \n[\n\n    \n{\n\n      \nlastpost\n:\n \n{\n\n        \nid\n:\n \n286659\n,\n\n        \ncreator\n:\n \n{\n\n          \nid\n:\n \n159438\n,\n\n          \nname\n:\n \nZebreco Support\n,\n\n          \nemail\n:\n \nsupport@zebreco.com\n,\n\n          \ncompany\n:\n \nnull\n,\n\n          \navatar\n:\n \nhttps://secure.gravatar.com/avatar/5a27ba92ee245ebe6a08d3091d61e0aa?d=identicon\n\n        \n},\n\n        \ncreateddate\n:\n \n2017-05-30T13:37:03+0100\n,\n\n        \nbody\n:\n \nThis is a private reply\n,\n\n        \ndeliverystatus\n:\n \n[],\n\n        \nisnote\n:\n \ntrue\n,\n\n        \ncontacts\n:\n \n[]\n\n      \n},\n\n      \nlastreply\n:\n \n{\n\n        \nid\n:\n \n286652\n,\n\n        \ncreator\n:\n \n{\n\n          \nid\n:\n \n159438\n,\n\n          \nname\n:\n \nZebreco Support\n,\n\n          \nemail\n:\n \nsupport@zebreco.com\n,\n\n          \ncompany\n:\n \nnull\n,\n\n          \navatar\n:\n \nhttps://secure.gravatar.com/avatar/5a27ba92ee245ebe6a08d3091d61e0aa?d=identicon\n\n        \n},\n\n        \ncreateddate\n:\n \n2017-05-30T13:28:47+0100\n,\n\n        \nbody\n:\n \nThis is a reply to my first ticket.\n,\n\n        \ndeliverystatus\n:\n \n[],\n\n        \nisnote\n:\n \nfalse\n,\n\n        \ncontacts\n:\n \n[]\n\n      \n},\n\n      \nid\n:\n \n230481\n,\n\n      \nnumber\n:\n \n1001\n,\n\n      \nstatus\n:\n \nclosed\n,\n\n      \nsubject\n:\n \nMy First Ticket\n,\n\n      \ndepartment\n:\n \n{\n\n        \nid\n:\n \n215\n,\n\n        \nname\n:\n \nSupport\n,\n\n        \nemail\n:\n \nsupport@mycompany.zebreco.com\n\n      \n},\n\n      \ncreator\n:\n \n{\n\n        \nid\n:\n \n159438\n,\n\n        \nname\n:\n \nZebreco Support\n,\n\n        \nemail\n:\n \nsupport@zebreco.com\n,\n\n        \ncompany\n:\n \nnull\n,\n\n        \navatar\n:\n \nhttps://secure.gravatar.com/avatar/5a27ba92ee245ebe6a08d3091d61e0aa?d=identicon\n\n      \n},\n\n      \nassignee\n:\n \n{\n\n        \nid\n:\n \n159438\n,\n\n        \nname\n:\n \nZebreco Support\n,\n\n        \nemail\n:\n \nsupport@zebreco.com\n,\n\n        \ncompany\n:\n \nnull\n,\n\n        \navatar\n:\n \nhttps://secure.gravatar.com/avatar/5a27ba92ee245ebe6a08d3091d61e0aa?d=identicon\n\n      \n},\n\n      \nproject\n:\n \nnull\n,\n\n      \ncreateddate\n:\n \n2017-05-30T12:57:44+0100\n,\n\n      \nfollowupdate\n:\n \nnull\n,\n\n      \nlastreplydate\n:\n \n2017-05-30T14:10:13+0100\n,\n\n      \nlastupdate\n:\n \n2017-05-30T14:10:13+0100\n,\n\n      \ntimestatus\n:\n \n{\n\n        \nid\n:\n \n3\n,\n\n        \nstate\n:\n \ninvoiced\n,\n\n        \nname\n:\n \nInvoiced\n\n      \n},\n\n      \ntimeallocated\n:\n \n60\n,\n\n      \nlabels\n:\n \n[\n\n        \n{\n\n          \nid\n:\n \n2541\n,\n\n          \nname\n:\n \nsupport-required\n,\n\n          \ncolour\n:\n \nblue\n\n        \n}\n\n      \n]\n\n    \n}\n\n  \n]\n\n\n}", 
+            "title": "Reading from the API"
+        }, 
+        {
+            "location": "/api/api-reading/#reading-from-the-api", 
+            "text": "Use the  GET  HTTP method to retrieve details from your zebreco account. For example, the API method for retrieving all tickets on your Zebreco account:     GET  https://mycompany.zebreco.com/api/v1/ticket      This will GET the endpoint for tickets. All endpoints will return JSON.", 
+            "title": "Reading from the API"
+        }, 
+        {
+            "location": "/api/api-reading/#response", 
+            "text": "In the documentation responses from the API are being displayed aesthetically to make them easier to read. Actual responses (Raw) will not include unnecessary new lines and white space.   HTTP/1.1 200  { \n   pages :   1 , \n   current :   1 , \n   count :   1 , \n   tickets :   [ \n     { \n       lastpost :   { \n         id :   286659 , \n         creator :   { \n           id :   159438 , \n           name :   Zebreco Support , \n           email :   support@zebreco.com , \n           company :   null , \n           avatar :   https://secure.gravatar.com/avatar/5a27ba92ee245ebe6a08d3091d61e0aa?d=identicon \n         }, \n         createddate :   2017-05-30T13:37:03+0100 , \n         body :   This is a private reply , \n         deliverystatus :   [], \n         isnote :   true , \n         contacts :   [] \n       }, \n       lastreply :   { \n         id :   286652 , \n         creator :   { \n           id :   159438 , \n           name :   Zebreco Support , \n           email :   support@zebreco.com , \n           company :   null , \n           avatar :   https://secure.gravatar.com/avatar/5a27ba92ee245ebe6a08d3091d61e0aa?d=identicon \n         }, \n         createddate :   2017-05-30T13:28:47+0100 , \n         body :   This is a reply to my first ticket. , \n         deliverystatus :   [], \n         isnote :   false , \n         contacts :   [] \n       }, \n       id :   230481 , \n       number :   1001 , \n       status :   closed , \n       subject :   My First Ticket , \n       department :   { \n         id :   215 , \n         name :   Support , \n         email :   support@mycompany.zebreco.com \n       }, \n       creator :   { \n         id :   159438 , \n         name :   Zebreco Support , \n         email :   support@zebreco.com , \n         company :   null , \n         avatar :   https://secure.gravatar.com/avatar/5a27ba92ee245ebe6a08d3091d61e0aa?d=identicon \n       }, \n       assignee :   { \n         id :   159438 , \n         name :   Zebreco Support , \n         email :   support@zebreco.com , \n         company :   null , \n         avatar :   https://secure.gravatar.com/avatar/5a27ba92ee245ebe6a08d3091d61e0aa?d=identicon \n       }, \n       project :   null , \n       createddate :   2017-05-30T12:57:44+0100 , \n       followupdate :   null , \n       lastreplydate :   2017-05-30T14:10:13+0100 , \n       lastupdate :   2017-05-30T14:10:13+0100 , \n       timestatus :   { \n         id :   3 , \n         state :   invoiced , \n         name :   Invoiced \n       }, \n       timeallocated :   60 , \n       labels :   [ \n         { \n           id :   2541 , \n           name :   support-required , \n           colour :   blue \n         } \n       ] \n     } \n   ]  }", 
+            "title": "Response"
+        }, 
+        {
+            "location": "/api/api-writing/", 
+            "text": "", 
+            "title": "Writing to the API"
+        }, 
+        {
+            "location": "/api/api-responses/", 
+            "text": "", 
+            "title": "Handling API responses"
+        }, 
+        {
+            "location": "/api/api-calendar/", 
+            "text": "", 
+            "title": "Calendar"
+        }, 
+        {
+            "location": "/api/api-contact/", 
+            "text": "", 
+            "title": "Contact"
+        }, 
+        {
+            "location": "/api/api-customfield/", 
+            "text": "", 
+            "title": "Custom Field"
+        }, 
+        {
+            "location": "/api/api-department/", 
+            "text": "", 
+            "title": "Department"
+        }, 
+        {
+            "location": "/api/api-document/", 
+            "text": "", 
+            "title": "Document"
+        }, 
+        {
+            "location": "/api/api-file/", 
+            "text": "", 
+            "title": "File"
+        }, 
+        {
+            "location": "/api/api-filter/", 
+            "text": "", 
+            "title": "Filter"
+        }, 
+        {
+            "location": "/api/api-invoice/", 
+            "text": "", 
+            "title": "Invoice"
+        }, 
+        {
+            "location": "/api/api-label/", 
+            "text": "", 
+            "title": "Label"
+        }, 
+        {
+            "location": "/api/api-log/", 
+            "text": "", 
+            "title": "Log"
+        }, 
+        {
+            "location": "/api/api-mailtemplate/", 
+            "text": "", 
+            "title": "Mail Template"
+        }, 
+        {
+            "location": "/api/api-note/", 
+            "text": "", 
+            "title": "Note"
+        }, 
+        {
+            "location": "/api/api-package/", 
+            "text": "", 
+            "title": "Package"
+        }, 
+        {
+            "location": "/api/api-permission/", 
+            "text": "", 
+            "title": "Permission"
+        }, 
+        {
+            "location": "/api/api-product/", 
+            "text": "", 
+            "title": "Product"
+        }, 
+        {
+            "location": "/api/api-project/", 
+            "text": "", 
+            "title": "Project"
+        }, 
+        {
+            "location": "/api/api-quote/", 
+            "text": "", 
+            "title": "Quote"
+        }, 
+        {
+            "location": "/api/api-task/", 
+            "text": "Task Model\n\n\nRepresents a task stored in Zebreco. These are normally used as a simple way to make a reminder of something for a user to do.\n\n\nTasks can be assigned to users and can be linked to tickets and projects.\n\n\n\n\n\n\n\n\nName\n\n\nType\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\nid\n\n\nLong\n\n\n\n\n\n\n\n\nname\n\n\nString\n\n\n\n\n\n\n\n\ntype\n\n\nString\n\n\n\n\n\n\n\n\ngroup\n\n\nString\n\n\n\n\n\n\n\n\ndescription\n\n\nString\n\n\n\n\n\n\n\n\nstartdate\n\n\nString\n\n\n\n\n\n\n\n\nduedate\n\n\nString\n\n\n\n\n\n\n\n\ncompleteddate\n\n\nString\n\n\n\n\n\n\n\n\ncompleted\n\n\nString\n\n\n\n\n\n\n\n\nassignee\n\n\nNested\n\n\n\n\n\n\n\n\ncontact\n\n\nString\n\n\n\n\n\n\n\n\nproject\n\n\nString\n\n\n\n\n\n\n\n\nlead\n\n\nString\n\n\n\n\n\n\n\n\nticket\n\n\nNested Ticket\n\n\n\n\n\n\n\n\nticketpost\n\n\nString\n\n\n\n\n\n\n\n\ninvoice\n\n\nString\n\n\n\n\n\n\n\n\nquote\n\n\nString", 
+            "title": "Task"
+        }, 
+        {
+            "location": "/api/api-task/#task-model", 
+            "text": "Represents a task stored in Zebreco. These are normally used as a simple way to make a reminder of something for a user to do.  Tasks can be assigned to users and can be linked to tickets and projects.     Name  Type  Description      id  Long     name  String     type  String     group  String     description  String     startdate  String     duedate  String     completeddate  String     completed  String     assignee  Nested     contact  String     project  String     lead  String     ticket  Nested Ticket     ticketpost  String     invoice  String     quote  String", 
+            "title": "Task Model"
+        }, 
+        {
+            "location": "/api/api-ticket/", 
+            "text": "", 
+            "title": "Ticket"
+        }, 
+        {
+            "location": "/api/api-time/", 
+            "text": "", 
+            "title": "Time"
+        }, 
+        {
+            "location": "/api/api-track/", 
+            "text": "", 
+            "title": "Track"
+        }, 
+        {
+            "location": "/api/api-webhook/", 
+            "text": "", 
+            "title": "Webhook"
         }
     ]
 }
