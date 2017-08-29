@@ -81,6 +81,7 @@ pages:
             - 'Filter': 'api/api-filter.md'
             - 'Invoice': 'api/api-invoice.md'
             - 'Label': 'api/api-label.md'
+            - 'Lead': 'api/api-lead.md'
             - 'Log': 'api/api-log.md'
             - 'Mail Template': 'api/api-mailtemplate.md'
             - 'Note': 'api/api-note.md'
@@ -91,8 +92,11 @@ pages:
             - 'Quote': 'api/api-quote.md'
             - 'Task': 'api/api-task.md'
             - 'Ticket': 'api/api-ticket.md'
+            - 'Ticket Post': 'api/api-ticketpost.md'
             - 'Time': 'api/api-time.md'
+            - 'Time Status': 'api/api-timestatus.md'
             - 'Track': 'api/api-track.md'
+            - 'Track Task': 'api/api-tracktask.md'
             - 'Webhook': 'api/api-webhook.md'
             
         

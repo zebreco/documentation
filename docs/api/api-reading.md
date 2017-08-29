@@ -13,6 +13,7 @@ This will GET the endpoint for tickets. All endpoints will return JSON.
 In the documentation responses from the API are being displayed aesthetically to make them easier to read. Actual responses (Raw) will not include unnecessary new lines and white space. 
 
 **HTTP/1.1 200**
+-----------------
 ```JSON
 {
   "pages": 1,
@@ -95,3 +96,10 @@ In the documentation responses from the API are being displayed aesthetically to
   ]
 }
 ```
+
+## Pagination
+
+Requests that return multiple items will be paginated to 1 item by default. You can specify further pages with the **?page** parameter.
+
+***EXAMPLE***
+
