@@ -771,6 +771,18 @@
 
 
   <li class="md-nav__item">
+    <a href="../api-lead/" title="Lead" class="md-nav__link">
+      Lead
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
     <a href="../api-log/" title="Log" class="md-nav__link">
       Log
     </a>
@@ -889,12 +901,26 @@
           
           
 
+
+  <li class="md-nav__item">
+    <a href="../api-ticketpost/" title="Ticket Post" class="md-nav__link">
+      Ticket Post
+    </a>
+  </li>
+
+        
+          
+          
+          
+
   
 
 
   <li class="md-nav__item md-nav__item--active">
     
     <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
+    
+      
     
     
     <a href="./" title="Time" class="md-nav__link md-nav__link--active">
@@ -910,8 +936,32 @@
 
 
   <li class="md-nav__item">
+    <a href="../api-timestatus/" title="Time Status" class="md-nav__link">
+      Time Status
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
     <a href="../api-track/" title="Track" class="md-nav__link">
       Track
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../api-tracktask/" title="Track Task" class="md-nav__link">
+      Track Task
     </a>
   </li>
 
@@ -952,6 +1002,8 @@
 <nav class="md-nav md-nav--secondary">
   
   
+    
+  
   
 </nav>
                   </div>
@@ -966,9 +1018,92 @@
                   <a href="https://github.com/zebreco/documentation/edit/master/docs/api/api-time.md" title="Edit this page" class="md-icon md-content__icon">edit</a>
                 
                 
-                  <h1>Time</h1>
-                
-                
+                <h1 id="time-model">Time Model<a class="headerlink" href="#time-model" title="Permanent link">&para;</a></h1>
+<p>Represents a time entry within Zebreco. These are normally used to track user time spent on tickets.</p>
+<p>Time is assigned to tickets and will have a status and project association.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Multiple</th>
+<th>Single</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>id</td>
+<td>integer</td>
+<td>The unique id of this time</td>
+<td>✔</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>contact</td>
+<td><a href="../api-contact/">Contact</a></td>
+<td>The contact who created this time</td>
+<td>✔</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>admin</td>
+<td><a href="../api-contact/">Contact</a></td>
+<td>The contact assigned to admin of this time</td>
+<td>✔</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>description</td>
+<td>string</td>
+<td>Short description of this time</td>
+<td>✔</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>time</td>
+<td>integer</td>
+<td>The value of this time in minutes</td>
+<td>✔</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>status</td>
+<td><a href="../api-timestatus/">Time Status</a></td>
+<td>The status given to this time</td>
+<td>✔</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>ticket</td>
+<td><a href="../api-ticket/">Ticket</a></td>
+<td>The ticket associated with this time</td>
+<td>✔</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>ticketpost</td>
+<td><a href="../api-ticketpost/">Ticket Post</a></td>
+<td>The ticket post associated with this time</td>
+<td>✔</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>project</td>
+<td><a href="../api-project/">Project</a></td>
+<td>The project associated with this time</td>
+<td>✔</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>createddate</td>
+<td>DateTime</td>
+<td>The ISO DateTime when this time was created</td>
+<td>✔</td>
+<td>✔</td>
+</tr>
+</tbody>
+</table>
                 
                   
                 
@@ -987,7 +1122,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../api-ticket/" title="Ticket" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../api-ticketpost/" title="Ticket Post" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -996,19 +1131,19 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Ticket
+                Ticket Post
               </span>
             </div>
           </a>
         
         
-          <a href="../api-track/" title="Track" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../api-timestatus/" title="Time Status" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Track
+                Time Status
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">

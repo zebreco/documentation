@@ -20,7 +20,7 @@
     
     
       
-        <title>Mail Template - Zebreco</title>
+        <title>Lead - Zebreco</title>
       
     
     
@@ -90,7 +90,7 @@
                 </span>
               
             
-            Mail Template
+            Lead
           
         </span>
       </div>
@@ -769,11 +769,20 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="../api-lead/" title="Lead" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
+    
+      
+    
+    
+    <a href="./" title="Lead" class="md-nav__link md-nav__link--active">
       Lead
     </a>
+    
   </li>
 
         
@@ -793,20 +802,11 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
-    
-      
-    
-    
-    <a href="./" title="Mail Template" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../api-mailtemplate/" title="Mail Template" class="md-nav__link">
       Mail Template
     </a>
-    
   </li>
 
         
@@ -1015,12 +1015,12 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/zebreco/documentation/edit/master/docs/api/api-mailtemplate.md" title="Edit this page" class="md-icon md-content__icon">edit</a>
+                  <a href="https://github.com/zebreco/documentation/edit/master/docs/api/api-lead.md" title="Edit this page" class="md-icon md-content__icon">edit</a>
                 
                 
-                <h1 id="mail-template-model">Mail Template Model<a class="headerlink" href="#mail-template-model" title="Permanent link">&para;</a></h1>
-<p>Represents a mail template. There are a number included by default.</p>
-<p>Mail templates are global to all projects.</p>
+                <h1 id="lead-model">Lead Model<a class="headerlink" href="#lead-model" title="Permanent link">&para;</a></h1>
+<p>Represents a lead within Zebreco. Leads are used by sales for recording potential clients.</p>
+<p>Leads are linked to projects.</p>
 <table>
 <thead>
 <tr>
@@ -1031,27 +1031,77 @@
 </thead>
 <tbody>
 <tr>
-<td>system</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
 <td>id</td>
 <td></td>
 <td></td>
 </tr>
 <tr>
-<td>type</td>
+<td>contact</td>
 <td></td>
 <td></td>
 </tr>
 <tr>
-<td>subject</td>
+<td>assignee</td>
 <td></td>
 <td></td>
 </tr>
 <tr>
 <td>department</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>status</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>name</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>description</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>reference</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>createddate</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>closedate</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>value</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>project</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>leadsource</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>leadlostreason</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>labels</td>
 <td></td>
 <td></td>
 </tr>
@@ -1075,7 +1125,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../api-log/" title="Log" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../api-label/" title="Label" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -1084,19 +1134,19 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Log
+                Label
               </span>
             </div>
           </a>
         
         
-          <a href="../api-note/" title="Note" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../api-log/" title="Log" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Note
+                Log
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">

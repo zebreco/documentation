@@ -771,6 +771,18 @@
 
 
   <li class="md-nav__item">
+    <a href="../api-lead/" title="Lead" class="md-nav__link">
+      Lead
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
     <a href="../api-log/" title="Log" class="md-nav__link">
       Log
     </a>
@@ -884,11 +896,25 @@
     
     <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
     
+      
+    
     
     <a href="./" title="Ticket" class="md-nav__link md-nav__link--active">
       Ticket
     </a>
     
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../api-ticketpost/" title="Ticket Post" class="md-nav__link">
+      Ticket Post
+    </a>
   </li>
 
         
@@ -910,8 +936,32 @@
 
 
   <li class="md-nav__item">
+    <a href="../api-timestatus/" title="Time Status" class="md-nav__link">
+      Time Status
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
     <a href="../api-track/" title="Track" class="md-nav__link">
       Track
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../api-tracktask/" title="Track Task" class="md-nav__link">
+      Track Task
     </a>
   </li>
 
@@ -952,6 +1002,8 @@
 <nav class="md-nav md-nav--secondary">
   
   
+    
+  
   
 </nav>
                   </div>
@@ -966,9 +1018,183 @@
                   <a href="https://github.com/zebreco/documentation/edit/master/docs/api/api-ticket.md" title="Edit this page" class="md-icon md-content__icon">edit</a>
                 
                 
-                  <h1>Ticket</h1>
-                
-                
+                <h1 id="ticket-model">Ticket Model<a class="headerlink" href="#ticket-model" title="Permanent link">&para;</a></h1>
+<p>Represents a ticket stored in Zebreco. These are normally used to store a number of tasks with assigned users.</p>
+<p>Tickets can be assigned to projects and linked users have access.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Multiple</th>
+<th>Single</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>id</td>
+<td>integer</td>
+<td></td>
+<td>✔</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>number</td>
+<td>integer</td>
+<td></td>
+<td>✔</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>status</td>
+<td>string</td>
+<td></td>
+<td>✔</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>subject</td>
+<td>string</td>
+<td></td>
+<td>✔</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>department</td>
+<td><a href="../api-department/">Department</a></td>
+<td></td>
+<td>✔</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>creator</td>
+<td><a href="../api-contact/">Contact</a></td>
+<td></td>
+<td>✔</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>assignee</td>
+<td><a href="../api-contact/">Contact</a></td>
+<td></td>
+<td>✔</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>project</td>
+<td></td>
+<td></td>
+<td>✔</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>createddate</td>
+<td>DateTime</td>
+<td></td>
+<td>✔</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>followupdate</td>
+<td>DateTime</td>
+<td></td>
+<td>✔</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>lastpost</td>
+<td><a href="../api-ticketpost/">Ticket Post</a></td>
+<td></td>
+<td>✘</td>
+<td>✘</td>
+</tr>
+<tr>
+<td>lastreply</td>
+<td><a href="../api-ticketpost/">Ticket Post</a></td>
+<td></td>
+<td>✘</td>
+<td>✘</td>
+</tr>
+<tr>
+<td>lastreplydate</td>
+<td>DateTime</td>
+<td></td>
+<td>✔</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>lastupdate</td>
+<td>DateTime</td>
+<td></td>
+<td>✔</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>lead</td>
+<td><a href="../api-lead/">Lead</a></td>
+<td></td>
+<td>✘</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>mergedticket</td>
+<td><a href="./">Ticket</a></td>
+<td></td>
+<td>✘</td>
+<td>✘</td>
+</tr>
+<tr>
+<td>posts</td>
+<td><a href="../api-ticketpost/">Ticket Post</a></td>
+<td></td>
+<td>✘</td>
+<td>✘</td>
+</tr>
+<tr>
+<td>quote</td>
+<td><a href="../api-quote/">Quote</a></td>
+<td></td>
+<td>✘</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>invoice</td>
+<td><a href="../api-invoice/">Invoice</a></td>
+<td></td>
+<td>✘</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>timestatus</td>
+<td><a href="../api-timestatus/">Time Status</a></td>
+<td></td>
+<td>✔</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>timeallocated</td>
+<td>integer</td>
+<td></td>
+<td>✔</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>labels</td>
+<td>[Label]    (api-label.md)</td>
+<td></td>
+<td>✔</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>hidden</td>
+<td>boolean</td>
+<td></td>
+<td>✘</td>
+<td>✘</td>
+</tr>
+</tbody>
+</table>
                 
                   
                 
@@ -1002,13 +1228,13 @@
           </a>
         
         
-          <a href="../api-time/" title="Time" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../api-ticketpost/" title="Ticket Post" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Time
+                Ticket Post
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
