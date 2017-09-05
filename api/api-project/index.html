@@ -663,8 +663,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../api-calendar/" title="Calendar" class="md-nav__link">
-      Calendar
+    <a href="../api-calendarevent/" title="Calendar Event" class="md-nav__link">
+      Calendar Event
     </a>
   </li>
 
@@ -677,6 +677,18 @@
   <li class="md-nav__item">
     <a href="../api-contact/" title="Contact" class="md-nav__link">
       Contact
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../api-contactrole/" title="Contact Role" class="md-nav__link">
+      Contact Role
     </a>
   </li>
 
@@ -831,18 +843,6 @@
 
 
   <li class="md-nav__item">
-    <a href="../api-permission/" title="Permission" class="md-nav__link">
-      Permission
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
     <a href="../api-product/" title="Product" class="md-nav__link">
       Product
     </a>
@@ -867,6 +867,30 @@
       Project
     </a>
     
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../api-projectstatus/" title="Project Status" class="md-nav__link">
+      Project Status
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../api-projecttemplate/" title="Project Template" class="md-nav__link">
+      Project Template
+    </a>
   </li>
 
         
@@ -1019,96 +1043,206 @@
                 
                 
                 <h1 id="project-model">Project Model<a class="headerlink" href="#project-model" title="Permanent link">&para;</a></h1>
-<p>Represents a project within Zebreco. These are normally used to track user time spent on tickets.</p>
-<p>Time is assigned to tickets and will have a status and project association.</p>
+<p>Represents a project within Zebreco. These are normally used to combine tickets, tasks and users under one large project.</p>
 <table>
 <thead>
 <tr>
 <th>Name</th>
 <th>Type</th>
 <th>Description</th>
+<th>Multiple</th>
+<th>Single</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>id</td>
-<td></td>
-<td></td>
+<td>integer</td>
+<td>The unique id of the project</td>
+<td>✔</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>template</td>
+<td><a href="../api-projecttemplate/">Project Template</a></td>
+<td>The template (if applicable) for the project</td>
+<td>✘</td>
+<td>✔</td>
 </tr>
 <tr>
 <td>createddate</td>
-<td></td>
-<td></td>
+<td>DateTime</td>
+<td>The ISO DateTime of creation of the project</td>
+<td>✔</td>
+<td>✔</td>
 </tr>
 <tr>
 <td>startdate</td>
-<td></td>
-<td></td>
+<td>DateTime</td>
+<td>The ISO DateTime of the project start</td>
+<td>✔</td>
+<td>✔</td>
 </tr>
 <tr>
 <td>duedate</td>
-<td></td>
-<td></td>
+<td>DateTime</td>
+<td>The ISO DateTime of the project due date</td>
+<td>✔</td>
+<td>✔</td>
 </tr>
 <tr>
 <td>contact</td>
-<td></td>
-<td></td>
+<td><a href="../api-contact/">Contact</a></td>
+<td>The contact assoicated with the project</td>
+<td>✔</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>creator</td>
+<td><a href="../api-contact/">Contact</a></td>
+<td>The contact who created the project</td>
+<td>✔</td>
+<td>✔</td>
 </tr>
 <tr>
 <td>assignee</td>
-<td></td>
-<td></td>
+<td><a href="../api-contact/">Contact</a></td>
+<td>The contact assigned to the project</td>
+<td>✔</td>
+<td>✔</td>
 </tr>
 <tr>
 <td>department</td>
-<td></td>
-<td></td>
+<td><a href="../api-department/">Department</a></td>
+<td>The department assigned to the project</td>
+<td>✔</td>
+<td>✔</td>
 </tr>
 <tr>
 <td>status</td>
-<td></td>
-<td></td>
+<td><a href="../api-projectstatus/">Project Status</a></td>
+<td>The project status given to the project</td>
+<td>✔</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>projectcontacts</td>
+<td>Array of <a href="../api-contact/">Contacts</a></td>
+<td>Contacts linked to the project</td>
+<td>✔</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>files</td>
+<td><a href="../api-file/">File</a></td>
+<td>Files included in the project</td>
+<td>✘</td>
+<td>✔</td>
 </tr>
 <tr>
 <td>name</td>
-<td></td>
-<td></td>
+<td>string</td>
+<td>The name of the project</td>
+<td>✔</td>
+<td>✔</td>
 </tr>
 <tr>
 <td>reference</td>
-<td></td>
-<td></td>
+<td>string</td>
+<td>Automated reference given to the project</td>
+<td>✔</td>
+<td>✔</td>
 </tr>
 <tr>
 <td>description</td>
+<td>string</td>
+<td>Short description of the project</td>
+<td>✔</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>location</td>
+<td>string</td>
+<td></td>
+<td>✔</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>tickets</td>
+<td><a href="../api-ticket/">Ticket</a></td>
+<td>Tickets related to the project</td>
 <td></td>
 <td></td>
 </tr>
 <tr>
-<td>location</td>
+<td>invoices</td>
+<td><a href="../api-invoice/">Invoice</a></td>
+<td>Invoices related to the project</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>calendarevents</td>
+<td><a href="../api-calendarevent/">Calendar Event</a></td>
+<td>Calendar Events related to the project</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>times</td>
+<td></td>
+<td></td>
 <td></td>
 <td></td>
 </tr>
 <tr>
 <td>labels</td>
-<td></td>
-<td></td>
+<td><a href="../api-label/">Label</a></td>
+<td>Labels related to the project</td>
+<td>✔</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>customfieldvalue</td>
+<td><a href="../api-customfield/">Custom Field</a></td>
+<td>Array of custom fields related to the project</td>
+<td>✔</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>notes</td>
+<td><a href="../api-note/">Note</a></td>
+<td>Array of notes related to the project</td>
+<td>✘</td>
+<td>✔</td>
 </tr>
 <tr>
 <td>value</td>
+<td>decimal</td>
 <td></td>
-<td></td>
+<td>✔</td>
+<td>✔</td>
 </tr>
 <tr>
 <td>timeallocated</td>
-<td></td>
-<td></td>
+<td>integer</td>
+<td>Integer value of time allocated to project</td>
+<td>✔</td>
+<td>✔</td>
 </tr>
 <tr>
 <td>timeallocatedperiod</td>
-<td></td>
-<td></td>
+<td>string</td>
+<td>Time period allocated to the project</td>
+<td>✔</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>tasks</td>
+<td><a href="../api-task/">Task</a></td>
+<td>Tasks related ot the project</td>
+<td>✘</td>
+<td>✔</td>
 </tr>
 </tbody>
 </table>
@@ -1145,13 +1279,13 @@
           </a>
         
         
-          <a href="../api-quote/" title="Quote" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../api-projectstatus/" title="Project Status" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Quote
+                Project Status
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">

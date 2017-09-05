@@ -20,7 +20,7 @@
     
     
       
-        <title>Ticket - Zebreco</title>
+        <title>Project Status - Zebreco</title>
       
     
     
@@ -90,7 +90,7 @@
                 </span>
               
             
-            Ticket
+            Project Status
           
         </span>
       </div>
@@ -865,11 +865,18 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="../api-projectstatus/" title="Project Status" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
+    
+    
+    <a href="./" title="Project Status" class="md-nav__link md-nav__link--active">
       Project Status
     </a>
+    
   </li>
 
         
@@ -913,20 +920,11 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
-    
-      
-    
-    
-    <a href="./" title="Ticket" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../api-ticket/" title="Ticket" class="md-nav__link">
       Ticket
     </a>
-    
   </li>
 
         
@@ -1026,8 +1024,6 @@
 <nav class="md-nav md-nav--secondary">
   
   
-    
-  
   
 </nav>
                   </div>
@@ -1039,186 +1035,12 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/zebreco/documentation/edit/master/docs/api/api-ticket.md" title="Edit this page" class="md-icon md-content__icon">edit</a>
+                  <a href="https://github.com/zebreco/documentation/edit/master/docs/api/api-projectstatus.md" title="Edit this page" class="md-icon md-content__icon">edit</a>
                 
                 
-                <h1 id="ticket-model">Ticket Model<a class="headerlink" href="#ticket-model" title="Permanent link">&para;</a></h1>
-<p>Represents a ticket stored in Zebreco. These are normally used to store a number of tasks with assigned users.</p>
-<p>Tickets can be assigned to projects and linked users have access.</p>
-<table>
-<thead>
-<tr>
-<th>Name</th>
-<th>Type</th>
-<th>Description</th>
-<th>Multiple</th>
-<th>Single</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>id</td>
-<td>integer</td>
-<td>The unique id of the ticket</td>
-<td>✔</td>
-<td>✔</td>
-</tr>
-<tr>
-<td>number</td>
-<td>integer</td>
-<td>The unique number assigned to the ticket (starts at 1001 as default)</td>
-<td>✔</td>
-<td>✔</td>
-</tr>
-<tr>
-<td>status</td>
-<td>string</td>
-<td>Can be "open", "awaiting-reply" or "closed"</td>
-<td>✔</td>
-<td>✔</td>
-</tr>
-<tr>
-<td>subject</td>
-<td>string</td>
-<td>The subject of the ticket</td>
-<td>✔</td>
-<td>✔</td>
-</tr>
-<tr>
-<td>department</td>
-<td><a href="../api-department/">Department</a></td>
-<td>The department assigned to the ticket</td>
-<td>✔</td>
-<td>✔</td>
-</tr>
-<tr>
-<td>creator</td>
-<td><a href="../api-contact/">Contact</a></td>
-<td>The contact who created the ticket</td>
-<td>✔</td>
-<td>✔</td>
-</tr>
-<tr>
-<td>assignee</td>
-<td><a href="../api-contact/">Contact</a></td>
-<td>The contact assigned to the ticket</td>
-<td>✔</td>
-<td>✔</td>
-</tr>
-<tr>
-<td>project</td>
-<td><a href="../api-project/">Project</a></td>
-<td>The project the ticket is associated with</td>
-<td>✔</td>
-<td>✔</td>
-</tr>
-<tr>
-<td>createddate</td>
-<td>DateTime</td>
-<td>The ISO DateTime when the ticket was created</td>
-<td>✔</td>
-<td>✔</td>
-</tr>
-<tr>
-<td>followupdate</td>
-<td>DateTime</td>
-<td>When the ticket is to be followed up by the assigned user</td>
-<td>✔</td>
-<td>✔</td>
-</tr>
-<tr>
-<td>lastpost</td>
-<td><a href="../api-ticketpost/">Ticket Post</a></td>
-<td>The last ticket activity</td>
-<td>✘</td>
-<td>✘</td>
-</tr>
-<tr>
-<td>lastreply</td>
-<td><a href="../api-ticketpost/">Ticket Post</a></td>
-<td>The last ticket reply</td>
-<td>✘</td>
-<td>✘</td>
-</tr>
-<tr>
-<td>lastreplydate</td>
-<td>DateTime</td>
-<td>The ISO DateTime of the last reply on the ticket</td>
-<td>✔</td>
-<td>✔</td>
-</tr>
-<tr>
-<td>lastupdate</td>
-<td>DateTime</td>
-<td>The ISO DateTime of the last update on the ticket</td>
-<td>✔</td>
-<td>✔</td>
-</tr>
-<tr>
-<td>lead</td>
-<td><a href="../api-lead/">Lead</a></td>
-<td>The lead (if applicable) associated with the ticket</td>
-<td>✘</td>
-<td>✔</td>
-</tr>
-<tr>
-<td>mergedticket</td>
-<td><a href="./">Ticket</a></td>
-<td>The merged ticket (if applicable)</td>
-<td>✘</td>
-<td>✘</td>
-</tr>
-<tr>
-<td>posts</td>
-<td><a href="../api-ticketpost/">Ticket Post</a></td>
-<td>Array of posts associated with the ticket</td>
-<td>✘</td>
-<td>✘</td>
-</tr>
-<tr>
-<td>quote</td>
-<td><a href="../api-quote/">Quote</a></td>
-<td>The quote (if applicable) associated with the ticket</td>
-<td>✘</td>
-<td>✔</td>
-</tr>
-<tr>
-<td>invoice</td>
-<td><a href="../api-invoice/">Invoice</a></td>
-<td>Array of invoices associated with the ticket</td>
-<td>✘</td>
-<td>✔</td>
-</tr>
-<tr>
-<td>timestatus</td>
-<td><a href="../api-timestatus/">Time Status</a></td>
-<td>The time status applied to the ticket</td>
-<td>✔</td>
-<td>✔</td>
-</tr>
-<tr>
-<td>timeallocated</td>
-<td>integer</td>
-<td>Value of the time applied to the ticket</td>
-<td>✔</td>
-<td>✔</td>
-</tr>
-<tr>
-<td>labels</td>
-<td><a href="../api-label/">Label</a></td>
-<td>Labels (if any) applied to the ticket</td>
-<td>✔</td>
-<td>✔</td>
-</tr>
-<tr>
-<td>hidden</td>
-<td>boolean</td>
-<td>Whether the ticket is hidden or not</td>
-<td>✘</td>
-<td>✘</td>
-</tr>
-</tbody>
-</table>
+                  <h1>Project Status</h1>
+                
+                
                 
                   
                 
@@ -1237,7 +1059,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../api-task/" title="Task" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../api-project/" title="Project" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -1246,19 +1068,19 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Task
+                Project
               </span>
             </div>
           </a>
         
         
-          <a href="../api-ticketpost/" title="Ticket Post" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../api-projecttemplate/" title="Project Template" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Ticket Post
+                Project Template
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">

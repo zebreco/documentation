@@ -663,8 +663,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../api-calendar/" title="Calendar" class="md-nav__link">
-      Calendar
+    <a href="../api-calendarevent/" title="Calendar Event" class="md-nav__link">
+      Calendar Event
     </a>
   </li>
 
@@ -677,6 +677,18 @@
   <li class="md-nav__item">
     <a href="../api-contact/" title="Contact" class="md-nav__link">
       Contact
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../api-contactrole/" title="Contact Role" class="md-nav__link">
+      Contact Role
     </a>
   </li>
 
@@ -812,6 +824,8 @@
     
     <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
     
+      
+    
     
     <a href="./" title="Note" class="md-nav__link md-nav__link--active">
       Note
@@ -838,18 +852,6 @@
 
 
   <li class="md-nav__item">
-    <a href="../api-permission/" title="Permission" class="md-nav__link">
-      Permission
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
     <a href="../api-product/" title="Product" class="md-nav__link">
       Product
     </a>
@@ -864,6 +866,30 @@
   <li class="md-nav__item">
     <a href="../api-project/" title="Project" class="md-nav__link">
       Project
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../api-projectstatus/" title="Project Status" class="md-nav__link">
+      Project Status
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../api-projecttemplate/" title="Project Template" class="md-nav__link">
+      Project Template
     </a>
   </li>
 
@@ -1000,6 +1026,8 @@
 <nav class="md-nav md-nav--secondary">
   
   
+    
+  
   
 </nav>
                   </div>
@@ -1014,9 +1042,112 @@
                   <a href="https://github.com/zebreco/documentation/edit/master/docs/api/api-note.md" title="Edit this page" class="md-icon md-content__icon">edit</a>
                 
                 
-                  <h1>Note</h1>
-                
-                
+                <h1 id="note-model">Note Model<a class="headerlink" href="#note-model" title="Permanent link">&para;</a></h1>
+<p>Represents a note within Zebreco.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Multiple</th>
+<th>Single</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>id</td>
+<td>integer</td>
+<td>The unique id of the note</td>
+<td>✔</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>admin</td>
+<td><a href="../api-contact/">Contact</a></td>
+<td>The contact who is admin of the note</td>
+<td>✔</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>description</td>
+<td>string</td>
+<td>Short description of the note</td>
+<td>✔</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>date</td>
+<td>DateTime</td>
+<td>The ISO DateTime the note was created</td>
+<td>✔</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>completed</td>
+<td>boolean</td>
+<td>Whether or not the note has been completed</td>
+<td>✔</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>labels</td>
+<td><a href="../api-label/">Label</a></td>
+<td>Labels related to the note</td>
+<td>✔</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>project</td>
+<td>[Project}(api-project.md)</td>
+<td>The project related to the note</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>contact</td>
+<td><a href="../api-contact/">Contact</a></td>
+<td>The contact related to the note</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>invoice</td>
+<td><a href="../api-invoice/">Invoice</a></td>
+<td>The invoice related to the note if relevant</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>lead</td>
+<td><a href="../api-lead/">Lead</a></td>
+<td>The lead related to the note if relevant</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>quote</td>
+<td><a href="../api-quote/">Quote</a></td>
+<td>The quote related to the note if relevant</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>hidden</td>
+<td>boolean</td>
+<td>Whether or not the note is hidden</td>
+<td>✘</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>colour</td>
+<td>string</td>
+<td>The colour assigned to the note</td>
+<td>✔</td>
+<td>✔</td>
+</tr>
+</tbody>
+</table>
                 
                   
                 

@@ -663,8 +663,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../api-calendar/" title="Calendar" class="md-nav__link">
-      Calendar
+    <a href="../api-calendarevent/" title="Calendar Event" class="md-nav__link">
+      Calendar Event
     </a>
   </li>
 
@@ -677,6 +677,18 @@
   <li class="md-nav__item">
     <a href="../api-contact/" title="Contact" class="md-nav__link">
       Contact
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../api-contactrole/" title="Contact Role" class="md-nav__link">
+      Contact Role
     </a>
   </li>
 
@@ -829,18 +841,6 @@
           
           
 
-
-  <li class="md-nav__item">
-    <a href="../api-permission/" title="Permission" class="md-nav__link">
-      Permission
-    </a>
-  </li>
-
-        
-          
-          
-          
-
   
 
 
@@ -866,6 +866,30 @@
   <li class="md-nav__item">
     <a href="../api-project/" title="Project" class="md-nav__link">
       Project
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../api-projectstatus/" title="Project Status" class="md-nav__link">
+      Project Status
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../api-projecttemplate/" title="Project Template" class="md-nav__link">
+      Project Template
     </a>
   </li>
 
@@ -1026,33 +1050,45 @@
 <th>Name</th>
 <th>Type</th>
 <th>Description</th>
+<th>Multiple</th>
+<th>Single</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>id</td>
-<td></td>
-<td></td>
+<td>integer</td>
+<td>The unique id of the product</td>
+<td>✔</td>
+<td>✔</td>
 </tr>
 <tr>
 <td>code</td>
-<td></td>
-<td></td>
+<td>string</td>
+<td>The unique code of the product</td>
+<td>✔</td>
+<td>✔</td>
 </tr>
 <tr>
 <td>name</td>
-<td></td>
-<td></td>
+<td>string</td>
+<td>The name of the product</td>
+<td>✔</td>
+<td>✔</td>
 </tr>
 <tr>
 <td>unitprice</td>
+<td>string</td>
 <td></td>
-<td></td>
+<td>✔</td>
+<td>✔</td>
 </tr>
 <tr>
-<td>taxprice</td>
+<td>taxrate</td>
+<td>string</td>
 <td></td>
-<td></td>
+<td>✔</td>
+<td>✔</td>
 </tr>
 </tbody>
 </table>
@@ -1074,7 +1110,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../api-permission/" title="Permission" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../api-package/" title="Package" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -1083,7 +1119,7 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Permission
+                Package
               </span>
             </div>
           </a>

@@ -20,7 +20,7 @@
     
     
       
-        <title>Permission - Zebreco</title>
+        <title>Calendar Event - Zebreco</title>
       
     
     
@@ -90,7 +90,7 @@
                 </span>
               
             
-            Permission
+            Calendar Event
           
         </span>
       </div>
@@ -661,11 +661,20 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="../api-calendar/" title="Calendar" class="md-nav__link">
-      Calendar
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
+    
+      
+    
+    
+    <a href="./" title="Calendar Event" class="md-nav__link md-nav__link--active">
+      Calendar Event
     </a>
+    
   </li>
 
         
@@ -677,6 +686,18 @@
   <li class="md-nav__item">
     <a href="../api-contact/" title="Contact" class="md-nav__link">
       Contact
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../api-contactrole/" title="Contact Role" class="md-nav__link">
+      Contact Role
     </a>
   </li>
 
@@ -829,27 +850,6 @@
           
           
 
-  
-
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
-    
-      
-    
-    
-    <a href="./" title="Permission" class="md-nav__link md-nav__link--active">
-      Permission
-    </a>
-    
-  </li>
-
-        
-          
-          
-          
-
 
   <li class="md-nav__item">
     <a href="../api-product/" title="Product" class="md-nav__link">
@@ -866,6 +866,30 @@
   <li class="md-nav__item">
     <a href="../api-project/" title="Project" class="md-nav__link">
       Project
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../api-projectstatus/" title="Project Status" class="md-nav__link">
+      Project Status
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../api-projecttemplate/" title="Project Template" class="md-nav__link">
+      Project Template
     </a>
   </li>
 
@@ -1015,23 +1039,91 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/zebreco/documentation/edit/master/docs/api/api-permission.md" title="Edit this page" class="md-icon md-content__icon">edit</a>
+                  <a href="https://github.com/zebreco/documentation/edit/master/docs/api/api-calendarevent.md" title="Edit this page" class="md-icon md-content__icon">edit</a>
                 
                 
-                <h1 id="permission-model">Permission Model<a class="headerlink" href="#permission-model" title="Permanent link">&para;</a></h1>
+                <h1 id="calendar-event-model">Calendar Event Model<a class="headerlink" href="#calendar-event-model" title="Permanent link">&para;</a></h1>
+<p>Represents a Calendar event within Zebreco. These can be used as reminders for specific dates and events, etc.</p>
 <table>
 <thead>
 <tr>
 <th>Name</th>
 <th>Type</th>
 <th>Description</th>
+<th>Multiple</th>
+<th>Single</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td></td>
-<td></td>
-<td></td>
+<td>id</td>
+<td>integer</td>
+<td>The unique id of the Calendar Event</td>
+<td>✔</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>assignee</td>
+<td><a href="../api-contact/">Contact</a></td>
+<td>The contact assigned to the Calendar Event</td>
+<td>✔</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>name</td>
+<td>string</td>
+<td>The name of the Calendar Event</td>
+<td>✔</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>description</td>
+<td>string</td>
+<td>Short description of the Calendar Event</td>
+<td>✔</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>fromdate</td>
+<td>DateTime</td>
+<td>The ISO DateTime the Calendar Event starts</td>
+<td>✔</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>todate</td>
+<td>DateTime</td>
+<td>The ISO DateTime the Calendar Event runs to</td>
+<td>✔</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>lastupdate</td>
+<td>DateTime</td>
+<td>The ISO DateTime the Calendar Event was last updated</td>
+<td>✔</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>location</td>
+<td>string</td>
+<td>The location assigned to the Calendar Event</td>
+<td>✔</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>project</td>
+<td><a href="../api-project/">Project</a></td>
+<td>The project associated with the Calendar Event</td>
+<td>✘</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>colour</td>
+<td>string</td>
+<td>The colour assigned to the Calendar Event</td>
+<td>✔</td>
+<td>✔</td>
 </tr>
 </tbody>
 </table>
@@ -1053,7 +1145,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../api-package/" title="Package" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../api-responses/" title="Handling API responses" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -1062,19 +1154,19 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Package
+                Handling API responses
               </span>
             </div>
           </a>
         
         
-          <a href="../api-product/" title="Product" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../api-contact/" title="Contact" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Product
+                Contact
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">

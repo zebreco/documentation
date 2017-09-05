@@ -663,8 +663,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../api-calendar/" title="Calendar" class="md-nav__link">
-      Calendar
+    <a href="../api-calendarevent/" title="Calendar Event" class="md-nav__link">
+      Calendar Event
     </a>
   </li>
 
@@ -687,6 +687,18 @@
       Contact
     </a>
     
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../api-contactrole/" title="Contact Role" class="md-nav__link">
+      Contact Role
+    </a>
   </li>
 
         
@@ -840,18 +852,6 @@
 
 
   <li class="md-nav__item">
-    <a href="../api-permission/" title="Permission" class="md-nav__link">
-      Permission
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
     <a href="../api-product/" title="Product" class="md-nav__link">
       Product
     </a>
@@ -866,6 +866,30 @@
   <li class="md-nav__item">
     <a href="../api-project/" title="Project" class="md-nav__link">
       Project
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../api-projectstatus/" title="Project Status" class="md-nav__link">
+      Project Status
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../api-projecttemplate/" title="Project Template" class="md-nav__link">
+      Project Template
     </a>
   </li>
 
@@ -1026,123 +1050,262 @@
 <th>Name</th>
 <th>Type</th>
 <th>Description</th>
+<th>Multiple</th>
+<th>Single</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>status</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
 <td>id</td>
-<td></td>
-<td></td>
+<td>integer</td>
+<td>The unique id of the Contact</td>
+<td>✔</td>
+<td>✔</td>
 </tr>
 <tr>
 <td>name</td>
-<td></td>
-<td></td>
+<td>string</td>
+<td>The name of the Contact</td>
+<td>✔</td>
+<td>✔</td>
 </tr>
 <tr>
 <td>email</td>
-<td></td>
-<td></td>
+<td>string</td>
+<td>The email of the Contact</td>
+<td>✔</td>
+<td>✔</td>
 </tr>
 <tr>
 <td>position</td>
-<td></td>
-<td></td>
+<td>string</td>
+<td>The position assigned to the Contact</td>
+<td>✔</td>
+<td>✔</td>
 </tr>
 <tr>
 <td>type</td>
-<td></td>
-<td></td>
+<td>string</td>
+<td>The Contact type</td>
+<td>✔</td>
+<td>✔</td>
 </tr>
 <tr>
 <td>street</td>
-<td></td>
-<td></td>
+<td>string</td>
+<td>The street of the Contact</td>
+<td>✔</td>
+<td>✔</td>
 </tr>
 <tr>
 <td>area</td>
-<td></td>
-<td></td>
+<td>string</td>
+<td>The area of the Contact</td>
+<td>✔</td>
+<td>✔</td>
 </tr>
 <tr>
 <td>city</td>
-<td></td>
-<td></td>
+<td>string</td>
+<td>The city of the Contact</td>
+<td>✔</td>
+<td>✔</td>
 </tr>
 <tr>
 <td>county</td>
-<td></td>
-<td></td>
+<td>string</td>
+<td>The county of the Contact</td>
+<td>✔</td>
+<td>✔</td>
 </tr>
 <tr>
 <td>postcode</td>
-<td></td>
-<td></td>
+<td>string</td>
+<td>The postcode of the Contact</td>
+<td>✔</td>
+<td>✔</td>
 </tr>
 <tr>
 <td>country</td>
-<td></td>
-<td></td>
+<td>string</td>
+<td>The country of the Contact</td>
+<td>✔</td>
+<td>✔</td>
 </tr>
 <tr>
 <td>telephone</td>
-<td></td>
-<td></td>
+<td>string</td>
+<td>The telephone of the Contact</td>
+<td>✔</td>
+<td>✔</td>
 </tr>
 <tr>
 <td>mobile</td>
-<td></td>
-<td></td>
+<td>string</td>
+<td>The mobile of the Contact</td>
+<td>✔</td>
+<td>✔</td>
 </tr>
 <tr>
 <td>website</td>
-<td></td>
-<td></td>
+<td>string</td>
+<td>The website of the Contact</td>
+<td>✔</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>signature</td>
+<td>text</td>
+<td>The signature of the Contact</td>
+<td>✘</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>signatureimage</td>
+<td><a href="../api-file/">File</a></td>
+<td>The image of the Contact signature</td>
+<td>✘</td>
+<td>✔</td>
 </tr>
 <tr>
 <td>lastcontacted</td>
-<td></td>
-<td></td>
+<td>DateTime</td>
+<td>The ISO DateTime the Contact was last contacted</td>
+<td>✔</td>
+<td>✔</td>
 </tr>
 <tr>
 <td>createddate</td>
-<td></td>
-<td></td>
+<td>DateTime</td>
+<td>The ISO DateTime the Contact was created</td>
+<td>✔</td>
+<td>✔</td>
 </tr>
 <tr>
 <td>lastlogin</td>
-<td></td>
-<td></td>
+<td>DateTime</td>
+<td>The ISO Date TIme the Contact last logged in</td>
+<td>✔</td>
+<td>✔</td>
 </tr>
 <tr>
 <td>contactroles</td>
-<td></td>
-<td></td>
+<td><a href="../api-contactrole/">Contact Role</a></td>
+<td>Contact Roles assigned to the Contact</td>
+<td>✔</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>contacts</td>
+<td><a href="./">Contact</a></td>
+<td>Array of contacts related to the Contact</td>
+<td>✘</td>
+<td>✘</td>
+</tr>
+<tr>
+<td>projectcontacts</td>
+<td><a href="./">Contact</a></td>
+<td>Contacts related to the Contact through project association</td>
+<td>✘</td>
+<td>✘</td>
+</tr>
+<tr>
+<td>invoices</td>
+<td><a href="../api-invoice/">Invoice</a></td>
+<td>Invoices related to the Contact</td>
+<td>✘</td>
+<td>✘</td>
 </tr>
 <tr>
 <td>company</td>
-<td></td>
-<td></td>
+<td><a href="./">Contact</a></td>
+<td>The company related to the Contact</td>
+<td>✔</td>
+<td>✔</td>
 </tr>
 <tr>
 <td>archived</td>
-<td></td>
-<td></td>
+<td>boolean</td>
+<td>Whether or not the Contact has been archived</td>
+<td>✔</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>disablenotifications</td>
+<td>boolean</td>
+<td>Whether or not the Contact has disabled notifications</td>
+<td>✘</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>receiveemail</td>
+<td>boolean</td>
+<td>Whether or not the Contact is set to receive emails</td>
+<td>✘</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>passthroughemail</td>
+<td>string</td>
+<td>Whether or not the Contact has pass through on email</td>
+<td>✘</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>taskcount</td>
+<td>integer</td>
+<td>Task count related to the Contact</td>
+<td>✘</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>customfieldvalues</td>
+<td><a href="../api-customfield/">Custom Field</a></td>
+<td>Custom field values assigned to the Contact</td>
+<td>✔</td>
+<td>✔</td>
 </tr>
 <tr>
 <td>labels</td>
-<td></td>
-<td></td>
+<td><a href="../api-label/">Label</a></td>
+<td>Labels assigned to the Contact</td>
+<td>✔</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>departments</td>
+<td><a href="../api-department/">Department</a></td>
+<td>Departments related to the Contact</td>
+<td>✘</td>
+<td>✘</td>
+</tr>
+<tr>
+<td>logs</td>
+<td><a href="../api-log/">Log</a></td>
+<td>Logs related to the Contact</td>
+<td>✘</td>
+<td>✘</td>
 </tr>
 <tr>
 <td>avatar</td>
-<td></td>
-<td></td>
+<td>string</td>
+<td>The avatar assigned to the Contact</td>
+<td>✔</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>roles</td>
+<td>array</td>
+<td>Array of roles assigned tot he Contact</td>
+<td>✘</td>
+<td>✘</td>
+</tr>
+<tr>
+<td>isuser</td>
+<td>boolean</td>
+<td>Whether or not the Contact is considered as a User</td>
+<td>✘</td>
+<td>✘</td>
 </tr>
 </tbody>
 </table>
@@ -1164,7 +1327,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../api-calendar/" title="Calendar" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../api-calendarevent/" title="Calendar Event" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -1173,19 +1336,19 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Calendar
+                Calendar Event
               </span>
             </div>
           </a>
         
         
-          <a href="../api-customfield/" title="Custom Field" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../api-contactrole/" title="Contact Role" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Custom Field
+                Contact Role
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">

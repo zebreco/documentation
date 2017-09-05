@@ -663,8 +663,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../api-calendar/" title="Calendar" class="md-nav__link">
-      Calendar
+    <a href="../api-calendarevent/" title="Calendar Event" class="md-nav__link">
+      Calendar Event
     </a>
   </li>
 
@@ -677,6 +677,18 @@
   <li class="md-nav__item">
     <a href="../api-contact/" title="Contact" class="md-nav__link">
       Contact
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../api-contactrole/" title="Contact Role" class="md-nav__link">
+      Contact Role
     </a>
   </li>
 
@@ -840,18 +852,6 @@
 
 
   <li class="md-nav__item">
-    <a href="../api-permission/" title="Permission" class="md-nav__link">
-      Permission
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
     <a href="../api-product/" title="Product" class="md-nav__link">
       Product
     </a>
@@ -866,6 +866,30 @@
   <li class="md-nav__item">
     <a href="../api-project/" title="Project" class="md-nav__link">
       Project
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../api-projectstatus/" title="Project Status" class="md-nav__link">
+      Project Status
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../api-projecttemplate/" title="Project Template" class="md-nav__link">
+      Project Template
     </a>
   </li>
 
@@ -1019,19 +1043,45 @@
                 
                 
                 <h1 id="custom-field-model">Custom Field Model<a class="headerlink" href="#custom-field-model" title="Permanent link">&para;</a></h1>
+<p>Custom fields can be added to Zebreco.</p>
 <table>
 <thead>
 <tr>
 <th>Name</th>
 <th>Type</th>
 <th>Description</th>
+<th>Multiple</th>
+<th>Single</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td></td>
-<td></td>
-<td></td>
+<td>id</td>
+<td>integer</td>
+<td>The unique id of the custom field</td>
+<td>✔</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>name</td>
+<td>string</td>
+<td>The name of the custom field</td>
+<td>✔</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>contacts</td>
+<td><a href="../api-contact/">Contact</a></td>
+<td>The Contacts related to the custom field</td>
+<td>✘</td>
+<td>✘</td>
+</tr>
+<tr>
+<td>permissions</td>
+<td>array</td>
+<td>Array of permissions assigned to the custom field</td>
+<td>✘</td>
+<td>✘</td>
 </tr>
 </tbody>
 </table>
@@ -1053,7 +1103,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../api-contact/" title="Contact" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../api-contactrole/" title="Contact Role" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -1062,7 +1112,7 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Contact
+                Contact Role
               </span>
             </div>
           </a>
