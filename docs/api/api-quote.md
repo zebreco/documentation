@@ -5,17 +5,19 @@ Represents a quote entity in Zebreco. Quotes are pre-development estimated costs
 Quotes include numerical data and are linked to specific contacts.
 
 
-| Name          | Type          | Description   |
-|---------------|---------------|---------------|
-| id            |               |               |
-| number        |               |               |
-| status        |               |               |
-| reference     |               |               |
-| contact       |               |               |
-| date          |               |               |
-| validuntildate|               |               |
-| subtotal      |               |               |
-| totaltax      |               |               |
-| total         |               |               |
-
-
+| Name          | Type                              | Description                                                   | Multiple | Single |
+|---------------|-----------------------------------|---------------------------------------------------------------|----------|--------|
+| id            | integer                           | The unique id of the quote                                    |    ✔     |   ✔    |
+| number        | integer                           | The unique number assigned to the quote as default            |    ✔     |   ✔    |  
+| status        | string                            | Can be "draft", "sent", "approved", "invoiced" or "declined"  |    ✔     |   ✔    |  
+| reference     | string                            | Custom reference applied to the quote                         |    ✔     |   ✔    | 
+| contact       | [Contact](api-contact.md)         | The contact assoicated with the quote                         |    ✔     |   ✔    | 
+| project       | [Project](api-project.md)         | The project the quote is affiliated with                      |    ✘     |   ✔    |
+| lead          | [Lead](api-lead.md)               | The lead (if applicable) the quote is associated with         |    ✘     |   ✔    |
+| date          | DateTime                          | The ISO DateTime applied to the quote                         |    ✔     |   ✔    |
+| validuntildate| DateTime                          | The ISO DateTime the quote is valid until                     |    ✔     |   ✔    |
+| subtotal      | decimal                           | The subtotal of the quote                                     |    ✔     |   ✔    |          
+| totaltax      | decimal                           | The totaltax of the quote                                     |    ✔     |   ✔    |                     
+| total         | decimal                           | The total of the quote                                        |    ✔     |   ✔    |                     
+| invoice       | [Invoice](api-invoice.md)         | Invoices associated with the quote                            |    ✘     |   ✔    |
+| items         | Array Collection                  | Array of entities making up the quote                         |    ✔     |   ✔    |

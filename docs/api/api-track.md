@@ -9,4 +9,4 @@ Tracks are a list of tasks and therefore most the data is stored in the tasks th
 |---------------|-----------------------------------|---------------------------------------|----------|--------|
 | id            | integer                           | The unique id of this track           |    ✔     |   ✔    |
 | name          | string                            | The name of the track                 |    ✔     |   ✔    |
-| tracktasks    | [Track Task](api-tracktask.md)    | Array of tasks belonging to the track |    ✘     |   ✘    |
+| tracktasks    | [Track Task](api-tracktask.md)    | Array of tasks belonging to the track |    ✘     |   ✘    | 
