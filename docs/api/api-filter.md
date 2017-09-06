@@ -1,15 +1,14 @@
 # Filter Model
 
-Represents a filter used within Zebreco. Filters are used for view purposes throughout Zebreco.
+Represents a filter used within Zebreco. Filters are used for various view purposes throughout Zebreco.
 
 
-| Name          | Type          | Description   |
-|---------------|---------------|---------------|
-| system        |               |               |
-| id            |               |               |
-| contact       |               |               |
-| type          |               |               |
-| name          |               |               |
-| string        |               |               |
-| isdefault     |               |               |
-| global        |               |               |
+| Name          | Type                      | Description                               | Multiple | Single |
+|---------------|---------------------------|-------------------------------------------|----------|--------|
+| id            | integer                   | The unique id of the filter               |    ✔     |   ✔    |
+| contact       | [Contact](api-contact.md) | The contact related to the filter         |    ✔     |   ✔    |
+| type          | string                    | The filter type                           |    ✔     |   ✔    |
+| name          | string                    | The name of the filter                    |    ✔     |   ✔    |
+| string        | string                    | The filter string content                 |    ✔     |   ✔    |
+| isdefault     | boolean                   | Whether or not the filter is default      |    ✔     |   ✔    |
+| global        | boolean                   | Whether or not the filter has global scope|    ✔     |   ✔    |
