@@ -795,6 +795,30 @@
 
 
   <li class="md-nav__item">
+    <a href="../api-leadlostreason/" title="Lead Lost Reason" class="md-nav__link">
+      Lead Lost Reason
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../api-leadsource/" title="Lead Source" class="md-nav__link">
+      Lead Source
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
     <a href="../api-log/" title="Log" class="md-nav__link">
       Log
     </a>
@@ -865,12 +889,26 @@
           
           
 
+
+  <li class="md-nav__item">
+    <a href="../api-projectrole/" title="Project Role" class="md-nav__link">
+      Project Role
+    </a>
+  </li>
+
+        
+          
+          
+          
+
   
 
 
   <li class="md-nav__item md-nav__item--active">
     
     <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
+    
+      
     
     
     <a href="./" title="Project Status" class="md-nav__link md-nav__link--active">
@@ -1024,6 +1062,8 @@
 <nav class="md-nav md-nav--secondary">
   
   
+    
+  
   
 </nav>
                   </div>
@@ -1038,9 +1078,49 @@
                   <a href="https://github.com/zebreco/documentation/edit/master/docs/api/api-projectstatus.md" title="Edit this page" class="md-icon md-content__icon">edit</a>
                 
                 
-                  <h1>Project Status</h1>
-                
-                
+                <h1 id="project-status-model">Project Status Model<a class="headerlink" href="#project-status-model" title="Permanent link">&para;</a></h1>
+<p>Represents a project status in Zebreco.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Multiple</th>
+<th>Single</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>id</td>
+<td>integer</td>
+<td>The unique id of the project status</td>
+<td>✔</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>state</td>
+<td>string</td>
+<td>The state applied to the project status</td>
+<td>✔</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>name</td>
+<td>string</td>
+<td>The name of the project status</td>
+<td>✔</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>isdefault</td>
+<td>boolean</td>
+<td>Whether or not the project status is default</td>
+<td>✔</td>
+<td>✔</td>
+</tr>
+</tbody>
+</table>
                 
                   
                 
@@ -1059,7 +1139,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../api-project/" title="Project" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../api-projectrole/" title="Project Role" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -1068,7 +1148,7 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Project
+                Project Role
               </span>
             </div>
           </a>

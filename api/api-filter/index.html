@@ -804,6 +804,30 @@
 
 
   <li class="md-nav__item">
+    <a href="../api-leadlostreason/" title="Lead Lost Reason" class="md-nav__link">
+      Lead Lost Reason
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../api-leadsource/" title="Lead Source" class="md-nav__link">
+      Lead Source
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
     <a href="../api-log/" title="Log" class="md-nav__link">
       Log
     </a>
@@ -866,6 +890,18 @@
   <li class="md-nav__item">
     <a href="../api-project/" title="Project" class="md-nav__link">
       Project
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../api-projectrole/" title="Project Role" class="md-nav__link">
+      Project Role
     </a>
   </li>
 
@@ -1043,55 +1079,66 @@
                 
                 
                 <h1 id="filter-model">Filter Model<a class="headerlink" href="#filter-model" title="Permanent link">&para;</a></h1>
-<p>Represents a filter used within Zebreco. Filters are used for view purposes throughout Zebreco.</p>
+<p>Represents a filter used within Zebreco. Filters are used for various view purposes throughout Zebreco.</p>
 <table>
 <thead>
 <tr>
 <th>Name</th>
 <th>Type</th>
 <th>Description</th>
+<th>Multiple</th>
+<th>Single</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>system</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
 <td>id</td>
-<td></td>
-<td></td>
+<td>integer</td>
+<td>The unique id of the filter</td>
+<td>✔</td>
+<td>✔</td>
 </tr>
 <tr>
 <td>contact</td>
-<td></td>
-<td></td>
+<td><a href="../api-contact/">Contact</a></td>
+<td>The contact related to the filter</td>
+<td>✔</td>
+<td>✔</td>
 </tr>
 <tr>
 <td>type</td>
-<td></td>
-<td></td>
+<td>string</td>
+<td>The filter type</td>
+<td>✔</td>
+<td>✔</td>
 </tr>
 <tr>
 <td>name</td>
-<td></td>
-<td></td>
+<td>string</td>
+<td>The name of the filter</td>
+<td>✔</td>
+<td>✔</td>
 </tr>
 <tr>
 <td>string</td>
-<td></td>
-<td></td>
+<td>string</td>
+<td>The filter string content</td>
+<td>✔</td>
+<td>✔</td>
 </tr>
 <tr>
 <td>isdefault</td>
-<td></td>
-<td></td>
+<td>boolean</td>
+<td>Whether or not the filter is default</td>
+<td>✔</td>
+<td>✔</td>
 </tr>
 <tr>
 <td>global</td>
-<td></td>
-<td></td>
+<td>boolean</td>
+<td>Whether or not the filter has global scope</td>
+<td>✔</td>
+<td>✔</td>
 </tr>
 </tbody>
 </table>

@@ -795,6 +795,30 @@
 
 
   <li class="md-nav__item">
+    <a href="../api-leadlostreason/" title="Lead Lost Reason" class="md-nav__link">
+      Lead Lost Reason
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../api-leadsource/" title="Lead Source" class="md-nav__link">
+      Lead Source
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
     <a href="../api-log/" title="Log" class="md-nav__link">
       Log
     </a>
@@ -866,6 +890,18 @@
   <li class="md-nav__item">
     <a href="../api-project/" title="Project" class="md-nav__link">
       Project
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../api-projectrole/" title="Project Role" class="md-nav__link">
+      Project Role
     </a>
   </li>
 
@@ -1051,33 +1087,52 @@
 <th>Name</th>
 <th>Type</th>
 <th>Description</th>
+<th>Multiple</th>
+<th>Single</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>system</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
 <td>id</td>
-<td></td>
-<td></td>
+<td>integer</td>
+<td>The unique id of the mail template</td>
+<td>✔</td>
+<td>✔</td>
 </tr>
 <tr>
 <td>type</td>
-<td></td>
-<td></td>
+<td>string</td>
+<td>The type of the mail template</td>
+<td>✔</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>body</td>
+<td>string</td>
+<td>The body of the mail template</td>
+<td>✘</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>plaintext</td>
+<td>string</td>
+<td>The plaintext content of the mail template</td>
+<td>✘</td>
+<td>✔</td>
 </tr>
 <tr>
 <td>subject</td>
-<td></td>
-<td></td>
+<td>string</td>
+<td>The subject of the mail template</td>
+<td>✔</td>
+<td>✔</td>
 </tr>
 <tr>
 <td>department</td>
-<td></td>
-<td></td>
+<td><a href="../api-department/">Department</a></td>
+<td>The department the mail template is assigned to</td>
+<td>✔</td>
+<td>✔</td>
 </tr>
 </tbody>
 </table>
