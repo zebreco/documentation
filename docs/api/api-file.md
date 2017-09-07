@@ -6,7 +6,7 @@
 | uploaddate    | DateTime                          | The ISO DateTime the file was uploaded        |    ✔     |   ✔    |
 | creator       | [Contact](api-contact.md)         | The contact who created the file              |    ✘     |   ✘    |
 | mimetype      | string                            |                                               |    ✔     |   ✔    |
-| name          | string                            | The name of the file                          |    ✔     |   ✔    |
+| name          | string                            | The name of the file or the filename if not set |    ✔     |   ✔    |
 | category      | string                            | The category of the file                      |    ✔     |   ✔    |
 | filename      | string                            | The filename of the file                      |    ✔     |   ✔    |
 | uniquename    | string                            | The unique name given tot he file             |    ✘     |   ✘    |
