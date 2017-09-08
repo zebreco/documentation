@@ -1,0 +1,13 @@
+.italic {
+        background-color: #ff0000;
+        border-radius: 0.25em;
+        text-align: center;
+        color: white;
+        font-size: 75%;
+        padding: 0.2em 0.6em;
+        position: relative;
+        top: -1px;
+        left: 2px;
+        white-space: nowrap;
+}
+        
