@@ -1086,60 +1086,53 @@
 <tr>
 <th>Name</th>
 <th>Type</th>
+<th></th>
 <th>Description</th>
-<th>Multiple</th>
-<th>Single</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>id</td>
 <td>integer</td>
+<td><em>read only</em></td>
 <td>The unique id of the document</td>
-<td>✔</td>
-<td>✔</td>
-</tr>
-<tr>
-<td>package</td>
-<td><a href="../api-package/">Package</a></td>
-<td>The package the document belongs to</td>
-<td>✘</td>
-<td>✘</td>
-</tr>
-<tr>
-<td>projecttemplates</td>
-<td><a href="../api-projecttemplate/">Project Template</a></td>
-<td>The project template related to the document</td>
-<td>✘</td>
-<td>✘</td>
 </tr>
 <tr>
 <td>type</td>
 <td>string</td>
+<td></td>
 <td>The document type</td>
-<td>✔</td>
-<td>✔</td>
 </tr>
 <tr>
 <td>management</td>
 <td>boolean</td>
+<td></td>
 <td>Whether or not the document is related to management</td>
-<td>✔</td>
-<td>✔</td>
 </tr>
 <tr>
 <td>name</td>
 <td>string</td>
+<td></td>
 <td>The name of the document</td>
-<td>✔</td>
-<td>✔</td>
 </tr>
+</tbody>
+</table>
+<p><em>The following fields are only retrieved on GET requests for a single entity.</em></p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th></th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
 <tr>
 <td>content</td>
 <td>text</td>
+<td></td>
 <td>The content of the document</td>
-<td>✘</td>
-<td>✔</td>
 </tr>
 </tbody>
 </table>

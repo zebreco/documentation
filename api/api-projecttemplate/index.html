@@ -1085,67 +1085,65 @@
 <tr>
 <th>Name</th>
 <th>Type</th>
+<th></th>
 <th>Description</th>
-<th>Multiple</th>
-<th>Single</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>id</td>
 <td>integer</td>
+<td><em>read only</em></td>
 <td>The unique id of the project template</td>
-<td>✔</td>
-<td>✔</td>
 </tr>
 <tr>
 <td>package</td>
 <td><a href="../api-package/">Package</a></td>
+<td></td>
 <td>Packages related to the project template</td>
-<td>✔</td>
-<td>✔</td>
 </tr>
 <tr>
 <td>name</td>
 <td>string</td>
+<td></td>
 <td>The name of the project template</td>
-<td>✔</td>
-<td>✔</td>
 </tr>
 <tr>
 <td>referencemask</td>
 <td>string</td>
 <td></td>
-<td>✔</td>
-<td>✔</td>
+<td></td>
 </tr>
+</tbody>
+</table>
+<p><em>The following fields are only retrieved on GET requests for a single entity.</em></p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th></th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
 <tr>
 <td>customfields</td>
 <td><a href="../api-customfield/">Custom Field</a></td>
+<td></td>
 <td>Custom fields applied to the project template</td>
-<td>✘</td>
-<td>✔</td>
 </tr>
 <tr>
 <td>projectroles</td>
 <td><a href="../api-projectrole/">Project Role</a></td>
+<td></td>
 <td>Project roles applied to the project template</td>
-<td>✘</td>
-<td>✔</td>
-</tr>
-<tr>
-<td>documents</td>
-<td><a href="../api-document/">Document</a></td>
-<td>Documents (if any) related to the project template</td>
-<td></td>
-<td></td>
 </tr>
 <tr>
 <td>tracks</td>
 <td><a href="../api-track/">Track</a></td>
+<td></td>
 <td>Tracks (if any) used in the project template</td>
-<td>✘</td>
-<td>✔</td>
 </tr>
 </tbody>
 </table>

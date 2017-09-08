@@ -1085,109 +1085,95 @@
 <tr>
 <th>Name</th>
 <th>Type</th>
+<th></th>
 <th>Description</th>
-<th>Multiple</th>
-<th>Single</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>id</td>
 <td>integer</td>
+<td><em>read only</em></td>
 <td>The unique id of the ticket post</td>
-<td>✔</td>
-<td>✔</td>
 </tr>
 <tr>
 <td>creator</td>
 <td><a href="../api-contact/">Contact</a></td>
+<td></td>
 <td>The contact who created the ticket post</td>
-<td>✔</td>
-<td>✔</td>
 </tr>
 <tr>
 <td>createddate</td>
 <td>DateTime</td>
+<td></td>
 <td>The ISO DateTime when the ticket post was created</td>
-<td>✔</td>
-<td>✔</td>
 </tr>
 <tr>
 <td>body</td>
 <td>string</td>
 <td></td>
-<td>✔</td>
-<td>✔</td>
+<td></td>
 </tr>
 <tr>
 <td>raw</td>
 <td>string</td>
-<td></td>
-<td>✔</td>
-<td>✔</td>
-</tr>
-<tr>
-<td>rawistext</td>
-<td>boolean</td>
-<td>Whether the raw is in text format or not.</td>
-<td>✘</td>
-<td>✔</td>
-</tr>
-<tr>
-<td>metaurl</td>
-<td>string</td>
-<td></td>
 <td></td>
 <td></td>
 </tr>
 <tr>
 <td>deliverystatus</td>
 <td>array</td>
+<td><em>read only</em></td>
 <td></td>
-<td>✔</td>
-<td>✔</td>
 </tr>
 <tr>
 <td>isnote</td>
 <td>boolean</td>
+<td></td>
 <td>Whether the ticket post is a note type or not</td>
-<td>✔</td>
-<td>✔</td>
 </tr>
 <tr>
 <td>ticket</td>
 <td><a href="../api-ticket/">Ticket</a></td>
+<td></td>
 <td>The ticket the ticket post is related to</td>
-<td>✔</td>
-<td>✔</td>
-</tr>
-<tr>
-<td>references</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
 </tr>
 <tr>
 <td>contacts</td>
 <td><a href="../api-contact/">Contact</a></td>
+<td></td>
 <td>Contacts assigned to the ticket post</td>
-<td>✔</td>
-<td>✔</td>
 </tr>
 <tr>
 <td>files</td>
 <td><a href="../api-file/">File</a></td>
+<td></td>
 <td>Files attached to the ticket post</td>
-<td>✔</td>
-<td>✔</td>
+</tr>
+</tbody>
+</table>
+<p><em>The following fields are only retrieved on GET requests for a single entity.</em></p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th></th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>rawistext</td>
+<td>boolean</td>
+<td></td>
+<td>Whether the raw is in text format or not</td>
 </tr>
 <tr>
 <td>pinned</td>
 <td>boolean</td>
+<td></td>
 <td>Whether the ticket post is pinned or not</td>
-<td>✘</td>
-<td>✔</td>
 </tr>
 </tbody>
 </table>

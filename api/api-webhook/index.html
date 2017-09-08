@@ -1084,14 +1084,40 @@
 <tr>
 <th>Name</th>
 <th>Type</th>
+<th></th>
 <th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr>
+<td>id</td>
+<td>integer</td>
+<td><em>read only</em></td>
+<td>The unique id of the webhook</td>
+</tr>
+<tr>
+<td>uri</td>
+<td>string</td>
 <td></td>
+<td>The uri of the webhook</td>
+</tr>
+<tr>
+<td>type</td>
+<td>string</td>
 <td></td>
+<td>The type of the webhook</td>
+</tr>
+<tr>
+<td>metadata</td>
+<td>array</td>
 <td></td>
+<td>Array of metadata</td>
+</tr>
+<tr>
+<td>events</td>
+<td><a href="../api-log/">Log</a></td>
+<td></td>
+<td>The log event created for the webhook</td>
 </tr>
 </tbody>
 </table>

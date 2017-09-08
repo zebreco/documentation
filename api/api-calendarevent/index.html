@@ -1085,81 +1085,83 @@
 <tr>
 <th>Name</th>
 <th>Type</th>
+<th></th>
 <th>Description</th>
-<th>Multiple</th>
-<th>Single</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>id</td>
 <td>integer</td>
+<td><em>read only</em></td>
 <td>The unique id of the Calendar Event</td>
-<td>✔</td>
-<td>✔</td>
 </tr>
 <tr>
 <td>assignee</td>
 <td><a href="../api-contact/">Contact</a></td>
+<td></td>
 <td>The contact assigned to the Calendar Event</td>
-<td>✔</td>
-<td>✔</td>
 </tr>
 <tr>
 <td>name</td>
 <td>string</td>
+<td></td>
 <td>The name of the Calendar Event</td>
-<td>✔</td>
-<td>✔</td>
 </tr>
 <tr>
 <td>description</td>
 <td>string</td>
+<td></td>
 <td>Short description of the Calendar Event</td>
-<td>✔</td>
-<td>✔</td>
 </tr>
 <tr>
 <td>fromdate</td>
 <td>DateTime</td>
+<td></td>
 <td>The ISO DateTime the Calendar Event starts</td>
-<td>✔</td>
-<td>✔</td>
 </tr>
 <tr>
 <td>todate</td>
 <td>DateTime</td>
+<td></td>
 <td>The ISO DateTime the Calendar Event runs to</td>
-<td>✔</td>
-<td>✔</td>
 </tr>
 <tr>
 <td>lastupdate</td>
 <td>DateTime</td>
+<td><em>read only</em></td>
 <td>The ISO DateTime the Calendar Event was last updated</td>
-<td>✔</td>
-<td>✔</td>
 </tr>
 <tr>
 <td>location</td>
 <td>string</td>
+<td></td>
 <td>The location assigned to the Calendar Event</td>
-<td>✔</td>
-<td>✔</td>
-</tr>
-<tr>
-<td>project</td>
-<td><a href="../api-project/">Project</a></td>
-<td>The project associated with the Calendar Event</td>
-<td>✘</td>
-<td>✔</td>
 </tr>
 <tr>
 <td>colour</td>
 <td>string</td>
+<td></td>
 <td>The colour assigned to the Calendar Event</td>
-<td>✔</td>
-<td>✔</td>
+</tr>
+</tbody>
+</table>
+<p><em>The following fields are only retrieved on GET requests for a single entity.</em></p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th></th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>project</td>
+<td><a href="../api-project/">Project</a></td>
+<td><em>read only</em></td>
+<td>The project associated with the Calendar Event</td>
 </tr>
 </tbody>
 </table>

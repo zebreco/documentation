@@ -1085,102 +1085,71 @@
 <tr>
 <th>Name</th>
 <th>Type</th>
+<th></th>
 <th>Description</th>
-<th>Multiple</th>
-<th>Single</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>id</td>
 <td>integer</td>
+<td><em>read only</em></td>
 <td>The unique id of the note</td>
-<td>✔</td>
-<td>✔</td>
 </tr>
 <tr>
 <td>admin</td>
 <td><a href="../api-contact/">Contact</a></td>
+<td></td>
 <td>The contact who is admin of the note</td>
-<td>✔</td>
-<td>✔</td>
 </tr>
 <tr>
 <td>description</td>
 <td>string</td>
+<td></td>
 <td>Short description of the note</td>
-<td>✔</td>
-<td>✔</td>
 </tr>
 <tr>
 <td>date</td>
 <td>DateTime</td>
+<td></td>
 <td>The ISO DateTime the note was created</td>
-<td>✔</td>
-<td>✔</td>
 </tr>
 <tr>
 <td>completed</td>
 <td>boolean</td>
+<td></td>
 <td>Whether or not the note has been completed</td>
-<td>✔</td>
-<td>✔</td>
 </tr>
 <tr>
 <td>labels</td>
 <td><a href="../api-label/">Label</a></td>
+<td></td>
 <td>Labels related to the note</td>
-<td>✔</td>
-<td>✔</td>
-</tr>
-<tr>
-<td>project</td>
-<td>[Project}(api-project.md)</td>
-<td>The project related to the note</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>contact</td>
-<td><a href="../api-contact/">Contact</a></td>
-<td>The contact related to the note</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>invoice</td>
-<td><a href="../api-invoice/">Invoice</a></td>
-<td>The invoice related to the note if relevant</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>lead</td>
-<td><a href="../api-lead/">Lead</a></td>
-<td>The lead related to the note if relevant</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>quote</td>
-<td><a href="../api-quote/">Quote</a></td>
-<td>The quote related to the note if relevant</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>hidden</td>
-<td>boolean</td>
-<td>Whether or not the note is hidden</td>
-<td>✘</td>
-<td>✔</td>
 </tr>
 <tr>
 <td>colour</td>
 <td>string</td>
+<td></td>
 <td>The colour assigned to the note</td>
-<td>✔</td>
-<td>✔</td>
+</tr>
+</tbody>
+</table>
+<p><em>The following fields are only retrieved on GET requests for a single entity.</em></p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th></th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>hidden</td>
+<td>boolean</td>
+<td></td>
+<td>Whether or not the note is hidden</td>
 </tr>
 </tbody>
 </table>

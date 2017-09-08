@@ -1086,151 +1086,137 @@
 <tr>
 <th>Name</th>
 <th>Type</th>
+<th></th>
 <th>Description</th>
-<th>Multiple</th>
-<th>Single</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>id</td>
 <td>integer</td>
+<td><em>read only</em></td>
 <td>The unique id of the Department</td>
-<td>✔</td>
-<td>✔</td>
 </tr>
 <tr>
 <td>name</td>
 <td>string</td>
+<td></td>
 <td>The name of the Department</td>
-<td>✔</td>
-<td>✔</td>
 </tr>
 <tr>
 <td>email</td>
 <td>string</td>
+<td></td>
 <td>The email of the Department</td>
-<td>✔</td>
-<td>✔</td>
 </tr>
 <tr>
 <td>fromname</td>
 <td>string</td>
+<td></td>
 <td>The from name for emails sent from the Department</td>
-<td>✔</td>
-<td>✔</td>
-</tr>
-<tr>
-<td>street</td>
-<td>string</td>
-<td>The street of the Department</td>
-<td>✘</td>
-<td>✔</td>
-</tr>
-<tr>
-<td>area</td>
-<td>string</td>
-<td>The area of the Department</td>
-<td>✘</td>
-<td>✔</td>
-</tr>
-<tr>
-<td>city</td>
-<td>string</td>
-<td>The city of the Department</td>
-<td>✘</td>
-<td>✔</td>
-</tr>
-<tr>
-<td>county</td>
-<td>string</td>
-<td>The county of the Department</td>
-<td>✘</td>
-<td>✔</td>
-</tr>
-<tr>
-<td>postcode</td>
-<td>string</td>
-<td>The postcode of the Department</td>
-<td>✘</td>
-<td>✔</td>
-</tr>
-<tr>
-<td>country</td>
-<td>string</td>
-<td>The country of the Department</td>
-<td>✘</td>
-<td>✔</td>
-</tr>
-<tr>
-<td>telephone</td>
-<td>string</td>
-<td>The telephone of the Department</td>
-<td>✘</td>
-<td>✔</td>
-</tr>
-<tr>
-<td>website</td>
-<td>string</td>
-<td>The website of the Department</td>
-<td>✘</td>
-<td>✔</td>
 </tr>
 <tr>
 <td>code</td>
 <td>string</td>
+<td></td>
 <td>The code generated for the Department</td>
-<td>✔</td>
-<td>✔</td>
 </tr>
 <tr>
 <td>autorespond</td>
 <td>boolean</td>
+<td></td>
 <td>Whether or not the Department is set to auto respond</td>
-<td>✔</td>
-<td>✔</td>
 </tr>
 <tr>
 <td>ticketonly</td>
 <td>boolean</td>
+<td></td>
 <td>Whether or not the Department is set as ticket only</td>
-<td>✔</td>
-<td>✔</td>
 </tr>
 <tr>
 <td>showtoclients</td>
 <td>boolean</td>
+<td></td>
 <td>Whether or not the Department is shown to clients</td>
-<td>✔</td>
-<td>✔</td>
 </tr>
 <tr>
 <td>isdefault</td>
 <td>boolean</td>
+<td></td>
 <td>Whether or not the Department is set as default</td>
-<td>✔</td>
-<td>✔</td>
 </tr>
 <tr>
 <td>projectemails</td>
 <td>boolean</td>
 <td></td>
-<td>✔</td>
-<td>✔</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><em>The following fields are only retrieved on GET requests for a single entity.</em></p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th></th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>street</td>
+<td>string</td>
+<td></td>
+<td>The street of the Department</td>
+</tr>
+<tr>
+<td>area</td>
+<td>string</td>
+<td></td>
+<td>The area of the Department</td>
+</tr>
+<tr>
+<td>city</td>
+<td>string</td>
+<td></td>
+<td>The city of the Department</td>
+</tr>
+<tr>
+<td>county</td>
+<td>string</td>
+<td></td>
+<td>The county of the Department</td>
+</tr>
+<tr>
+<td>postcode</td>
+<td>string</td>
+<td></td>
+<td>The postcode of the Department</td>
+</tr>
+<tr>
+<td>country</td>
+<td>string</td>
+<td></td>
+<td>The country of the Department</td>
+</tr>
+<tr>
+<td>telephone</td>
+<td>string</td>
+<td></td>
+<td>The telephone of the Department</td>
+</tr>
+<tr>
+<td>website</td>
+<td>string</td>
+<td></td>
+<td>The website of the Department</td>
 </tr>
 <tr>
 <td>assignee</td>
 <td><a href="../api-contact/">Contact</a></td>
+<td></td>
 <td>The Contact assigned to the Department</td>
-<td>✘</td>
-<td>✔</td>
-</tr>
-<tr>
-<td>contacts</td>
-<td><a href="../api-contact/">Contact</a></td>
-<td>Array of Contacts related to the Department</td>
-<td>✘</td>
-<td>✘</td>
 </tr>
 </tbody>
 </table>

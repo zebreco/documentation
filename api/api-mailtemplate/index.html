@@ -1086,53 +1086,59 @@
 <tr>
 <th>Name</th>
 <th>Type</th>
+<th></th>
 <th>Description</th>
-<th>Multiple</th>
-<th>Single</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>id</td>
 <td>integer</td>
+<td><em>read only</em></td>
 <td>The unique id of the mail template</td>
-<td>✔</td>
-<td>✔</td>
 </tr>
 <tr>
 <td>type</td>
 <td>string</td>
+<td></td>
 <td>The type of the mail template</td>
-<td>✔</td>
-<td>✔</td>
-</tr>
-<tr>
-<td>body</td>
-<td>string</td>
-<td>The body of the mail template</td>
-<td>✘</td>
-<td>✔</td>
-</tr>
-<tr>
-<td>plaintext</td>
-<td>string</td>
-<td>The plaintext content of the mail template</td>
-<td>✘</td>
-<td>✔</td>
 </tr>
 <tr>
 <td>subject</td>
 <td>string</td>
+<td></td>
 <td>The subject of the mail template</td>
-<td>✔</td>
-<td>✔</td>
 </tr>
 <tr>
 <td>department</td>
 <td><a href="../api-department/">Department</a></td>
+<td></td>
 <td>The department the mail template is assigned to</td>
-<td>✔</td>
-<td>✔</td>
+</tr>
+</tbody>
+</table>
+<p><em>The following fields are only retrieved on GET requests for a single entity.</em></p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th></th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>body</td>
+<td>string</td>
+<td></td>
+<td>The body of the mail template</td>
+</tr>
+<tr>
+<td>plaintext</td>
+<td>string</td>
+<td></td>
+<td>The plaintext content of the mail template</td>
 </tr>
 </tbody>
 </table>
