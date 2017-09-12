@@ -8,11 +8,11 @@ Leads are linked to projects.
 | Name              | Type                                      |               | Description                                               |
 |-------------------|-------------------------------------------|---------------|-----------------------------------------------------------|
 | id                | integer                                   | _read only_   | The unique id of the lead                                 |
-| contact           | [Contact](api-lead.md)                    |               | The contact related to the lead                           |
-| assignee          | [Contact](api-lead.md)                    |               | The contact assigned to the lead                          |
-| department        | [Department](api-department.md)           |               | The department linked ot the lead                         |
+| contact           | [Contact](api-lead.md)                    |               | The contact related to the lead **required**              |
+| assignee          | [Contact](api-lead.md)                    |               | The contact assigned to the lead **required**             |
+| department        | [Department](api-department.md)           |               | The department linked ot the lead **required**            |
 | status            | string                                    |               | The status of the lead                                    |
-| name              | string                                    |               | The name of the lead                                      |
+| name              | string                                    |               | The name of the lead **required**                         |
 | description       | string                                    |               | Short description of the lead                             |
 | reference         | string                                    |               | The reference given to the lead                           |
 | createddate       | DateTime                                  | _read only_   | The ISO DateTime of the creation of the lead              |

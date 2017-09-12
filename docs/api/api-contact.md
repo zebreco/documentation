@@ -6,7 +6,7 @@ Represents a contact entity within Zebreco. Contacts are used for communication 
 | Name                  | Type                              |               | Description                                       |
 |-----------------------|-----------------------------------|---------------|---------------------------------------------------|
 | id                    | integer                           | _read only_   | The unique id of the Contact                      |
-| name                  | string                            |               | The name of the Contact                           |
+| name                  | string                            |               | The name of the Contact **required**              |
 | email                 | string                            |               | The email of the Contact                          |
 | position              | string                            |               | The position assigned to the Contact              |
 | type                  | string                            |               | The Contact type                                  |

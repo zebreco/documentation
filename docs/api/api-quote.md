@@ -11,7 +11,7 @@ Quotes include numerical data and are linked to specific contacts.
 | number        | integer                   |               | The unique number assigned to the quote as default            |
 | status        | string                    |               | Can be "draft", "sent", "approved", "invoiced" or "declined"  |
 | reference     | string                    |               | Custom reference applied to the quote                         |
-| contact       | [Contact](api-contact.md) |               | The contact assoicated with the quote                         |
+| contact       | [Contact](api-contact.md) |               | The contact assoicated with the quote **required**            |
 | date          | DateTime                  |               | The ISO DateTime applied to the quote                         |
 | validuntildate| DateTime                  |               | The ISO DateTime the quote is valid until                     |
 | subtotal      | decimal                   |               | The subtotal of the quote                                     |
