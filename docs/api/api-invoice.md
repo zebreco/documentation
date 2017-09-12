@@ -11,7 +11,7 @@ Invoices are linked to a project and relevant contact.
 | type          | string                    |               | The type of the invoice                           |
 | status        | string                    |               | The status assigned to the invoice                |
 | reference     | string                    |               | The reference assigned to the invoice             |
-| contact       | [Contact](api-contact.md) |               | The contact related to the invoice **required**   |
+| contact       | [Contact](api-contact.md) |               | The contact related to the invoice - **required** |
 | project       | [Project](api-project.md) |               | The project the invoice belongs to                |
 | date          | DateTime                  |               | The ISO DateTime given to the invoice             |
 | duedate       | DateTime                  |               | The ISO DateTime of the due date of the invoice   |

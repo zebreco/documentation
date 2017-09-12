@@ -7,15 +7,15 @@ Tasks can be assigned to users and can be linked to tickets and projects.
 | Name          | Type                              |               | Description                                                   |
 |---------------|-----------------------------------|---------------|---------------------------------------------------------------|
 | id            | integer                           | _read only_   | The unique id of the task                                     |
-| name          | string                            |               | The name of the task **required**                             |
-| type          | string                            |               | The type of the task **required**                             |
+| name          | string                            |               | The name of the task - **required**                           |
+| type          | string                            |               | The type of the task - **required**                           |
 | group         | string                            |               | The group assigned to the task                                |
 | description   | string                            |               | Short description given to the task                           |
 | startdate     | DateTime                          |               | The ISO DateTime of the task start                            |
 | duedate       | DateTime                          |               | The ISO DateTime when the task is due                         |
 | completeddate | DateTime                          |               | The ISO DateTime when the task was completed                  |
 | completed     | boolean                           |               | Whether the task is completed or not                          |
-| assignee      | [Contact](api-contact.md)         |               | The contact responsible for completing the task **required**  |
+| assignee      | [Contact](api-contact.md)         |               | The contact responsible for completing the task - **required**|
 | contact       | [Contact](api-contact.md)         |               | The contact instructing the task                              |
 | project       | [Project](api-project.md)         |               | The project the task is affiliated with                       |
 | lead          | [Lead](api-lead.md)               |               | The lead (if applicable) the task is associated with          |

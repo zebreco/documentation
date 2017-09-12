@@ -6,9 +6,9 @@ Represents a post within a ticket in Zebreco. These come in a variety of forms.
 | Name          | Type                              |               | Description                                       |
 |---------------|-----------------------------------|---------------|-------------------------------------------------------|
 | id            | integer                           | _read only_   | The unique id of the ticket post                      |
-| creator       | [Contact](api-contact.md)         |               | The contact who created the ticket post **required**  |
+| creator       | [Contact](api-contact.md)         |               | The contact who created the ticket post - **required**|
 | createddate   | DateTime                          |               | The ISO DateTime when the ticket post was created     |
-| body          | string                            |               | **required**                                          |
+| body          | string                            |               | - **required**                                        |
 | raw           | string                            |               |                                                       |
 | deliverystatus| array                             | _read only_   |                                                       |
 | isnote        | boolean                           |               | Whether the ticket post is a note type or not         |

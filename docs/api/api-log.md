@@ -12,17 +12,17 @@ Due to the nature of logs they can be rather long JSON returns.
 | event         | string                            | _read only_   | The log event                                                             |
 | action        | string                            | _read only_   | The log action                                                            |
 | type          | string                            | _read only_   | The log type                                                              |
-| name          | string                            |               | The name of the log **required**                                          |
+| name          | string                            |               | The name of the log - **required**                                        |
 | ipaddress     | string                            | _read only_   | The ip address of the log                                                 |
 | reference     | string                            | _read only_   | The reference given to the log                                            |
 | field         | string                            | _read only_   | The database field that was changed                                       |
 | fieldname     | string                            | _read only_   | The name of the database field that was changed                           |
 | oldvalue      | string                            | _read only_   | The previous value of the field that was changed                          |
 | oldvalueid    | string                            | _read only_   | The previous id of the value of the field that was changed (if applicable)|
-| value         | string                            |               | The value the field was changed to **required**                           |
+| value         | string                            |               | The value the field was changed to - **required**                         |
 | valueid       | string                            | _read only_   | The id of the value the field was changed to                              |
 | user          | [Contact](api-contact.md)         |               | The user related to the log                                               |
-| contact       | [Contact](api-contact.md)         |               | The contact related to the log **required**                               |
+| contact       | [Contact](api-contact.md)         |               | The contact related to the log - **required**                             |
 | project       | [Project](api-project.md)         |               | The project the log is situated on                                        |
 | lead          | [Lead](api-lead.md)               |               | The lead (if applicable) related to the log                               |
 | ticket        | [Ticket](api-ticket.md)           |               | The ticket related to the log                                             |

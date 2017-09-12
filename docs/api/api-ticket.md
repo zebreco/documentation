@@ -10,9 +10,9 @@ Tickets can be assigned to projects and linked users have access.
 | id            | integer                           | _read only_   | The unique id of the ticket                                           |
 | number        | integer                           |               | The unique number assigned to the ticket (starts at 1001 as default)  |
 | status        | string                            |               | Can be "open", "awaiting-reply" or "closed"                           |
-| subject       | string                            |               | The subject of the ticket **required**                                |
-| department    | [Department](api-department.md)   |               | The department assigned to the ticket **required**                    |
-| creator       | [Contact](api-contact.md)         |               | The contact who created the ticket **required**                      |
+| subject       | string                            |               | The subject of the ticket - **required**                              |
+| department    | [Department](api-department.md)   |               | The department assigned to the ticket - **required**                  |
+| creator       | [Contact](api-contact.md)         |               | The contact who created the ticket - **required**                     |
 | assignee      | [Contact](api-contact.md)         |               | The contact assigned to the ticket                                    |
 | project       | [Project](api-project.md)         |               | The project the ticket is associated with                             |
 | createddate   | DateTime                          |               | The ISO DateTime when the ticket was created                          |

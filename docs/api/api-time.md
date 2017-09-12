@@ -9,10 +9,10 @@ Time is assigned to tickets and will have a status and project association.
 |---------------|-----------------------------------|---------------|-----------------------------------------------------------|
 | id            | integer                           | _read only_   | The unique id of this time                                |
 | contact       | [Contact](api-contact.md)         |               | The contact who created this time                         |
-| admin         | [Contact](api-contact.md)         |               | The contact assigned to admin of this time **required**   |
+| admin         | [Contact](api-contact.md)         |               | The contact assigned to admin of this time - **required** |
 | description   | string                            |               | Short description of this time                            |
-| time          | integer                           |               | The value of this time in minutes **required**            |
-| status        | [Time Status](api-timestatus.md)  |               | The status given to this time **required**                |
+| time          | integer                           |               | The value of this time in minutes - **required**          |
+| status        | [Time Status](api-timestatus.md)  |               | The status given to this time - **required**              |
 | ticket        | [Ticket](api-ticket.md)           |               | The ticket associated with this time                      |
 | ticketpost    | [Ticket Post](api-ticketpost.md)  |               | The ticket post associated with this time                 |
 | project       | [Project](api-project.md)         |               | The project associated with this time                     |

@@ -1,5 +1,5 @@
-.italic {
-        background-color: #ff0000;
+.md-typeset__table table tbody tr td em {
+        background-color: #ef5350;
         border-radius: 0.25em;
         text-align: center;
         color: white;

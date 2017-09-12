@@ -8,8 +8,8 @@ Examples include, support, development and sales.
 | Name          | Type      |               | Description                                           |
 |---------------|-----------|---------------|-------------------------------------------------------|
 | id            | integer   | _read only_   | The unique id of the Department                       |
-| name          | string    |               | The name of the Department **required**               |
-| email         | string    |               | The email of the Department **required**              |
+| name          | string    |               | The name of the Department - **required**             |
+| email         | string    |               | The email of the Department - **required**            |
 | fromname      | string    |               | The from name for emails sent from the Department     |
 | code          | string    |               | The code generated for the Department                 |
 | autorespond   | boolean   |               | Whether or not the Department is set to auto respond  |

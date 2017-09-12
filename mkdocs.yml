@@ -12,6 +12,9 @@ markdown_extensions:
   - codehilite(guess_lang=false)
   - toc(permalink=true)
 
+extra_css:
+  - css/custom.css
+
 # Options
 extra:
     palette:
