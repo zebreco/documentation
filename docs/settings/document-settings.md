@@ -32,4 +32,6 @@ Each template has a **Name**, **Type** and **Content**.
 
 You can also specify whether a template is **Management use only**. If toggled on, this setting will make the template accesible only to management (set within role settings).
 
-&nbsp;
+### Template Syntax
+
+To apply a page break, you will need to add a CSS class to the element you want the page break to appear before. The class is `page-break-before` so if you had a heading it would be `<h1 class="page-break-before">My Heading</h1>`
