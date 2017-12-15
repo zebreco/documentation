@@ -267,7 +267,7 @@
         }, 
         {
             "location": "/settings/document-settings/", 
-            "text": "Documents\n\n\nSettings\n\n\nThis page allows you to modify the content used when generating new documents. There are two sections: \nHeader\n and \nFooter\n.\n\n\n\n\n\n\n\n\nAs in the above example, you can use variables to define the content.\n\n\n\n\n\n\nIf changes have been made, make sure to click \nSave\n to apply your changes.\n\n\n\n\n\n\n\n\nFor more information on using these variable references \ngo here.\n\n\n\n\nTemplates\n\n\nThis page lists all available templates which are generated all through Zebreco. \n\n\n\n\nTo make a new template click on \nNew Document Template\n\n\n\n\n\n\n\n\n\n\nTo \ndelete\n, simply select one of the templates using the check box and hit delete.\n\n\n\n\n\n\nTo \nedit\n an existing template simply click on the desired template and you will be taken to the editing page for that template. \n\n\n\n\n\n\nEach template has a \nName\n, \nType\n and \nContent\n.\n\n\nYou can also specify whether a template is \nManagement use only\n. If toggled on, this setting will make the template accesible only to management (set within role settings).", 
+            "text": "Documents\n\n\nSettings\n\n\nThis page allows you to modify the content used when generating new documents. There are two sections: \nHeader\n and \nFooter\n.\n\n\n\n\n\n\n\n\nAs in the above example, you can use variables to define the content.\n\n\n\n\n\n\nIf changes have been made, make sure to click \nSave\n to apply your changes.\n\n\n\n\n\n\n\n\nFor more information on using these variable references \ngo here.\n\n\n\n\nTemplates\n\n\nThis page lists all available templates which are generated all through Zebreco. \n\n\n\n\nTo make a new template click on \nNew Document Template\n\n\n\n\n\n\n\n\n\n\nTo \ndelete\n, simply select one of the templates using the check box and hit delete.\n\n\n\n\n\n\nTo \nedit\n an existing template simply click on the desired template and you will be taken to the editing page for that template. \n\n\n\n\n\n\nEach template has a \nName\n, \nType\n and \nContent\n.\n\n\nYou can also specify whether a template is \nManagement use only\n. If toggled on, this setting will make the template accesible only to management (set within role settings).\n\n\nTemplate Syntax\n\n\nTo apply a page break, you will need to add a CSS class to the element you want the page break to appear before. The class is \npage-break-before\n so if you had a heading it would be \nh1 class=\"page-break-before\"\nMy Heading\n/h1", 
             "title": "Document Settings"
         }, 
         {
@@ -284,6 +284,11 @@
             "location": "/settings/document-settings/#templates", 
             "text": "This page lists all available templates which are generated all through Zebreco.    To make a new template click on  New Document Template      To  delete , simply select one of the templates using the check box and hit delete.    To  edit  an existing template simply click on the desired template and you will be taken to the editing page for that template.     Each template has a  Name ,  Type  and  Content .  You can also specify whether a template is  Management use only . If toggled on, this setting will make the template accesible only to management (set within role settings).", 
             "title": "Templates"
+        }, 
+        {
+            "location": "/settings/document-settings/#template-syntax", 
+            "text": "To apply a page break, you will need to add a CSS class to the element you want the page break to appear before. The class is  page-break-before  so if you had a heading it would be  h1 class=\"page-break-before\" My Heading /h1", 
+            "title": "Template Syntax"
         }, 
         {
             "location": "/settings/time-settings/", 
